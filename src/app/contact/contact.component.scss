@@ -1,0 +1,53 @@
+:host ::ng-deep .Navbar-Div {
+  height: 405px !important;
+  background-color: blue;
+}
+
+/*------------- Portfolio Section TEXT -------------------- */
+.container {
+  margin-top: 4%;
+}
+.Potfolio-main-text {
+  text-align: start;
+  font-size: 52px;
+  font-weight: 700;
+  padding-left: 6%;
+}
+
+/*-------------------INFO SECTION------------*/
+.Info-Section {
+  height: 100px;
+
+  padding-left: 3%;
+  width: 600px;
+}
+.Main-text-Info {
+  font-size: x-large;
+  float: left;
+  font-weight: bold;
+  margin-left: 10%;
+}
+.Main-text-Info-1 {
+  margin-top: 5%;
+  font-size: x-large;
+  float: left;
+  font-weight: bold;
+  margin-left: 10%;
+}
+.Sec-text-info {
+  font-size: small;
+  float: right;
+  text-align: end;
+  width: 250px;
+}
+.Sec-text-info-1 {
+  margin-top: 6%;
+  font-size: small;
+  float: right;
+  text-align: end;
+
+  width: 250px;
+}
+.Sec-text-info-1 i {
+  padding-left: 5%;
+}

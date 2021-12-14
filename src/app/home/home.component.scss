@@ -1,0 +1,597 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  background-color: black;
+  //  background-image: url(./Images/Payroll.jpg);
+}
+
+/*-----------Main Section-----------*/
+.mainSec {
+  align-items: center;
+
+  height: 80%;
+}
+.mainSecItem1 {
+  padding: 2%;
+  vertical-align: middle;
+  position: relative;
+  top: 180px;
+  left: 20px;
+  font-size: 52px;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+}
+.mainSecItem2 {
+  height: 100%;
+
+  position: relative;
+  top: 180px;
+  color: white;
+  font-size: 52px;
+
+  font-weight: bold;
+}
+.mainSecItem3 {
+  position: relative;
+  top: 170px;
+  left: 10px;
+  align-self: flex-end;
+  /*    
+    display: block; */
+}
+.fas1:hover {
+  transform: scale(1.3);
+  color: tomato;
+}
+.fas1 {
+  color: white;
+}
+.fas-1:hover {
+  transform: scale(1.3);
+  color: tomato;
+}
+.fas-1 {
+  color: white;
+}
+.fas2 {
+  margin-left: 25px;
+  transform: scale(1.5);
+}
+
+.description:hover .fa-angle-double-right::before {
+  display: none;
+  transform: scale(2);
+}
+.description:hover .fa-angle-double-right::after {
+  content: "\f138";
+  color: tomato;
+  transform: scale(2);
+}
+@media screen and (max-width: 992px) {
+  .mainSec {
+    align-items: center;
+
+    height: 80%;
+  }
+  .mainSecItem1 {
+    text-align: start;
+    padding: 2%;
+    vertical-align: middle;
+    position: relative;
+    top: 120px;
+
+    font-size: 52px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+  }
+  .mainSecItem2 {
+    height: 100%;
+    text-align: start;
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 52px;
+
+    font-weight: bold;
+  }
+  .mainSecItem3 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 420px;
+    align-self: flex-end;
+    display: inline-flex;
+    text-align: center;
+
+    /*    
+         display: block; */
+  }
+  .fas1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(-90deg);
+  }
+  .fas1 {
+    color: white;
+
+    transform: rotate(-90deg);
+  }
+  .fas-1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(270deg);
+  }
+  .fas-1 {
+    color: white;
+    transform: rotate(270deg);
+  }
+  .fas2 {
+    margin-left: 25px;
+    transform: scale(1.5);
+  }
+
+  .description:hover .fa-angle-double-right::before {
+    display: none;
+    transform: scale(2);
+  }
+  .description:hover .fa-angle-double-right::after {
+    content: "\f138";
+    color: tomato;
+    transform: scale(2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainSec {
+    align-items: center;
+
+    height: 80%;
+  }
+  .mainSecItem1 {
+    text-align: start;
+    padding: 2%;
+    vertical-align: middle;
+    position: relative;
+    top: 80px;
+
+    font-size: 52px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+  }
+  .mainSecItem2 {
+    height: 100%;
+    text-align: start;
+    position: relative;
+    top: 80px;
+    color: white;
+    font-size: 52px;
+
+    font-weight: bold;
+  }
+  .mainSecItem3 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    align-self: flex-end;
+    display: inline-flex;
+    text-align: center;
+
+    /*    
+         display: block; */
+  }
+  .fas1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(-90deg);
+  }
+  .fas1 {
+    color: white;
+
+    transform: rotate(-90deg);
+  }
+  .fas-1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(270deg);
+  }
+  .fas-1 {
+    color: white;
+    transform: rotate(270deg);
+  }
+  .fas2 {
+    margin-left: 25px;
+    transform: scale(1.5);
+  }
+
+  .description:hover .fa-angle-double-right::before {
+    display: none;
+    transform: scale(2);
+  }
+  .description:hover .fa-angle-double-right::after {
+    content: "\f138";
+    color: tomato;
+    transform: scale(2);
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .mainSec {
+    align-items: center;
+
+    height: 80%;
+  }
+  .mainSecItem1 {
+    text-align: start;
+    padding: 2%;
+    vertical-align: middle;
+    position: relative;
+    top: 120px;
+
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+  }
+  .mainSecItem2 {
+    height: 100%;
+    text-align: start;
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 42px;
+
+    font-weight: bold;
+  }
+  .mainSecItem3 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 190px;
+    align-self: flex-end;
+    display: inline-flex;
+    text-align: center;
+
+    /*    
+         display: block; */
+  }
+  .fas1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(-90deg);
+  }
+  .fas1 {
+    color: white;
+
+    transform: rotate(-90deg);
+  }
+  .fas-1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(270deg);
+  }
+  .fas-1 {
+    color: white;
+    transform: rotate(270deg);
+  }
+  .fas2 {
+    margin-left: 25px;
+    transform: scale(1.5);
+  }
+
+  .description:hover .fa-angle-double-right::before {
+    display: none;
+    transform: scale(2);
+  }
+  .description:hover .fa-angle-double-right::after {
+    content: "\f138";
+    color: tomato;
+    transform: scale(2);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .mainSec {
+    align-items: center;
+
+    height: 80%;
+  }
+  .mainSecItem1 {
+    text-align: start;
+    padding: 2%;
+    vertical-align: middle;
+    position: relative;
+    top: 120px;
+
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+  }
+  .mainSecItem2 {
+    height: 100%;
+    text-align: start;
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 32px;
+
+    font-weight: bold;
+  }
+  .mainSecItem3 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    align-self: flex-end;
+    display: inline-flex;
+    text-align: center;
+
+    /*    
+         display: block; */
+  }
+  .fas1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(-90deg);
+  }
+  .fas1 {
+    color: white;
+
+    transform: rotate(-90deg);
+  }
+  .fas-1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(270deg);
+  }
+  .fas-1 {
+    color: white;
+    transform: rotate(270deg);
+  }
+  .fas2 {
+    margin-left: 25px;
+    transform: scale(1.5);
+  }
+
+  .description:hover .fa-angle-double-right::before {
+    display: none;
+    transform: scale(2);
+  }
+  .description:hover .fa-angle-double-right::after {
+    content: "\f138";
+    color: tomato;
+    transform: scale(2);
+  }
+}
+
+@media screen and (max-width: 371px) {
+  .mainSec {
+    align-items: center;
+
+    height: 80%;
+  }
+  .mainSecItem1 {
+    text-align: start;
+    padding: 2%;
+    vertical-align: middle;
+    position: relative;
+    top: 120px;
+
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+  }
+  .mainSecItem2 {
+    height: 100%;
+    text-align: start;
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 32px;
+
+    font-weight: bold;
+  }
+  .mainSecItem3 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    align-self: flex-end;
+    display: inline-flex;
+    text-align: center;
+
+    /*    
+         display: block; */
+  }
+  .fas1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(-90deg);
+  }
+  .fas1 {
+    color: white;
+
+    transform: rotate(-90deg);
+  }
+  .fas-1:hover {
+    transform: scale(1.3);
+    color: tomato;
+    transform: rotate(270deg);
+  }
+  .fas-1 {
+    color: white;
+    transform: rotate(270deg);
+  }
+  .fas2 {
+    margin-left: 25px;
+    transform: scale(1.5);
+  }
+
+  .description:hover .fa-angle-double-right::before {
+    display: none;
+    transform: scale(2);
+  }
+  .description:hover .fa-angle-double-right::after {
+    content: "\f138";
+    color: tomato;
+    transform: scale(2);
+  }
+}
+/*-----FOOTER AREA -------- */
+.footerFlex {
+  display: flex;
+  justify-content: center;
+
+  height: 10%;
+}
+.footeritem1 {
+  align-self: center;
+
+  flex: 1;
+}
+.footeritem1 i {
+  padding-left: 30px;
+  color: white;
+}
+
+.footeritem2 {
+  padding-right: 30px;
+  text-align: end;
+  justify-content: flex-end;
+
+  flex: 1;
+}
+.footeritem2 span {
+  color: white;
+}
+.footeritem2 span:hover {
+  color: tomato;
+  cursor: pointer;
+}
+.fab:hover {
+  transform: scale(1.3);
+  color: tomato;
+  cursor: pointer;
+}
+@media screen and (max-width: 537px) {
+  .footerFlex {
+    display: flex;
+    justify-content: center;
+
+    height: 10%;
+  }
+  .footeritem1 {
+    align-self: center;
+
+    flex: 1;
+  }
+  .footeritem1 i {
+    padding-left: 15px;
+    color: white;
+  }
+
+  .footeritem2 {
+    padding-right: 15px;
+    text-align: end;
+    justify-content: flex-end;
+
+    flex: 1;
+  }
+  .footeritem2 span {
+    color: white;
+  }
+  .footeritem2 span:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+  .fab:hover {
+    transform: scale(1.3);
+    color: tomato;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .footerFlex {
+    display: flex;
+    justify-content: center;
+
+    height: 10%;
+  }
+  .footeritem1 {
+    align-self: center;
+
+    flex: 1;
+  }
+  .footeritem1 i {
+    padding-left: 15px;
+    color: white;
+  }
+
+  .footeritem2 {
+    padding-right: 15px;
+    text-align: end;
+    justify-content: flex-end;
+
+    flex: 1;
+  }
+  .footeritem2 span {
+    color: white;
+  }
+  .footeritem2 span:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+  .fab:hover {
+    transform: scale(1.3);
+    color: tomato;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 371px) {
+  .footerFlex {
+    display: flex;
+    justify-content: center;
+
+    height: 10%;
+  }
+  .footeritem1 {
+    align-self: center;
+
+    flex: 1;
+  }
+  .footeritem1 i {
+    padding-left: 7px;
+    color: white;
+  }
+
+  .footeritem2 {
+    padding-right: 7px;
+    text-align: end;
+    justify-content: flex-end;
+
+    flex: 1;
+  }
+  .footeritem2 span {
+    color: white;
+  }
+  .footeritem2 span:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+  .fab:hover {
+    transform: scale(1.3);
+    color: tomato;
+    cursor: pointer;
+  }
+}

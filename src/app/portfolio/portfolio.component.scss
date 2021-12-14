@@ -1,0 +1,84 @@
+:host ::ng-deep .Navbar-Div {
+  height: 405px !important;
+  background-color: blue;
+}
+/*------------- Portfolio Section TEXT -------------------- */
+.container {
+  margin-top: 4%;
+}
+.Potfolio-main-text {
+  text-align: start;
+  font-size: 52px;
+  font-weight: 700;
+  padding-left: 6%;
+}
+
+/*-----------Portfolio Links AREA---------*/
+.links-Section li a {
+  display: inline-block;
+  color: rgb(156, 156, 156);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.links-Section li a:hover {
+  color: tomato;
+}
+.links-Section li .active {
+  border: 1px solid tomato;
+}
+.links-Section ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 5%;
+  overflow: hidden;
+}
+.links-Section li {
+  float: left;
+}
+.links-Section {
+  margin-top: 4%;
+}
+
+/*-----------Card SECTION ---------*/
+.card {
+  height: 600px;
+
+  border: none;
+  display: flex;
+
+  border: none !important;
+}
+.card-items {
+  margin: 15px;
+  height: 490px;
+  width: 320px;
+  align-self: center;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px grey;
+  cursor: pointer;
+}
+.card-items:hover {
+  box-shadow: none;
+}
+.card-items:hover > .descp {
+  display: none;
+}
+.card-items:hover > .Show-Proj-Link {
+  display: block;
+}
+
+.Card-Description {
+  align-self: flex-start;
+  padding-left: 20%;
+}
+.descp {
+  font-size: small;
+}
+.Main-txt {
+  font-size: x-large;
+  font-weight: bold;
+}
+.Show-Proj-Link {
+  display: none;
+}

@@ -1,0 +1,48 @@
+:host ::ng-deep .Navbar-Div {
+  height: 405px !important;
+  background-color: blue;
+}
+
+/*------------- SERVICES SECTION TEXT -------------------- */
+.container {
+  margin-top: 4%;
+}
+.services-text {
+  text-align: start;
+  font-size: 38px;
+  font-weight: 700;
+  padding-left: 6%;
+}
+
+/*-----------SECTION AREA---------*/
+
+.Services-Main-Text {
+  padding-left: 12%;
+  font-size: larger;
+  font-weight: bold;
+}
+.Services-Sec-Text {
+  padding-left: 12%;
+}
+
+/*-----------Sponsers SECTION ---------*/
+
+.sponser-Section {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+.sponsers {
+  /* align-self: center; */
+  flex: 1;
+
+  padding-left: 5%;
+}
+.sponsers img {
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+}

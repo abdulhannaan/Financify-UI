@@ -138,3 +138,35 @@ ul li {
     background-color: tomato;
   }
 }
+
+
+
+/*-----Navbar text-------*/
+.textflex{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+  padding-top: 50px;
+  
+  flex-direction: row;
+
+}
+.big-text{
+  // letter-spacing: 2 px;
+  font-size: 80px;
+  color: white;
+  line-height: 1;
+  font-family: Bebas Neue;
+}
+.small-text{
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+
+}
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BebasNeue'), url(/src/assets/font/BebasNeue-Regular.woff) format('woff');
+  }

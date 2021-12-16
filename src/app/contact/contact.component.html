@@ -1,25 +1,102 @@
-<div
-  data-aos="fade-zoom-in"
-  data-aos-easing="ease-in-back"
-  data-aos-delay="300"
-  data-aos-offset="0"
->
+<div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
   <app-scroll-up-btn></app-scroll-up-btn>
-  <app-nav-bar></app-nav-bar>
+  <app-nav-bar [mode]="'contact-us'"></app-nav-bar>
   <!----Contact Main Text-->
   <br />
-  <div class="container">
-    <div class="row">
-      <div class="col col-lg-12 col-md-12 col-sm-12 col-12">
-        <p class="Potfolio-main-text">GET IN TOUCH</p>
+
+
+  <div class="contactflex">
+    <div class="contactflex-items">
+      <div class="Info-Section" style="border-bottom: 1px solid lightgrey;">
+        <div class="Main-text-Info">
+          <p>ADDRESS</p>
+        </div>
+        <div class="Sec-text-info">
+          <p>
+            KONSULTANT SOFTWARE (Private) Limited UAE: 208/209 Opal Tower, Al
+            Abraj street, Dubai Pakistan: 51 MB, DHA XI, Lahore
+          </p>
+        </div>
       </div>
+      <div class="Info-Section" style="margin-top: 2rem; border-bottom: 1px solid lightgrey;">
+        <div class="Main-text-Info">
+          <p>EMAIL</p>
+        </div>
+        <div class="Sec-text-info ">
+          <a href="">Contact@finansify.com</a>
+        </div>
+      </div>
+      <div class="Info-Section" style="margin-top: 2rem; border-bottom: 1px solid lightgrey;">
+        <div class="Main-text-Info">
+          <p>PHONE</p>
+        </div>
+        <div class="Sec-text-info">
+          <a class="phone" href="#">+91 00 33 44 55 66 77</a>
+          <p style="color: grey; font-size: x-small;">Mon - Sat, 9AM - 7PM</p>
+        </div>
+      </div>
+
+
+      <div class="Info-Section" style="margin-top: 2rem; border-bottom: 1px solid lightgrey;">
+        <div class="Main-text-Info">
+          <p>Socials</p>
+        </div>
+        <div class="Sec-text-info">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube" style="margin-right: 0% !important;"></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="contactflex-items" style="width: 500px;">
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row" style="margin-top: 2rem;">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+        </div>
+        <div class="row" style="margin-top: 2rem;">
+          <div class="col">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"
+              style="width: 100%; padding: 13px; border-radius: 5px; border-color: lightgray;"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check" style="margin-top: 2rem;">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              I consent to the privacy Policy
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-md" style="margin-top: 2rem; padding: 5px 20px 5px 20px;">Send
+        </button>
+      </form>
     </div>
   </div>
-  <!----Contact SECTION-->
+  <!-- <div class=" container">
+          <div class="row">
+            <div class="col col-lg-12 col-md-12 col-sm-12 col-12">
+              <p class="Potfolio-main-text">GET IN TOUCH</p>
+            </div>
+          </div>
+    </div> -->
+    <!----Contact SECTION-->
 
-  <div class="container">
+    <!-- <div class="container">
     <div class="row">
-      <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
         <div class="Info-Section">
           <div class="Main-text-Info">
             <p>ADDRESS</p>
@@ -55,8 +132,13 @@
           </div>
         </div>
       </div>
-      <div class="col col-lg-6 col-md-6 col-sm-12 col-12"></div>
+
+      <div class="col col-lg-6 col-md-12 col-sm-12 col-12"  >
+     
+       
+      
+      </div>
     </div>
+  </div> -->
+    <app-footer></app-footer>
   </div>
-  <app-footer></app-footer>
-</div>

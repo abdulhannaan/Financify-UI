@@ -1,4 +1,5 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, Input, OnInit, Output } from "@angular/core";
+import { EventEmitter } from "events";
 
 @Component({
   selector: "app-nav-bar",
@@ -6,7 +7,28 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./nav-bar.component.scss"],
 })
 export class NavBarComponent implements OnInit {
-  constructor() {}
+  @Input('mode') mode;
+  AboutUs: string;
+  OurBuinessExperties: string;
+  response: Event;
+  constructor() {
 
-  ngOnInit() {}
+  }
+
+  ngOnInit() {
+    debugger;
+    if(this.mode === 'about-us'){
+      this.AboutUs ="About Us"
+      this.OurBuinessExperties = "OUR BUSINESS EXPERTIES"
+    }
+
+    if(this.mode === 'contact-us'){
+      this.AboutUs ="Contact"
+      this.OurBuinessExperties = "GET IN TOUCH"
+    }
+
+    
+  }
+
+
 }

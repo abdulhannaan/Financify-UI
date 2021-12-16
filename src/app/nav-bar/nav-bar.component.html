@@ -56,6 +56,18 @@
           </div>
         </div>
       </nav>
+      <div class="textflex" *ngIf="mode === 'about-us'">
+        <div class="tfitem">
+          <p class="small-text text-end">{{AboutUs}}</p>
+          <h1 class="big-text">{{OurBuinessExperties}}</h1>
+        </div>
+      </div>
+      <div class="textflex" *ngIf="mode === 'contact-us'">
+        <div class="tfitem">
+          <p class="small-text text-end">{{AboutUs}}</p>
+          <h1 class="big-text">{{OurBuinessExperties}}</h1>
+        </div>
+      </div>
     </div>
   </div>
 </div>

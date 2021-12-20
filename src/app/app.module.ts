@@ -13,6 +13,8 @@ import { FooterComponent } from "./footer/footer.component";
 import { NgxUiLoaderRouterModule } from "ngx-ui-loader";
 import { ScrollUpBtnComponent } from "./scroll-up-btn/scroll-up-btn.component";
 import { DashboardModule } from "./dashboard/dashboard.module";
+import { JobAppComponent } from './job-app/job-app.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { DashboardModule } from "./dashboard/dashboard.module";
     NavBarComponent,
     FooterComponent,
     ScrollUpBtnComponent,
+    JobAppComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

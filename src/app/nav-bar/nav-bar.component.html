@@ -39,7 +39,12 @@
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" [routerLink]="['/dashboard']">Login</a>
+                  <a class="nav-link" [routerLink]="['/job-app']">Join Us</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/app-login']">Login</a>
                 </li>
               </ul>
             </div>
@@ -65,6 +70,12 @@
       <div class="textflex" *ngIf="mode === 'contact-us'">
         <div class="tfitem">
           <p class="small-text text-end">{{AboutUs}}</p>
+          <h1 class="big-text">{{OurBuinessExperties}}</h1>
+        </div>
+      </div>
+      <div class="textflex" *ngIf="mode === 'job-app'">
+        <div class="tfitem">
+          
           <h1 class="big-text">{{OurBuinessExperties}}</h1>
         </div>
       </div>

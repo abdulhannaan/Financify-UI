@@ -40,12 +40,14 @@ ul li {
   font-weight: 500;
 }
 .navbar-nav li a {
-  width: 120px;
+  width: 90px;
   color: white;
+  transition: all 200ms ease-in-out;
 }
 .navbar-nav li a:hover {
   color: tomato;
   font-size: large;
+  // transition: all 200ms ease-in-out;
 }
 
 @media screen and (max-width: 384px) {

@@ -7,6 +7,26 @@
   color: black !important;
 }
 /*------------- Portfolio Section TEXT -------------------- */
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .container {
   margin-top: 4%;
 }
@@ -19,31 +39,7 @@
 }
 
 /*-----------Portfolio Links AREA---------*/
-.links-Section li a {
-  display: inline-block;
-  color: rgb(156, 156, 156);
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-.links-Section li a:hover {
-  color: tomato;
-}
-.links-Section li .active {
-  border: 1px solid tomato;
-}
-.links-Section ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 5%;
-  overflow: hidden;
-}
-.links-Section li {
-  float: left;
-}
-.links-Section {
-  margin-top: 4%;
-}
+
 
 /*-----------Card SECTION ---------*/
 .card {

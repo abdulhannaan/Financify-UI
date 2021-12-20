@@ -1,12 +1,5 @@
-<body
-  [attr.data-aos]="animation"
-  data-aos-easing="ease-in-back"
-  data-aos-delay="300"
-  data-aos-offset="0"
-  id="body-main"
-  [style.background-image]="'url(' + this.imgSrc + ')'"
-  (wheel)="onMouseWheel($event)"
->
+<body [attr.data-aos]="animation" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" id="body-main"
+  [style.background-image]="'url(' + this.imgSrc + ')'" (wheel)="onMouseWheel($event)">
   <app-nav-bar></app-nav-bar>
 
   <!--MAIN SECTION PART-->
@@ -15,43 +8,36 @@
       <div class="col col-lg-2 col-md-12 col-sm-12 col-12">
         <div class="mainSecItem1">
           <span id="iteration">{{ iteration }} </span>&nbsp;<sup
-            style="font-size: 30px; text-align: start; color: white"
-            id="Sec-iteration"
-            >/ 04</sup
-          >
+            style="font-size: 30px; text-align: start; color: white" id="Sec-iteration">/ 04</sup>
         </div>
       </div>
       <div class="col col-lg-9 col-md-12 col-sm-12 col-12">
         <div class="mainSecItem2">
           <span id="maintxt"> {{ maintxt }} </span>
-
+        <!-- <p class="description">
+                   
+        </p> -->
+        <p class="services" id="Descript">
+        {{ Descript }}
+         
+        </p>
+        
           <p class="description" style="font-size: large" id="subtxt">
             {{ subtxt }}
             <span>
-              <i
-                class="fas fas2 fa-angle-double-right"
-                data-aos="fade-right"
-                data-aos-delay="500"
-              ></i
-            ></span>
+              <i class="fas fas2 fa-angle-double-right" data-aos="fade-right" data-aos-delay="500"></i></span>
           </p>
         </div>
       </div>
       <div class="col col-lg-1 col-md-12 col-sm-12">
         <div class="mainSecItem3">
           <div>
-            <i
-              class="fas fas1 fa-arrow-alt-circle-up fa-3x"
-              (click)="changeData('b')"
-            ></i>
+            <i class="fas fas1 fa-arrow-alt-circle-up fa-3x" (click)="changeData('b')"></i>
           </div>
           <br />
           &nbsp;
           <div>
-            <i
-              class="fas fas-1 fa-arrow-alt-circle-down fa-3x"
-              (click)="changeData('f')"
-            ></i>
+            <i class="fas fas-1 fa-arrow-alt-circle-down fa-3x" (click)="changeData('f')"></i>
           </div>
         </div>
       </div>
@@ -70,7 +56,7 @@
           <i class="fab fa-youtube"></i>
         </div>
         <div class="footeritem2">
-          <span>Konsultant Software (Private) Ltd &copy; 2021.</span>
+          <span>Financify (Private) Ltd &copy; 2021.</span>
         </div>
       </div>
     </div>

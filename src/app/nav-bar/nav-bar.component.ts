@@ -26,6 +26,10 @@ export class NavBarComponent implements OnInit {
       this.AboutUs ="Contact"
       this.OurBuinessExperties = "GET IN TOUCH"
     }
+    if(this.mode === 'job-app'){
+      this.AboutUs =""
+      this.OurBuinessExperties = "Work With Us"
+    }
 
     
   }

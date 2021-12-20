@@ -1,0 +1,79 @@
+:host ::ng-deep .Navbar-Div {
+    height: 425px !important;
+    background-image: url(/assets/Images/Join-us.jpg);
+    background-position: center;
+    background-size: cover;
+  
+  }
+  :host ::ng-deep .big-text{
+    // letter-spacing: 2 px;
+    font-size: 80px;
+    
+    text-align: start !important;
+    line-height: 1;
+    font-family: Bebas Neue;
+  }
+  :host ::ng-deep .textflex{
+    display: flex;
+    justify-content: flex-start !important;
+    padding-left: 100px !important;
+    padding-top: 150px !important;
+    
+    flex-direction: row;
+  
+  }
+  :host ::ng-deep .small-text{
+    color: white;
+    font-weight: 600;
+    text-align: start !important;
+    font-size: x-large;
+  
+  }
+  /*------------------*/
+.container-fluid{
+padding: 60px;
+box-sizing: border-box;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    box-sizing: border-box;
+}
+.Main-text{
+    font-size: 62px;
+    text-align: start;
+    font-family: Bebas Neue;
+    padding-left: 50px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    box-sizing: border-box;
+ border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey
+  }
+  input:focus {
+    border-color: green
+  }
+.flex2items{
+    padding-left: 50px;
+    align-self: center;
+}
+.flex2items img{
+height: 500px;
+width: 500px;
+}
+
+
+
+
+  

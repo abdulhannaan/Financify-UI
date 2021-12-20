@@ -1,0 +1,43 @@
+
+  <app-nav-bar [mode]="'job-app'"></app-nav-bar>
+
+<div class="container-fluid">
+
+  <div class="flex2">
+    <div class="flex2items">
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row" style="margin-top: 2rem;">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Contact Number">
+          </div>
+        </div>
+        <div class="row" style="margin-top: 2rem;">
+          <div class="col">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="custom-file row"  style="margin-top: 2rem;">
+          <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+          <label class="custom-file-label" for="validatedCustomFile">Attach CV</label>
+          <div class="invalid-feedback">Please Attach your CV</div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-md" style="margin-top: 2rem; padding: 5px 20px 5px 20px;">Submit
+        </button>
+      </form>
+    </div>
+    <div class="flex2items">
+      <img src="/assets/Images/Joinn.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+<app-footer></app-footer>

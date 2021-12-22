@@ -15,6 +15,7 @@ import { ScrollUpBtnComponent } from "./scroll-up-btn/scroll-up-btn.component";
 import { DashboardModule } from "./dashboard/dashboard.module";
 import { JobAppComponent } from './job-app/job-app.component';
 import { LoginComponent } from './login/login.component';
+import { AboutUsNewComponent } from './about-us-new/about-us-new.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { LoginComponent } from './login/login.component';
     ScrollUpBtnComponent,
     JobAppComponent,
     LoginComponent,
+    AboutUsNewComponent,
   ],
   imports: [
     BrowserModule,

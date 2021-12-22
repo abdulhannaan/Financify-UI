@@ -1,7 +1,7 @@
 <div class="container-fluid Navbar-Div">
-  <div class="row">
+  <div class="row opacity-bg">
     <div class="col col-lg-12 col-md-12 col-sm-12 col-12">
-      <nav class="navbar navbar-expand-md">
+      <nav class="navbar navbar-expand-md ">
         <div class="container-fluid FlexNav">
           <div class="navitem1">
             <a class="navbar-brand">
@@ -20,7 +20,7 @@
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" [routerLink]="['/about-us']">About</a>
+                  <a class="nav-link" [routerLink]="['/about-us']">Services</a>
                 </li>
               </ul>
 
@@ -28,6 +28,13 @@
                 <li class="nav-item">
                   <a class="nav-link" [routerLink]="['/portfolio']"
                     >Portfolio</a
+                  >
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/about-us-new']"
+                    >About</a
                   >
                 </li>
               </ul>
@@ -75,7 +82,13 @@
       </div>
       <div class="textflex" *ngIf="mode === 'job-app'">
         <div class="tfitem">
-          
+          <p class="small-text text-end">{{AboutUs}}</p>
+          <h1 class="big-text">{{OurBuinessExperties}}</h1>
+        </div>
+      </div>
+      <div class="textflex" *ngIf="mode === 'about-us-new'">
+        <div class="tfitem">
+          <p class="small-text text-end">{{AboutUs}}</p>
           <h1 class="big-text">{{OurBuinessExperties}}</h1>
         </div>
       </div>

@@ -24,10 +24,14 @@
             <input type="email" class="form-control" placeholder="Email">
           </div>
         </div>
-        <div class="custom-file row"  style="margin-top: 2rem;">
-          <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-          <label class="custom-file-label" for="validatedCustomFile">Attach CV</label>
-          <div class="invalid-feedback">Please Attach your CV</div>
+        <div class="input-group" style="margin-top: 2rem;">
+          <label class="input-group-btn my-0">
+            <span class="btn btn-large btn-outline-primary rounded-0" id="browse" >
+                Browse&hellip; 
+              <input id="csv-input" type="file" accept=".csv" multiple>
+            </span>
+        </label>
+<input type="text" class="form-control rounded-0" readonly placeholder="Please upload your CV">
         </div>
         <button type="submit" class="btn btn-primary btn-md" style="margin-top: 2rem; padding: 5px 20px 5px 20px;">Submit
         </button>

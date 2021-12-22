@@ -18,7 +18,7 @@ export class NavBarComponent implements OnInit {
   ngOnInit() {
     debugger;
     if(this.mode === 'about-us'){
-      this.AboutUs ="About Us"
+      this.AboutUs ="SERVICES"
       this.OurBuinessExperties = "OUR BUSINESS EXPERTIES"
     }
 
@@ -29,6 +29,10 @@ export class NavBarComponent implements OnInit {
     if(this.mode === 'job-app'){
       this.AboutUs =""
       this.OurBuinessExperties = "Work With Us"
+    }
+    if(this.mode === 'about-us-new'){
+      this.AboutUs ="About Us"
+      this.OurBuinessExperties = "About Us"
     }
 
     

@@ -1,0 +1,82 @@
+:host ::ng-deep .Navbar-Div {
+    height: 405px !important;
+    background-image: url(/assets/Images/about-us.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /*------------- SERVICES SECTION TEXT -------------------- */
+  .container {
+    margin-top: 4%;
+  }
+  .services-text {
+    text-align: start;
+    font-size: 38px;
+    font-weight: 700;
+    padding-left: 6%;
+    line-height: 0px;
+  }
+  
+  /*-----------SECTION AREA---------*/
+  
+  .Services-Main-Text {
+    padding-left: 12%;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .Services-Sec-Text {
+    padding-left: 12%;
+  }
+  
+  /*-----------Sponsers SECTION ---------*/
+  
+  .sponser-Section {
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  .sponsers {
+    /* align-self: center; */
+    flex: 1;
+  
+    padding-left: 5%;
+  }
+  .sponsers img {
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  
+  .textflex{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    padding-top: 50px;
+    
+    flex-direction: row;
+  
+  }
+  .big-text{
+    // letter-spacing: 2 px;
+    font-size: 80px;
+    color: white;
+    line-height: 1;
+    font-family: Bebas Neue;
+  }
+  .small-text{
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+  
+  }
+  @font-face {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BebasNeue'), url(/src/assets/font/BebasNeue-Regular.woff) format('woff');
+    }  

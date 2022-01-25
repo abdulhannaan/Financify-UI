@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light" >
+    <div class="container-fluid px-5" style="height: 90px;">
+      <a [routerLink]="['./home']"  class="navbar-brand pt-0">
+        <img src="../assets/img/logo.png" style="height:250px; width: 250px;" alt="">
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto pt-3 pt-lg-0">
+          <li class="nav-item active mr-1">
+            <a [routerLink]="['./home']"  class="nav-link nav-style">Home</a>
+          </li>
+          <li class="nav-item mr-1">
+            <a [routerLink]="['./about-us']"  class="nav-link nav-style">About us
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item nav-link nav-style" [routerLink]="['./Redovisning']">Redovisning</a>
+              <a class="dropdown-item nav-link nav-style" [routerLink]="['./administration']">Administration</a>
+              <a class="dropdown-item nav-link nav-style" [routerLink]="['./lon-hr']">Lön & HR</a>
+              <a class="dropdown-item nav-link nav-style" [routerLink]="['./Umbrella-Unemployment']">Umbrella Unemployment</a>
+            </div>
+          </li>
+          <!-- <li class="nav-item mr-1">
+            <a href="services.html" class="nav-link nav-style">Tjänster</a>
+          </li> -->
+          <li class="nav-item mr-1">
+            <a [routerLink]="['./portfolio']" class="nav-link nav-style">Projects</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="blog.html" class="nav-link">News</a>
+          </li> -->
+          <li class="nav-item">
+            <a [routerLink]="['./contact-us']" class="nav-link nav-style">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['./career']" class="nav-link nav-style">Careers</a>
+          </li>
+        </ul>
+      </div>
+    </div> <!-- .container -->
+  </nav> <!-- .navbar -->

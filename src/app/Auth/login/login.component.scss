@@ -1,0 +1,42 @@
+
+.wrapper{
+    height: 85vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    border: 1px solid black;
+    background: rgb(2,0,36);
+background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(233,107,36,1) 0%, rgba(2,81,156,1) 100%);
+
+}
+.fas{
+position: relative;
+bottom: 0;
+top: 2.8rem;
+color: #2c47a7;
+}
+.form-control{
+    padding: 8px 32px !important;
+}
+
+.card{
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    background: inherit;
+    border-radius: 10px;
+}
+.card::before{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+}
+input{
+    outline: none;
+    
+}

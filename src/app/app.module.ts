@@ -20,6 +20,8 @@ import { LoginComponent } from './Auth/login/login.component';
 import { MainImageComponent } from './components/main-image/main-image.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ServicesTextAreaComponent } from './components/services-text-area/services-text-area.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,7 @@ import { ServicesTextAreaComponent } from './components/services-text-area/servi
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,FormsModule,HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

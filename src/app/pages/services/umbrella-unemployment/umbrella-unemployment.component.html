@@ -18,11 +18,11 @@
    <app-main-image [pageName]="'Services'" [pageName2]="'Umbrella Unemployment'" [pageNameHeading]="'Umbrella Unemployment'"></app-main-image>
 
   <main>
-    <div class="page-section">
+    <!-- <div class="page-section">
       <div class="container-fluid px-5">
         <div class="row align-items-center">
           <div class="col-lg-6 py-3">
-            <!-- <div class="subhead">About Us</div> -->
+          
             <div class="d-flex justify-content-start align-items-center" style="flex-direction: row; gap: 1rem;">
               <i class="fas fa-user-friends fa-3x" style="color: #02519c;"></i>
               <h1 class="mt-2" style="font-weight:600;">Umbrella Unemployment</h1>
@@ -44,6 +44,12 @@
           </div>
         </div>
       </div>
-    </div> <!-- .page-section -->
+    </div>  -->
+    <!-- .page-section -->
+    <app-services-text-area  [heading]='"Umbrella Unemployment"' [para]='"
+    The Umbrella employment Solutions offered to those organizations and individuals who don’t want to establish itself in Sweden as an employer or neither wants to involve in the matter to filling tax returns and maintaining books for the operations taking place in Sweden.
+
+"' [imgSrc]='"../assets/img/bg_image_1.jpg"'
+ [bool]="false" [icon]='"fas fa-user-friends fa-3x"'></app-services-text-area>
     
  </main>

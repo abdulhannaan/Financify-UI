@@ -18,6 +18,8 @@ import { UmbrellaUnemploymentComponent } from './pages/services/umbrella-unemplo
 import { CareerComponent } from './pages/career/career.component';
 import { LoginComponent } from './Auth/login/login.component';
 import { MainImageComponent } from './components/main-image/main-image.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ServicesTextAreaComponent } from './components/services-text-area/services-text-area.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { MainImageComponent } from './components/main-image/main-image.component
          UmbrellaUnemploymentComponent,
          CareerComponent,
          LoginComponent,
-         MainImageComponent
+         MainImageComponent,
+         ContactFormComponent,
+         ServicesTextAreaComponent
   ],
   imports: [
     BrowserModule,

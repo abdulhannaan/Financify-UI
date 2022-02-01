@@ -23,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UploadComponent } from './upload/upload.component';
 import { PricingtableComponent } from './components/pricing-table/pricing-table.component';
 import { PricingComponent } from './pages/pricing/pricing.component';
+import { EnvService } from './App-services/Common/envoirment.service';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { PricingComponent } from './pages/pricing/pricing.component';
     BrowserModule,
     AppRoutingModule, FormsModule, HttpClientModule,ReactiveFormsModule
   ],
-  providers:[],
+  providers:[EnvService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

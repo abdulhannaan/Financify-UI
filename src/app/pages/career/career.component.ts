@@ -27,12 +27,19 @@ export class CareerComponent implements OnInit {
       mobileNo: ['', [Validators.required,Validators.maxLength(50), Validators.pattern(/^[0-9]+$/)]],
       fileName: ['', [Validators.required, Validators.maxLength(50)]],
       jobId: [0, [Validators.required, Validators.pattern(/^[1-9]\d*$/)]],
+      coverFileName: ['', [Validators.maxLength(50)]],
+      coverText: ['', [Validators.maxLength(100)]],
     }
     )
   }
-  SetResponseData(response: any) {
+  SetResponseCV(response: any) {
     var response = response['body']['fileName'];
     this.joinForm.patchValue({ fileName: response });
+  }
+
+  SetResponseCover(response: any) {
+    var response = response['body']['fileName'];
+    this.joinForm.patchValue({ coverFileName: response });
   }
 
   get f() { return this.joinForm.controls; }

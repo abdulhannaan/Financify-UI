@@ -72,6 +72,18 @@
                 <div *ngIf="f.mobileNo.errors.maxlength">Must be less then 50 characters</div>
               </div>
             </div>
+            <div class="col-6 py-2">
+              <label for="email" class="fg-grey">Cover Letter</label>
+              <input type="text" class="form-control" placeholder="Cover Letter"
+                formControlName="coverText" [ngClass]="{ 'is-invalid': submitted && f.coverText.errors }">
+              <div *ngIf="submitted && f.coverText.errors" class="invalid-feedback">
+                <div *ngIf="f.coverText.errors.maxlength">Must be less then 100 characters</div>
+              </div>
+            </div>
+            <div class="col-6 py-2">
+              <label for="phone" class="fg-grey">Cover Letter File</label>
+              <app-upload [moduleType]='1' (onUploadFinished)="SetResponseCover($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
+            </div>
             <div class="col-12 py-2">
               <label for="inputGroupSelect01" class="fg-grey">Job</label>
               <select class="custom-select form-control" formControlName="jobId"
@@ -96,7 +108,8 @@
               </div>
             </div>
             <div class="col-12 py-2">
-              <app-upload [moduleType]='1' (onUploadFinished)="SetResponseData($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
+              <label class="fg-grey">*Upload CV</label>
+              <app-upload [moduleType]='1' (onUploadFinished)="SetResponseCV($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
               <div *ngIf="submitted && f.fileName.errors" class="invalid-feedback">
                 <div *ngIf="f.fileName.errors.required">File is required</div>
               </div>

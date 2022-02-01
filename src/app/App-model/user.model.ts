@@ -43,6 +43,8 @@ export interface JoinUs {
      emailAddress: string;
      mobileNo: string;
      fileName: string;
+     coverFileName: string;
+     coverText: string;
      jobId: number;
 }
 export interface ContactUs {

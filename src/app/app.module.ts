@@ -23,8 +23,9 @@ import { ServicesTextAreaComponent } from './components/services-text-area/servi
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
-import { DashboardModule } from './dashboard/dashboard.module';
 import { UploadComponent } from './upload/upload.component';
+import { PricingtableComponent } from './components/pricing-table/pricing-table.component';
+import { PricingComponent } from './pages/pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -44,11 +45,11 @@ import { UploadComponent } from './upload/upload.component';
     LoginComponent,
     MainImageComponent,
     ContactFormComponent,
-    ServicesTextAreaComponent,UploadComponent
+    ServicesTextAreaComponent,UploadComponent,PricingtableComponent,PricingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, FormsModule, HttpClientModule,DashboardModule,ReactiveFormsModule
+    AppRoutingModule, FormsModule, HttpClientModule,ReactiveFormsModule
   ],
   providers:[],
   bootstrap: [AppComponent]

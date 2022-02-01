@@ -27,8 +27,6 @@ const routes: Routes = [
   { path: "Redovisning", component: RedovisningComponent },
   { path: "Umbrella-Unemployment", component: UmbrellaUnemploymentComponent },
   { path: "login", component: LoginComponent },
-  { path: 'dashboard', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule), pathMatch: 'full' }
-
 ];
 
 @NgModule({

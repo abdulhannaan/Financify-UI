@@ -34,7 +34,6 @@ export class AuthService {
     private loader: LoaderService,
     private envService: EnvService) {
 
-      debugger
     this.serverUrl = this.envService.serverUrl;
     this.currentUserSubject = new BehaviorSubject<Employee>(JSON.parse(sessionStorage.getItem('currentUser')!));
     this.currentUserTokentSubject = new BehaviorSubject<string>(sessionStorage.getItem('currentToken')!);
@@ -71,9 +70,6 @@ export class AuthService {
   public getCurrentToken() {
     return this.currentUserTokentSubject.value;
   }
-
-
-
 
   public handleAuthError(err?: any): Observable<any> {
     try {

@@ -30,8 +30,26 @@ export class Employee {
     public designationId!: number;
     public managerId!: number;
     public isActive!: boolean;
-    public user!:any
-    public role!:any;
-    public allowedMainMenuList!:any;
-    public employeeId!:any;
+    public user!: any
+    public role!: any;
+    public allowedMainMenuList!: any;
+    public employeeId!: any;
+}
+export interface JoinUs {
+     id: number;
+     fullName: string;
+     subject: string;
+     body: string;
+     emailAddress: string;
+     mobileNo: string;
+     fileName: string;
+     jobId: number;
+}
+export interface ContactUs {
+     id : number;
+     fullName: string;
+     subject: string;
+     body: string;
+     emailAddress: string;
+     mobileNo: string;
 }

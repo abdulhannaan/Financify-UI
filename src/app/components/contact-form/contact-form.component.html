@@ -1,23 +1,53 @@
 <div class="row justify-content-center mt-5">
     <div class="col-lg-8">
-      <form action="#" class="form-contact">
+      <form *ngIf="contactForm" [formGroup]="contactForm" (ngSubmit)="save()">
         <div class="row">
-          <div class="col-sm-6 py-2">
+          <div class="col-sm-12 py-2">
             <label for="name" class="fg-grey">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter name..">
-          </div>
-          <div class="col-sm-6 py-2">
-            <label for="email" class="fg-grey">Email</label>
-            <input type="text" class="form-control" id="email" placeholder="Email address..">
-          </div>
+            <input type="text" class="form-control" placeholder="Enter your name.." formControlName="fullName"
+                [ngClass]="{ 'is-invalid': submitted && f.fullName.errors }">
+              <div *ngIf="submitted && f.fullName.errors" class="invalid-feedback">
+                <div *ngIf="f.fullName.errors.required">Name is required</div>
+                <div *ngIf="f.fullName.errors.maxlength">Must be less then 100 characters</div>
+              </div>
+            </div>
+            
           <div class="col-12 py-2">
             <label for="subject" class="fg-grey">Subject</label>
-            <input type="text" class="form-control" id="subject" placeholder="Subject..">
-          </div>
+            <input type="text" class="form-control" placeholder="Subject.."
+                formControlName="Subject" [ngClass]="{ 'is-invalid': submitted && f.Subject.errors }">
+              <div *ngIf="submitted && f.Subject.errors" class="invalid-feedback">
+                <div *ngIf="f.Subject.errors.required">Subject is required</div>
+                <div *ngIf="f.Subject.errors.maxlength">Must be less then 200 characters</div>
+              </div>
+            </div>
+            <div class="col-6 py-2">
+              <label for="email" class="fg-grey">Email</label>
+              <input type="text" class="form-control" id="email" placeholder="Email address.."
+                formControlName="emailAddress" [ngClass]="{ 'is-invalid': submitted && f.emailAddress.errors }">
+              <div *ngIf="submitted && f.emailAddress.errors" class="invalid-feedback">
+                <div *ngIf="f.emailAddress.errors.required">Email is required</div>
+                <div *ngIf="f.emailAddress.errors.maxlength">Must be less then 100 characters</div>
+              </div>
+            </div>
+            <div class="col-6 py-2">
+              <label for="phone" class="fg-grey">Phone Number</label>
+              <input type="text" class="form-control" placeholder="Phone.."
+                formControlName="mobileNo" [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }">
+              <div *ngIf="submitted && f.mobileNo.errors" class="invalid-feedback">
+                <div *ngIf="f.mobileNo.errors.required">Phone is required</div>
+                <div *ngIf="f.mobileNo.errors.maxlength">Must be less then 50 characters</div>
+              </div>
+            </div>
           <div class="col-12 py-2">
             <label for="message" class="fg-grey">Message</label>
-            <textarea id="message" rows="8" class="form-control" placeholder="Enter message.."></textarea>
-          </div>
+            <textarea id="message" rows="8" class="form-control" formControlName="body"
+                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }"></textarea>
+              <div *ngIf="submitted && f.body.errors" class="invalid-feedback">
+                <div *ngIf="f.body.errors.required">Required</div>
+                <div *ngIf="f.body.errors.maxlength">Must be less then 500 characters</div>
+              </div>
+            </div>
           <div class="col-12 py-2">
             <input type="checkbox">
             <label for="message" >I consent to the privacy Policy</label>

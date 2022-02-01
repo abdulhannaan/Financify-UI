@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './Auth/login/login.component';
+import { LoginComponent } from './login/login.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { CareerComponent } from './pages/career/career.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
@@ -27,7 +27,8 @@ const routes: Routes = [
   { path: "Redovisning", component: RedovisningComponent },
   { path: "Umbrella-Unemployment", component: UmbrellaUnemploymentComponent },
   { path: "login", component: LoginComponent },
- 
+  { path: 'dashboard', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule), pathMatch: 'full' }
+
 ];
 
 @NgModule({

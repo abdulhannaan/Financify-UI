@@ -1,0 +1,11 @@
+<div class="row" class="btn-style">
+  <div class="col-md-3" >
+    <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+    <button type="button" class="btn btn-primary"  (click)="file.click()">*Upload File</button>
+  </div>
+  <div class="col-md-4">
+    <span class="upload" *ngIf="message && moduleType!=2">
+      {{message}}
+    </span>
+  </div>
+</div>

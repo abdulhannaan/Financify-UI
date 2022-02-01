@@ -16,12 +16,15 @@ import { AdministrationComponent } from './pages/services/administration/adminis
 import { LonHRComponent } from './pages/services/lon-hr/lon-hr.component';
 import { UmbrellaUnemploymentComponent } from './pages/services/umbrella-unemployment/umbrella-unemployment.component';
 import { CareerComponent } from './pages/career/career.component';
-import { LoginComponent } from './Auth/login/login.component';
+import { LoginComponent } from './login/login.component';
 import { MainImageComponent } from './components/main-image/main-image.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ServicesTextAreaComponent } from './components/services-text-area/services-text-area.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { Router } from '@angular/router';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -30,25 +33,24 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeComponent,
     AboutUsComponent,
-    
     PortfolioComponent,
-         ContactUsComponent,
-         ServicesComponent,
-         RedovisningComponent,
-         AdministrationComponent,
-         LonHRComponent,
-         UmbrellaUnemploymentComponent,
-         CareerComponent,
-         LoginComponent,
-         MainImageComponent,
-         ContactFormComponent,
-         ServicesTextAreaComponent
+    ContactUsComponent,
+    ServicesComponent,
+    RedovisningComponent,
+    AdministrationComponent,
+    LonHRComponent,
+    UmbrellaUnemploymentComponent,
+    CareerComponent,
+    LoginComponent,
+    MainImageComponent,
+    ContactFormComponent,
+    ServicesTextAreaComponent,UploadComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FormsModule,HttpClientModule 
+    AppRoutingModule, FormsModule, HttpClientModule,DashboardModule,ReactiveFormsModule
   ],
-  providers: [],
+  providers:[],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

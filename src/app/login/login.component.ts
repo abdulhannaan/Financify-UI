@@ -44,6 +44,6 @@ export class LoginComponent implements OnInit {
 //   this.router.navigate(['/forgot-passowrd']);
 // }
 gotoDashboard(){
-this.router.navigate(['./main']);
+this.router.navigate(['../dashboard/main']);
 }
 }

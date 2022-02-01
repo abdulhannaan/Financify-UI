@@ -1,19 +1,19 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class EnvService{
- // The values that are defined here are the default values that can
+export class EnvService {
+  // The values that are defined here are the default values that can
   // be overridden by env.js
 
   // PROD URL
-   public apiUrl = 'http://api.workblix.com/api/'; 
-   public serverUrl = 'http://api.workblix.com/';
-  public apiCommmonUrl = 'http://api.workblix.com/short/';
+  // public apiUrl = 'http://api.workblix.com/api/'; 
+  //public serverUrl = 'http://api.workblix.com/';
+  //public apiCommmonUrl = 'http://api.workblix.com/short/';
 
   // LOCAL URL
-  // public apiUrl = 'https://localhost:44389/api/'; 
-  // public apiCommmonUrl = 'https://localhost:44389/short/';
-  // public serverUrl = 'https://localhost:44389/'; 
+  public apiUrl = 'https://localhost:44389/api/';
+  public apiCommmonUrl = 'https://localhost:44389/short/';
+  public serverUrl = 'https://localhost:44389/';
 
   public loginMode = '';
 
@@ -27,5 +27,5 @@ export class EnvService{
   public agGridKey = '';
 
   constructor() {
-  }   
+  }
 }

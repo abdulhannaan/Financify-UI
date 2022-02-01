@@ -13,8 +13,8 @@
       </div>
     </div>
   </div>  -->
-  
-  <!-- .page-banner -->
+
+<!-- .page-banner -->
 
 <app-main-image [pageName]="'Join Us'" [pageNameHeading]="'Join Us'"></app-main-image>
 
@@ -25,63 +25,88 @@
 
 <!-------------------------------------------Form-------------------------------------------------->
 <div class="page-section">
-    <div class="container-fluid px-5">
-        <div class="text-center">
-            <h2 class="title-section mb-3">BECOME A PART OF OUR TEAM</h2>
-        </div>
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
-                <p class=" text-center">Our team is rapidly growing and we are currently seeking for new candidates to
-                    help contribute to our success.
-                    If you are interested in being a part of Financify Team, please complete below form and we will
-                    reach out.</p>
+  <div class="container-fluid px-5">
+    <div class="text-center">
+      <h2 class="title-section mb-3">BECOME A PART OF OUR TEAM</h2>
+    </div>
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <p class=" text-center">Our team is rapidly growing and we are currently seeking for new candidates to
+          help contribute to our success.
+          If you are interested in being a part of Financify Team, please complete below form and we will
+          reach out.</p>
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-8">
+        <form *ngIf="joinForm" [formGroup]="joinForm" (ngSubmit)="save()">
+
+          <div class="row">
+            <div class="col-sm-12 py-2">
+              <label for="name" class="fg-grey">Full Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name.." formControlName="fullName"
+                [ngClass]="{ 'is-invalid': submitted && f.fullName.errors }">
+              <div *ngIf="submitted && f.fullName.errors" class="invalid-feedback">
+                <div *ngIf="f.fullName.errors.required">Name is required</div>
+                <div *ngIf="f.fullName.errors.maxlength">Must be less then 100 characters</div>
+              </div>
             </div>
-            <div class="col-3"></div>
-        </div>
-        <div class="row justify-content-center mt-5">
-            <div class="col-lg-8">
-                <form action="#" class="form-contact">
-                    <div class="row">
-                        <div class="col-sm-12 py-2">
-                            <label for="name" class="fg-grey">Full Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name..">
-                        </div>
-                        
-                        <div class="col-6 py-2">
-                            <label for="email" class="fg-grey">Email</label>
-                            <input type="text" class="form-control" id="email" placeholder="Email address..">
-                        </div>
-                        <div class="col-6 py-2">
-                            <label for="phone" class="fg-grey">Phone Number</label>
-                            <input type="number" class="form-control" id="phone" placeholder="Enter Phone Number..">
-                        </div>
-                        <div class="col-12 py-2">
-                            <label for="inputGroupSelect01" class="fg-grey">Job</label>
-                            <select class="custom-select form-control" id="inputGroupSelect01">
-                              <option selected>Select Job</option>
-                              <option value="1">One</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
-                          </div>
-                        
-                        <div class="col-12 py-2">
-                            <label for="message" class="fg-grey">Description</label>
-                            <textarea id="message" rows="8" class="form-control"
-                                placeholder="Enter message.."></textarea>
-                        </div>
-                        <div class="col-12 py-2">
-                            
-                            <label for="formFileLg" class="fg-grey">Upload Resume</label>
-                            <input class="form-control form-control-lg" id="formFileLg" type="file">
-                        </div>
-                        <div class="col-12 mt-3">
-                            <button type="submit" class="btn btn-primary px-5">Submit</button>
-                        </div>
-                    </div>
-                </form>
+
+            <div class="col-6 py-2">
+              <label for="email" class="fg-grey">Email</label>
+              <input type="text" class="form-control" id="email" placeholder="Email address.."
+                formControlName="emailAddress" [ngClass]="{ 'is-invalid': submitted && f.emailAddress.errors }">
+              <div *ngIf="submitted && f.emailAddress.errors" class="invalid-feedback">
+                <div *ngIf="f.emailAddress.errors.required">Email is required</div>
+                <div *ngIf="f.emailAddress.errors.maxlength">Must be less then 100 characters</div>
+              </div>
             </div>
-        </div>
-    </div> <!-- .container -->
+            <div class="col-6 py-2">
+              <label for="phone" class="fg-grey">Phone Number</label>
+              <input type="text" class="form-control" placeholder="Phone.."
+                formControlName="mobileNo" [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }">
+              <div *ngIf="submitted && f.mobileNo.errors" class="invalid-feedback">
+                <div *ngIf="f.mobileNo.errors.required">Phone is required</div>
+                <div *ngIf="f.mobileNo.errors.maxlength">Must be less then 50 characters</div>
+              </div>
+            </div>
+            <div class="col-12 py-2">
+              <label for="inputGroupSelect01" class="fg-grey">Job</label>
+              <select class="custom-select form-control" formControlName="jobId"
+                [ngClass]="{ 'is-invalid': submitted && f.jobId.errors }">
+                <option [ngValue]=0 disabled>Select Job</option>
+                <option [ngValue]="1">One</option>
+                <option [ngValue]="2">Two</option>
+                <option [ngValue]="3">Three</option>
+              </select>
+              <div *ngIf="submitted && f.jobId.errors" class="invalid-feedback">
+                <div *ngIf="f.jobId.errors.required">Required</div>
+              </div>
+            </div>
+
+            <div class="col-12 py-2">
+              <label for="message" class="fg-grey">Description</label>
+              <textarea id="message" rows="8" class="form-control" formControlName="body"
+                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }"></textarea>
+              <div *ngIf="submitted && f.body.errors" class="invalid-feedback">
+                <div *ngIf="f.body.errors.required">Required</div>
+                <div *ngIf="f.body.errors.maxlength">Must be less then 500 characters</div>
+              </div>
+            </div>
+            <div class="col-12 py-2">
+              <app-upload [moduleType]='1' (onUploadFinished)="SetResponseData($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
+              <div *ngIf="submitted && f.fileName.errors" class="invalid-feedback">
+                <div *ngIf="f.fileName.errors.required">File is required</div>
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <button type="submit" (click)="save()" class="btn btn-primary px-5">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div> <!-- .container -->
 </div> <!-- .page-section -->

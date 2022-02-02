@@ -1111,6 +1111,10 @@ a.fg-light:hover, a.fg-light:focus {
   background-color: #33374B;
   border-color: #33374B;
 }
+.btn-clr{
+  background-color: #e66124;
+  color: white;
+}
 
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {

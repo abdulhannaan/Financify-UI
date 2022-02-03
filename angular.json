@@ -29,13 +29,18 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
+            
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "../node_modules/aos/dist/aos.css",
+              "styles.scss"
            
               
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {

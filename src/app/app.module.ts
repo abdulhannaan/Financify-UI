@@ -16,6 +16,8 @@ import { AdministrationComponent } from './pages/services/administration/adminis
 import { LonHRComponent } from './pages/services/lon-hr/lon-hr.component';
 import { UmbrellaUnemploymentComponent } from './pages/services/umbrella-unemployment/umbrella-unemployment.component';
 import { CareerComponent } from './pages/career/career.component';
+import { PricingComponent } from './pages/pricing/pricing.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { CareerComponent } from './pages/career/career.component';
          AdministrationComponent,
          LonHRComponent,
          UmbrellaUnemploymentComponent,
-         CareerComponent
+         CareerComponent,
+         PricingComponent,
+      
   ],
   imports: [
     BrowserModule,

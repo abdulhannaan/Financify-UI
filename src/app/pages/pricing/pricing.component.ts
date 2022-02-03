@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pricing.component.scss']
 })
 export class PricingComponent implements OnInit {
-item1:boolean=true;
-item2!:boolean;
-item3!:boolean;
-
-btnStatus1: boolean = true;
-btnStatus2: boolean = false;
-btnStatus3: boolean = false;
+  item1: number=1;
   constructor() { }
 
   ngOnInit(): void {
@@ -22,33 +16,15 @@ buttonTriggerEvent(){
 }
 
   button1Items(){
-    this.item1=true;
-    this.item2=false;
-    this.item3=false;
-
-    this.btnStatus1=true;
-    this.btnStatus2=false;
-    this.btnStatus3=false;
+    this.item1=1  
   }
   button2Items(){
-    this.item1=false;
-    this.item2=true;
-    this.item3=false;
-
-    this.btnStatus1=false;
-    this.btnStatus2=true;
-    this.btnStatus3=false;
-    
+    this.item1=2
+   
   }
   button3Items(){
-    this.item1=false;
-    this.item2=false;
-    this.item3=true;
+    this.item1=3
 
-    this.btnStatus1=false;
-    this.btnStatus2=false;
-    this.btnStatus3=true;
-    
   }
 
 

@@ -11,40 +11,40 @@
 
       <div class="navbar-collapse collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto pt-3 pt-lg-0">
-          <li class="nav-item active mr-1">
+          <li class="nav-item mr-1" [routerLinkActive]="['active']">
             <a [routerLink]="['./home']"  class="nav-link nav-style">Home</a>
           </li>
-          <li class="nav-item mr-1">
+          <li class="nav-item mr-1" [routerLinkActive]="['active']">
             <a [routerLink]="['./about-us']"  class="nav-link nav-style">About us
             </a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown" [routerLinkActive]="['active']">
             <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item nav-link nav-style" [routerLink]="['./Redovisning']">Redovisning</a>
-              <a class="dropdown-item nav-link nav-style" [routerLink]="['./administration']">Administration</a>
-              <a class="dropdown-item nav-link nav-style" [routerLink]="['./lon-hr']">Lön & HR</a>
-              <a class="dropdown-item nav-link nav-style" [routerLink]="['./Umbrella-Unemployment']">Umbrella Unemployment</a>
+              <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./Redovisning']">Redovisning</a>
+              <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./administration']">Administration</a>
+              <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./lon-hr']">Lön & HR</a>
+              <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./Umbrella-Unemployment']">Umbrella Unemployment</a>
             </div>
           </li>
           <!-- <li class="nav-item mr-1">
             <a href="services.html" class="nav-link nav-style">Tjänster</a>
           </li> -->
-          <li class="nav-item mr-1">
+          <li class="nav-item mr-1" [routerLinkActive]="['active']">
             <a [routerLink]="['./portfolio']" class="nav-link nav-style">Projects</a>
           </li>
           <!-- <li class="nav-item">
             <a href="blog.html" class="nav-link">News</a>
           </li> -->
-          <li class="nav-item">
+          <li class="nav-item" [routerLinkActive]="['active']">
             <a [routerLink]="['./contact-us']" class="nav-link nav-style">Contact us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" [routerLinkActive]="['active']">
             <a [routerLink]="['./career']" class="nav-link nav-style">Careers</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" [routerLinkActive]="['active']">
             <a [routerLink]="['./pricing']" class="nav-link nav-style">Pricing</a>
           </li>
         </ul>

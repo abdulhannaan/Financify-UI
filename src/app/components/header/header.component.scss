@@ -1287,7 +1287,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    color: rgba(44,57,63,.9);
+    color: rgba(0, 0, 0, 0.9);
     list-style: none;
     position: relative;
   }
@@ -1305,10 +1305,10 @@
     color: #6D728B;
   }
   
-  .navbar-light .navbar-nav .show > .nav-link,
-  .navbar-light .navbar-nav .active > .nav-link,
-  .navbar-light .navbar-nav .nav-link.show,
-  .navbar-light .navbar-nav .nav-link.active {
+  nav .navbar-nav .show > .nav-link,
+  nav .navbar-nav .active > .nav-link,
+  nav .navbar-nav .nav-link.show,
+  nav .navbar-nav .nav-link.active {
     color: #02519c;
   }
   

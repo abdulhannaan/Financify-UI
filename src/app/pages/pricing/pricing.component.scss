@@ -1,0 +1,60 @@
+:root{
+    --buttonColor: var(#e66124);
+}
+.head{
+font-size: 42px;
+font-weight: 900;
+}
+.box{
+    width: 97%;
+}
+.price{
+    font-size: 68px;
+font-weight: 400;
+}
+.list{
+width: 100%;
+}
+.list ul{
+    font-size: 16px;
+}
+.btn-size{
+    font-size: 26px;
+    width: 15rem;
+    border: 2px solid #f3824e;
+    font-weight: 400;
+    color: #e66124;
+}
+.btn-size:hover{
+    background-color: #f3824e;
+    color: white;
+    transition: all .4s ease;
+}
+.btn-size.active{
+    background-color: #e66124;
+    color: white;
+    transition: all .4s ease;
+}
+.btn.active{
+    background-color: #e66124;
+    color: white;
+ 
+}
+sub{
+    font-size: 20px;
+    color: #e66124;
+    font-weight: 600;
+}
+sup{
+    font-size: 20px;
+    color: #e66124;
+    position: relative;
+    top: -2.5rem;
+    font-weight: 600;
+}
+
+/*==========Animation for card flip ===========*/
+
+ 
+  
+ 

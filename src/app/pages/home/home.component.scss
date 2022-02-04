@@ -1909,8 +1909,8 @@
     margin: 0 auto;
     padding: 30px 20px;
     background-color: #F2F4FE;
-    color: #6D728B;
-    border-radius: 8px;
+    
+  
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
   }
@@ -1956,7 +1956,7 @@
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 0;
-    color: #33374B;
+   
   }
   
   .card-testimonial .author-info {
@@ -2460,6 +2460,10 @@
   .btn-blue{
     background-color: #044f9b;
   }
+  .btn-clr{
+    background-color: #e66124;
+    color: white;
+  }
   
   .nav-style{
     font-family: var(--font); 
@@ -2477,3 +2481,28 @@
     color: orange;
   }
   
+
+
+
+  /*=================================================================*/
+
+
+
+  .carousel-caption{
+    position: absolute;
+    top: 20%;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 20%;
+  }
+  
+  .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 55, 75, 0.5);
+  }

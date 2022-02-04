@@ -6,6 +6,7 @@ import { CareerComponent } from './pages/career/career.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { PricingComponent } from './pages/pricing/pricing.component';
 import { AdministrationComponent } from './pages/services/administration/administration.component';
 import { LonHRComponent } from './pages/services/lon-hr/lon-hr.component';
 import { RedovisningComponent } from './pages/services/redovisning/redovisning.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: "portfolio", component: PortfolioComponent },
   { path: "contact-us", component: ContactUsComponent },
   { path: "career", component: CareerComponent },
+  { path: "pricing", component: PricingComponent },
   { path: "services", component: ServicesComponent },
   { path: "administration", component: AdministrationComponent },
   { path: "lon-hr", component: LonHRComponent },

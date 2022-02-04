@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -19,14 +21,18 @@ import { MainImageComponent } from './components/main-image/main-image.component
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ServicesTextAreaComponent } from './components/services-text-area/services-text-area.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+
 import { UploadComponent } from './upload/upload.component';
 import { PricingtableComponent } from './components/pricing-table/pricing-table.component';
 import { PricingComponent } from './pages/pricing/pricing.component';
 import { EnvService } from './App-services/Common/envoirment.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
 
 @NgModule({
   declarations: [
+    
     AppComponent,
     HeaderComponent,
     FooterComponent,
@@ -47,9 +53,32 @@ import { EnvService } from './App-services/Common/envoirment.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, FormsModule, HttpClientModule,ReactiveFormsModule
+    AppRoutingModule, FormsModule, HttpClientModule,ReactiveFormsModule,
+         ContactUsComponent,
+         ServicesComponent,
+         RedovisningComponent,
+         AdministrationComponent,
+         LonHRComponent,
+         UmbrellaUnemploymentComponent,
+         CareerComponent,
+         PricingComponent,
+
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: httpTranslateLoader,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers:[EnvService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export function httpTranslateLoader(http : HttpClient)
+{
+  return new TranslateHttpLoader(http);
+}

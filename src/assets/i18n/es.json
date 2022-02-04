@@ -1,13 +1,55 @@
 {
-    "breadcrumbAboutusPage1":"Hem",
-  "breadcrumbAboutusPage2":"Handla om",
-  "MainHeadingAboutUs":"Handla om",
+
+  
+  "navbarHome": "Hem",
+  "navbarAbout": "om oss",
+  "navbarServices": "Tjänster",
+  "navbarProjects": "Projekt",
+  "navbarPricing": "Prissättning",
+  "navbarContact": "Kontakta oss",
+  "navbarCareers": "Karriärer",
+  "navbarPortal": "Portal",
+
+  "homeAccountServiceHeadingOnSlider": "Redovisning",
+  "homeAdministrationServiceHeadingOnSlider": "Administrering",
+  "homeSalary&HRServiceHeadingOnSlider": "Lön & HR",
+  "homeUmbrellaUnemploymentServiceHeadingOnSlider": "Paraply Arbetslöshet",
+
+  "homeAccountServiceParaOnSlider": "Hjälper dig att registrera ditt företag och dess skatterelaterade frågor",
+  "homeAdministrationParaServiceOnSlider": "Vi hjälper till med all typ av administration som kunder önskar få hjälp med,samt olika typer av orderhantering",
+  "homeSalary&HRServiceParaOnSlider": "Få löneadministration av klienter såsom tidsregistrering, arbetsgivarskattedeklaration m.m.",
+  "homeUmbrellaUnemploymentParaServiceOnSlider": "Anställningslösningar erbjuds till organisationer och privatpersoner.",
 
 
-    "heading1": "Vår historia",
-    "Paragraph1" : "Finansify Sweden startades 2021 av Shaher Yar Ali som tidigare har arbetat med redovisnings- och lönebranschen med ledande svenska företag inom Lön och redovisning. Vi har samlat kunskap och kompetens för att hjälpa kunden på ett bättre sätt, vi är en liten redovisningsbyrå men har högre ambitioner att växa inom detta område. Vår kund är både från olika branscher och har små-medelindustri att arbeta med. Vi har en expert som tar hand om ditt företags ekonomiska fråga. Om det låter intressant så är du välkommen att kontakta oss för deklaration och bokföring.",
+
+  "HomePageFirstSectionHeadingPartOne":"Vi är",
+  "HomePageFirstSectionHeadingPartTwoBlue":"Professionella team",
+  "HomePageFirstSectionHeadingPartThree":"för att växa ditt företag",
+  
+  "HomePageFirstSectionPara":"Finansify Sweden startades 2021 av Shaher Yar Ali som tidigare har arbetat med redovisnings- och lönebranschen med ledande svenska företag inom Lön och redovisning. Vi har samlat kunskap och kompetens för att hjälpa",
+  "HomePageFirstSectionButtonText":"Läs mer",
 
 
-    "heading2": "Vår Vision",
-    "Paragraph2" : "Vår vision är att ge hållbar och innovative tjänster till svenska företag genom kvalitetsredovisnings tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’ Kvalitet ger trygghet’’."
+
+  
+"HomePageSecondSectionHeadingPartOne":"VÅR AFFÄRSKOMPETENS",
+"HomePageSecondSectionPara":"Vårt jobb är att ta hand om ditt företags ekonomi och tillhandahålla de bästa möjliga finansiella lösningarna till små medelstora företag. Vårt mål är att hjälpa företag med en finansiell konsultverksamhet som kommer att vara värd mer än pengar. Vi hjälper kunder inom följande tjänsteområden.",
+
+"homeAccountServiceHeadingOnSectionTwo": "Redovisning",
+"homeAdministrationServiceHeadingOnSectionTwo": "Administrering",
+"homeSalary&HRServiceHeadingOnSectionTwo": "Lön & HR",
+"homeUmbrellaUnemploymentServiceHeadingOnSectionTwo": "Paraply Arbetslöshet",
+
+
+"HomePageSectionThreeHeading": "Vår Vision",
+"HomePageSectionThreePara": "Vår vision är att ge hållbar och innovative tjänster till svenska företag genom kvalitetsredovisnings tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’ Kvalitet ger trygghet’’.",
+
+
+  "breadcrumbAboutusPage1": "Hem",
+  "breadcrumbAboutusPage2": "Handla om",
+  "MainHeadingAboutUs": "Handla om",
+  "Aboutheading1": "Vår historia",
+  "AboutParagraph1": "Finansify Sweden startades 2021 av Shaher Yar Ali som tidigare har arbetat med redovisnings- och lönebranschen med ledande svenska företag inom Lön och redovisning. Vi har samlat kunskap och kompetens för att hjälpa kunden på ett bättre sätt, vi är en liten redovisningsbyrå men har högre ambitioner att växa inom detta område. Vår kund är både från olika branscher och har små-medelindustri att arbeta med. Vi har en expert som tar hand om ditt företags ekonomiska fråga. Om det låter intressant så är du välkommen att kontakta oss för deklaration och bokföring.",
+  "Aboutheading2": "Vår Vision",
+  "AboutParagraph2": "Vår vision är att ge hållbar och innovative tjänster till svenska företag genom kvalitetsredovisnings tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’ Kvalitet ger trygghet’’."
 }

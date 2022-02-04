@@ -12,15 +12,15 @@
       <div class="navbar-collapse collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto pt-3 pt-lg-0">
           <li class="nav-item mr-1" [routerLinkActive]="['active']">
-            <a [routerLink]="['./home']"  class="nav-link nav-style">Home</a>
+            <a [routerLink]="['./home']"  class="nav-link nav-style">{{'navbarHome'|translate}}</a>
           </li>
           <li class="nav-item mr-1" [routerLinkActive]="['active']">
-            <a [routerLink]="['./about-us']"  class="nav-link nav-style">About us
+            <a [routerLink]="['./about-us']"  class="nav-link nav-style">{{'navbarAbout'|translate}}
             </a>
           </li>
           <li class="nav-item dropdown" [routerLinkActive]="['active']">
             <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Services
+              {{'navbarServices'|translate}}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./Redovisning']">Redovisning</a>
@@ -33,24 +33,33 @@
             <a href="services.html" class="nav-link nav-style">Tjänster</a>
           </li> -->
           <li class="nav-item mr-1" [routerLinkActive]="['active']">
-            <a [routerLink]="['./portfolio']" class="nav-link nav-style">Projects</a>
+            <a [routerLink]="['./portfolio']" class="nav-link nav-style">{{'navbarProjects'|translate}}</a>
           </li>
-          <li class="nav-item mr-1">
-            <a [routerLink]="['./pricing']" class="nav-link nav-style">Pricing</a>
+          <li class="nav-item mr-1" [routerLinkActive]="['active']">
+            <a [routerLink]="['./pricing']" class="nav-link nav-style">{{'navbarPricing'|translate}}</a>
           </li>
           <!-- <li class="nav-item">
             <a href="blog.html" class="nav-link">News</a>
           </li> -->
           <li class="nav-item" [routerLinkActive]="['active']">
-            <a [routerLink]="['./contact-us']" class="nav-link nav-style">Contact us</a>
+            <a [routerLink]="['./contact-us']" class="nav-link nav-style">{{'navbarContact'|translate}}</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['active']">
-            <a [routerLink]="['./career']" class="nav-link nav-style">Careers</a>
+            <a [routerLink]="['./career']" class="nav-link nav-style">{{'navbarCareers'|translate}}</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['active']">
+            <a [routerLink]="['./login']" class="nav-link nav-style">{{'navbarPortal'|translate}}</a>
           </li>
           <li class="nav-item">
-            <a [routerLink]="['./login']" class="nav-link nav-style">Portal</a>
-          <li class="nav-item" [routerLinkActive]="['active']">
-            <a [routerLink]="['./pricing']" class="nav-link nav-style">Pricing</a>
+              <select class="form-control fas fa-globe" #selectedLang
+              (change)="switchLanguage(selectedLang.value)"
+              >   
+                <option *ngFor="let language of translate.getLangs()"
+                [value]="language"
+        [selected]="language === translate.currentLang">
+                  {{language}} 
+                </option>             
+              </select>
           </li>
         </ul>
       </div>

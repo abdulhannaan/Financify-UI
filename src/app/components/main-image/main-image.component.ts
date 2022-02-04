@@ -6,7 +6,7 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./main-image.component.scss']
 })
 export class MainImageComponent implements OnInit {
-
+@Input() HomeName: any;
 @Input() pageName: any;
 @Input() pageName2: any;
 @Input() paragraph: any;

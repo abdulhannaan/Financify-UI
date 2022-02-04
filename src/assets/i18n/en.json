@@ -1,17 +1,54 @@
 {
-  "breadcrumbAboutusPage1":"Home",
-  "breadcrumbAboutusPage2":"About",
-  "MainHeadingAboutUs":"About",
+  "navbarHome": "Home",
+  "navbarAbout": "About Us",
+  "navbarServices": "Services",
+  "navbarProjects": "Projects",
+  "navbarPricing": "Pricing",
+  "navbarContact": "Contact Us",
+  "navbarCareers": "Careers",
+  "navbarPortal": "Portal",
 
 
 
-    "heading1": "Our Histroy",
-    "Paragraph1" : "Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously have worked with accounting and payroll industry with leading Swedish companies in Payroll and accounting. We have gathered a knowledge and competence to help the customer with better way, we are small accounting firm but having higher ambitions to grow in this field. Our customer is both from different branches and having small medium industry to work with. We have a expert to deal with financial matter of your company. If it is sound interesting, then you are welcome to contact us för declaration and bookkeeping.",
+"homeAccountServiceHeadingOnSlider": "Accounting",
+"homeAdministrationServiceHeadingOnSlider": "Administration",
+"homeSalary&HRServiceHeadingOnSlider": "Salary & HR",
+"homeUmbrellaUnemploymentServiceHeadingOnSlider": "Umbrella Unemployment",
+
+
+"homeAccountServiceParaOnSlider": "Helping you to register your company and its tax related issues",
+"homeAdministrationParaServiceOnSlider": "We help with all types of administration that customers want help with, as well as different types of order management",
+"homeSalary&HRServiceParaOnSlider": "Get payroll administration of clients, such as time registration, employer tax declaration, etc.",
+"homeUmbrellaUnemploymentParaServiceOnSlider": "Employment Solutions are offered to organizations and individuals.",
+
+
+"HomePageFirstSectionHeadingPartOne":"We are",
+"HomePageFirstSectionHeadingPartTwoBlue":"Professional Teams",
+"HomePageFirstSectionHeadingPartThree":"to Growth your Business",
+
+"HomePageFirstSectionPara":"Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously has worked with the accounting and payroll industry with leading Swedish companies in Payroll and accounting. We have gathered the knowledge and competence to help",
+"HomePageFirstSectionButtonText":"Read More",
+
+"HomePageSecondSectionHeadingPartOne":"OUR BUSINESS EXPERTIES",
+"HomePageSecondSectionPara":"Our job is to take care of your business’s economy and provide the best possible financial solutions to small medium businesses. Our goal is to help businesses with a financial consultancy that will be worth more than money. We help customers in the following service areas.",
+
+"homeAccountServiceHeadingOnSectionTwo": "Accounting",
+"homeAdministrationServiceHeadingOnSectionTwo": "Administration",
+"homeSalary&HRServiceHeadingOnSectionTwo": "Salary & HR",
+"homeUmbrellaUnemploymentServiceHeadingOnSectionTwo": "Umbrella Unemployment",
+
+
+"HomePageSectionThreeHeading": "Our Vision",
+"HomePageSectionThreePara": "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'.",
 
 
 
-     "heading2": "Our Vision",
-     "Paragraph2" : "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'."
 
-
+  "breadcrumbAboutusPage1": "Home",
+  "breadcrumbAboutusPage2": "About",
+  "MainHeadingAboutUs": "About",
+  "Aboutheading1": "Our Histroy",
+  "AboutParagraph1": "Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously have worked with accounting and payroll industry with leading Swedish companies in Payroll and accounting. We have gathered a knowledge and competence to help the customer with better way, we are small accounting firm but having higher ambitions to grow in this field. Our customer is both from different branches and having small medium industry to work with. We have a expert to deal with financial matter of your company. If it is sound interesting, then you are welcome to contact us för declaration and bookkeeping.",
+  "Aboutheading2": "Our Vision",
+  "AboutParagraph2": "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'."
 }

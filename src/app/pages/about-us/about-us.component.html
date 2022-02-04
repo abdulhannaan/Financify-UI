@@ -17,35 +17,21 @@
       <!-- .page-banner -->
 
       
-      <app-main-image [pageName]="'About Us'" [pageNameHeading]="'About Us'"></app-main-image>
+      <app-main-image [HomeName]="'breadcrumbAboutusPage1'|translate" [pageName]="'breadcrumbAboutusPage2'|translate" [pageNameHeading]="'breadcrumbAboutusPage2'|translate"></app-main-image>
    
   
     <main>
   <!---------Our History---------->
-  <div class="row">
-    <span class="form-inline">
-      <select class="form-control" #selectedLang
-      (change)="switchLanguage(selectedLang.value)"
-      >
-        <option *ngFor="let language of translate.getLangs()"
-        [value]="language"
-[selected]="language === translate.currentLang"
-        >
-          {{language}}
-        </option>
-       
-      </select>
-    </span>
-  </div>
+  
       <div class="page-section">
         <div class="container-fluid px-5">
           <div class="row align-items-center">
             <div class="col-lg-6 py-3">
               <!-- <div class="subhead">About Us</div> -->
-              <h2 class="title-section">{{'heading1'|translate}}</h2>
+              <h2 class="title-section">{{'Aboutheading1'|translate}}</h2>
   
               <p>
-                {{'Paragraph1'| translate}}
+                {{'AboutParagraph1'| translate}}
                 </p>
             </div>
             <div class="col-lg-6 py-3">
@@ -68,9 +54,9 @@
         </div>
         <div class="col-lg-6 py-3">
           <!-- <div class="subhead">About Us</div> -->
-          <h2 class="title-section">{{'heading2'|translate}}</h2>
+          <h2 class="title-section">{{'Aboutheading2'|translate}}</h2>
   
-          <p> {{'Paragraph2'| translate}}</p>
+          <p> {{'AboutParagraph2'| translate}}</p>
         </div>
       </div>
     </div>

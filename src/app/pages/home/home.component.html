@@ -12,9 +12,9 @@
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="../assets/img/bg_image_1.jpg" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="mb-4">Redovisning</h1>
-                            <div class="subhead text-light">Helping you to register your company and its tax related
-                                issues
+                            <h1 class="mb-4">{{'homeAccountServiceHeadingOnSlider'| translate}}</h1>
+                            <div class="subhead text-light">
+                                {{'homeAccountServiceParaOnSlider'| translate}}
                             </div>
                         </div>
 
@@ -24,11 +24,10 @@
 
 
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="mb-4">Administration</h1>
-                            <div class="subhead text-light">Vi hjälper till med all typ av administration som kunder
-                                önskar
-                                få hjälp med,
-                                samt olika typer av orderhantering</div>
+                            <h1 class="mb-4">{{'homeAdministrationServiceHeadingOnSlider'| translate}}</h1>
+                            <div class="subhead text-light">
+                                {{'homeAdministrationParaServiceOnSlider'| translate}}
+                            </div>
                         </div>
 
 
@@ -37,10 +36,10 @@
                         <img class="d-block w-100" src="../assets/img/bg_image_3.jpg" alt="Third slide">
                         <div class="carousel-caption d-none d-md-block">
 
-                            <h1 class="mb-4">Lön & HR</h1>
-                            <div class="subhead text-light">Get payroll administration of clients, such as time
-                                registration, employer tax
-                                declaration etc.</div>
+                            <h1 class="mb-4">{{'homeSalary&HRServiceHeadingOnSlider'| translate}}</h1>
+                            <div class="subhead text-light">
+                                {{'homeSalary&HRServiceParaOnSlider'| translate}}
+                            </div>
                         </div>
 
 
@@ -49,9 +48,9 @@
                         <img class="d-block w-100" src="../assets/img/bg_image_1.jpg" alt="Third slide">
 
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="mb-4">Umbrella Unemployment</h1>
-                            <div class="subhead text-light">employment Solutions offered to organizations and
-                                individuals
+                            <h1 class="mb-4">{{'homeUmbrellaUnemploymentServiceHeadingOnSlider'| translate}}</h1>
+                            <div class="subhead text-light">
+                                {{'homeUmbrellaUnemploymentParaServiceOnSlider'| translate}}
                             </div>
                         </div>
 
@@ -80,17 +79,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 py-3">
                     <!-- <div class="subhead">About Us</div> -->
-                    <h2 class="title-section">We are <span class="fg-primary">Professional Teams</span> to Growth your
-                        Business
+                    <h2 class="title-section">{{'HomePageFirstSectionHeadingPartOne'| translate}} <span class="fg-primary">{{'HomePageFirstSectionHeadingPartTwoBlue'| translate}}</span> 
+                        {{'HomePageFirstSectionHeadingPartThree'| translate}}
                     </h2>
 
-                    <p>Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously have worked with
-                        accounting
-                        and payroll industry with leading Swedish companies in Payroll and accounting. We have gathered
-                        a
-                        knowledge and competence to help</p>
+                    <p>{{'HomePageFirstSectionPara'| translate}}</p>
 
-                    <a href="about.html" class="btn btn-clr mt-4">Read More</a>
+                    <a href="about.html" class="btn btn-clr mt-4">{{'HomePageFirstSectionButtonText'| translate}}</a>
                 </div>
 
                 <div class="col-lg-6 py-3">
@@ -106,16 +101,12 @@
         <div class="container-fluid px-5 py-5 bg-light">
             <div class="text-center">
                 <!-- <div class="subhead">Our Services</div> -->
-                <h2 class="title-section">OUR BUSINESS EXPERTIES</h2>
+                <h2 class="title-section">{{'HomePageSecondSectionHeadingPartOne'| translate}}</h2>
             </div>
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <p class=" text-center">Our job is to take care of your business’s economy and provide best possible
-                        financial solutions to small
-                        medium business. Our goal is to help business with the financial consultancy that will worth
-                        more than a
-                        money. We help customers in following service areas.</p>
+                    <p class=" text-center">{{'HomePageSecondSectionPara'| translate}}</p>
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -128,7 +119,7 @@
                             <i class="fas fa-file-invoice fa-3x" style="color: #02519c;"></i>
                             <!-- <span class="fas fa-landmark fa-3x" style="color: #02519c;"></span> -->
                         </div>
-                        <h4 style="font-weight:600;">Redovisning</h4>
+                        <h4 style="font-weight:600;">{{'homeAccountServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
                             Our philosophy is to make better and easy your life for entrepreneurs and self-employed
                             people. We can help
@@ -150,12 +141,12 @@
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
                             <i class="fas fa-user-shield fa-3x" style="color: #02519c;"></i>
                         </div>
-                        <h4 style="font-weight:600;">Administration</h4>
+                        <h4 style="font-weight:600;">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
                             Vi hjälper till med all typ av administration som kunder önskar få hjälp med, samt olika
                             typer av orderhantering
                         </p>
-                        <a [routerLink]="['./administration']">Read More</a>
+                        <a [routerLink]="['./administration']">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
 
@@ -165,7 +156,7 @@
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
                             <i class="fas fa-hand-holding-usd fa-3x" style="color: #02519c;"></i>
                         </div>
-                        <h4 style="font-weight:600;">Lön & HR</h4>
+                        <h4 style="font-weight:600;">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
                             Vi har många års erfarenhet av lön och HR arbete. Löneadministration och eller rådgivning i
                             HR arbetet
@@ -173,7 +164,7 @@
                             Vi är även ett bollplank i skattefrågor och annan ekonomisk rådgivning som ni behöver hjälp
                             med.
                         </p>
-                        <a [routerLink]="['./lon-hr']">Read More</a>
+                        <a [routerLink]="['./lon-hr']">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
 
@@ -183,13 +174,13 @@
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
                             <i class="fas fa-user-friends fa-3x" style="color: #02519c;"></i>
                         </div>
-                        <h4 style="font-weight:600;">Umbrella Unemployment</h4>
+                        <h4 style="font-weight:600;">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
                             The Umbrella employment Solutions offered to those organizations and individuals who don’t
                             want to establish itself in Sweden as an employer or neither wants to involve in the matter
                             to filling tax returns and maintaining books for the operations taking place in Sweden.
                         </p>
-                        <a [routerLink]="['./Umbrella-Unemployment']">Read More</a>
+                        <a [routerLink]="['./Umbrella-Unemployment']">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
 
@@ -203,13 +194,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 py-3">
                     <!-- <div class="subhead">About Us</div> -->
-                    <h2 class="title-section">Vår Vision</h2>
+                    <h2 class="title-section">{{'HomePageSectionThreeHeading'| translate}}</h2>
 
-                    <p>Vår vision är att ge hållbar och innovative tjänster till svenska företag genom
-                        kvalitetsredovisnings
-                        tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’
-                        Kvalitet ger
-                        trygghet’’</p>
+                    <p>{{'HomePageSectionThreePara'| translate}}</p>
                 </div>
                 <div class="col-lg-6 py-3">
                     <div class="about-img">
@@ -222,7 +209,7 @@
     <!-- .page-section -->
 
     <!----------------------------------------------------------------------------------->
-    <div class="page-section">
+    <!-- <div class="page-section">
         <div class="container-fluid px-5">
             <h2 class="title-section ">Vad Kunder säger om</h2>
 
@@ -769,13 +756,14 @@
 
 
 
-            </div> -->
-            <!-- .row -->
-        </div> <!-- .container -->
-    </div> <!-- .page-section -->
+            </div> 
+           
+        </div> 
+    </div> -->
+     <!-- .page-section -->
     <div class="text-center">
         <app-pricing-table></app-pricing-table>
-        <a routerLink="/pricing" class="btn btn-primary mt-4 ">Read More</a>
+        <a routerLink="/pricing" class="btn btn-primary mt-4 ">{{'HomePageFirstSectionButtonText'| translate}}</a>
     </div>
 
     <div class="page-section">

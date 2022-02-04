@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,7 +32,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 @NgModule({
   declarations: [
-    
     AppComponent,
     HeaderComponent,
     FooterComponent,
@@ -49,36 +48,30 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     LoginComponent,
     MainImageComponent,
     ContactFormComponent,
-    ServicesTextAreaComponent,UploadComponent,PricingtableComponent,PricingComponent
+    ServicesTextAreaComponent,
+    UploadComponent,
+    PricingtableComponent,
+    PricingComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, FormsModule, HttpClientModule,ReactiveFormsModule,
-         ContactUsComponent,
-         ServicesComponent,
-         RedovisningComponent,
-         AdministrationComponent,
-         LonHRComponent,
-         UmbrellaUnemploymentComponent,
-         CareerComponent,
-         PricingComponent,
-
-    BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
-      loader:{
+      loader: {
         provide: TranslateLoader,
         useFactory: httpTranslateLoader,
-        deps: [HttpClient]
-      }
-    })
+        deps: [HttpClient],
+      },
+    }),
   ],
-  providers:[EnvService],
-  bootstrap: [AppComponent]
+  providers: [EnvService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
-export function httpTranslateLoader(http : HttpClient)
-{
+export class AppModule {}
+export function httpTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }

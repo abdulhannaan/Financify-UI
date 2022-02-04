@@ -1,5 +1,6 @@
-import { Component,OnInit } from '@angular/core';
-import * as AOS from 'aos';
+import { Component} from '@angular/core';
+
+
 
 @Component({
   selector: 'app-root',
@@ -8,9 +9,4 @@ import * as AOS from 'aos';
 })
 export class AppComponent {
   title = 'Financify-New-Angular';
-
-  ngOnInit() {
-    AOS.init();
-  }
-
 }

@@ -18,15 +18,30 @@
   
     <main>
   <!---------Our History---------->
+  <div class="row">
+    <span class="form-inline">
+      <select class="form-control" #selectedLang
+      (change)="switchLanguage(selectedLang.value)"
+      >
+        <option *ngFor="let language of translate.getLangs()"
+        [value]="language"
+[selected]="language === translate.currentLang"
+        >
+          {{language}}
+        </option>
+       
+      </select>
+    </span>
+  </div>
       <div class="page-section">
         <div class="container-fluid px-5">
           <div class="row align-items-center">
             <div class="col-lg-6 py-3">
               <!-- <div class="subhead">About Us</div> -->
-              <h2 class="title-section">Our history</h2>
+              <h2 class="title-section">{{'heading'|translate}}</h2>
   
-              <p>Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously have worked with accounting and payroll industry with leading Swedish companies in Payroll and accounting.
-                We have gathered a knowledge and competence to help the customer with better way, we are small accounting firm but having higher ambitions to grow in this field. Our customer is both from different branches and having small medium industry to work with. We have a expert to deal with financial matter of your company. If it is sound interesting, then you are welcome to contact us för declaration and bookkeeping.
+              <p>
+                {{'Paragraph'| translate}}
                 </p>
             </div>
             <div class="col-lg-6 py-3">

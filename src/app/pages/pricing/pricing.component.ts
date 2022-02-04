@@ -1,4 +1,6 @@
+import { style } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-pricing',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PricingComponent implements OnInit {
   item1: number=1;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -26,6 +29,8 @@ buttonTriggerEvent(){
     this.item1=3
 
   }
+
+
 
 
 

@@ -18,6 +18,8 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
     "aos": "^2.3.4",
     "ngx-owl-carousel-o": "^7.0.1",
     "rxjs": "~7.4.0",

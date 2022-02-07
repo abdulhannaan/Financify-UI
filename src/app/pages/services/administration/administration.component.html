@@ -16,7 +16,7 @@
   </div> -->
    <!-- .page-banner -->
 
-   <app-main-image [pageName]="'Services'" [pageName2]="'Administration'" [pageNameHeading]="'Administration'"></app-main-image>
+   <app-main-image [HomeName]="'breadcrumbContactUsPage1'|translate" [pageName]="'breadcrumbServicesPage1'|translate" [pageName2]="'breadcrumbServicesAdministrationPage2'|translate" [pageNameHeading]="'MainHeadingAdministration'|translate"></app-main-image>
   <main>
             
 <!-- <div class="page-section">
@@ -47,9 +47,9 @@
 </div> -->
  <!-- .page-section -->
 
- <app-services-text-area  [heading]='"Administration"' [para]='"
- Vi hjälper till med all typ av administration som kunder önskar få hjälp med, samt olika typer av orderhantering.
-"' [imgSrc]='"../assets/img/bg_image_2.jpg"'
+ <app-services-text-area  [heading]="'homeAdministrationServiceHeadingOnSectionTwo'| translate" [para]="
+ 'homeAdministrationServiceParaOnSectionTwo'| translate
+" [imgSrc]='"../assets/img/bg_image_2.jpg"'
 [bool]="false" [icon]='"fas fa-user-shield fa-3x"'></app-services-text-area>
 
 </main>

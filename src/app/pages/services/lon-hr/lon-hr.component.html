@@ -16,7 +16,7 @@
   </div> -->
    <!-- .page-banner -->
 
-   <app-main-image [pageName]="'Services'" [pageName2]="'Lön & HR'" [pageNameHeading]="'Lön & HR'"></app-main-image>
+   <app-main-image [HomeName]="'breadcrumbContactUsPage1'|translate" [pageName]="'breadcrumbServicesPage1'|translate" [pageName2]="'breadcrumbServicesSalary&HRPage2'|translate" [pageNameHeading]="'breadcrumbServicesSalary&HRPage2'|translate"></app-main-image>
   <main>
      
 <!-- <div class="page-section">
@@ -51,9 +51,9 @@
 </div>
 </div> -->
  <!-- .page-section -->
- <app-services-text-area  [heading]='"Lön & HR"' [para]='"
- Vi har många års erfarenhet av lön och HR arbete. Löneadministration och eller rådgivning i HR arbetet.
-"' [imgSrc]='"../assets/img/bg_image_3.jpg"'
+ <app-services-text-area  [heading]="'homeSalary&HRServiceHeadingOnSectionTwo'| translate" [para]="
+ 'homeSalary&HRServiceParaOnSectionTwo'| translate
+" [imgSrc]='"../assets/img/bg_image_3.jpg"'
 [bool]="false" [icon]='"fas fa-hand-holding-usd fa-3x"'></app-services-text-area>
 
  </main>

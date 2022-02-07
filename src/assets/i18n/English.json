@@ -86,5 +86,41 @@
   "Aboutheading1": "Our Histroy",
   "AboutParagraph1": "Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously have worked with accounting and payroll industry with leading Swedish companies in Payroll and accounting. We have gathered a knowledge and competence to help the customer with better way, we are small accounting firm but having higher ambitions to grow in this field. Our customer is both from different branches and having small medium industry to work with. We have a expert to deal with financial matter of your company. If it is sound interesting, then you are welcome to contact us för declaration and bookkeeping.",
   "Aboutheading2": "Our Vision",
-  "AboutParagraph2": "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'."
+  "AboutParagraph2": "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'.",
+
+  "breadcrumbPricingPage1": "Home",
+  "breadcrumbPricingPage2": "Pricing",
+  "MainHeadingPricing": "Pricing",
+
+
+  "breadcrumbContactUsPage1": "Home",
+  "breadcrumbContactUsPage2": "Contact Us",
+  "MainHeadingContactUs": "Contact Us",
+
+  "breadcrumbServicesHomeText": "Home",
+  "breadcrumbServicesPage1": "Services",
+  "breadcrumbServicesAdministrationPage2": "Administration",
+  "MainHeadingAdministration": "Administration",
+  "breadcrumbServicesAccountingPage2": "Accounting",
+  "MainHeadingAccounting": "Accounting",
+  "breadcrumbServicesSalary&HRPage2": "Salary & HR",
+  "MainHeadingSalary&HR": "Salary & HR",
+  "breadcrumbServicesUmbrellaUnemploymentPage2": "Umbrella Unemployment",
+  "MainHeadingUmbrellaUnemployment": "Umbrella Unemployment",
+
+
+
+  "CarrerPageHeading":"BECOME A PART OF OUR TEAM",
+  "CarrerPageSubHeading":"Our team is rapidly growing and we are currently seeking for new candidates to help contribute to our success. If you are interested in being a part of Financify Team, please complete below form and we will reach out.", 
+  "CarrerPageFullNameLabel":"Full Name",
+  "CarrerPageEmailLabel":"Email",
+  "CarrerPagePhoneNumberLabel":"Phone Number",
+  "CarrerPageCoverLetterLabel":"Cover Letter",
+  "CarrerPageCoverLetterFileLabel":"Cover Letter File",
+  "CarrerPageJobLabel":"Job",
+  "CarrerPageUploadCVLabel":"*Upload CV",
+  "CarrerPageDescriptionLabel":"Description",
+
+  "CarrerPageUploadButtonText":"*Upload CV"
+
 }

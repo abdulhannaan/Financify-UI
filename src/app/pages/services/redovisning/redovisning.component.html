@@ -15,7 +15,7 @@
     </div>
   </div>  -->
   <!-- .page-banner -->
-  <app-main-image [pageName]="'Services'" [pageName2]="'Redovisning'" [pageNameHeading]="'Redovisning'"></app-main-image>
+  <app-main-image [HomeName]="'breadcrumbServicesHomeText'|translate" [pageName]="'breadcrumbServicesPage1'|translate" [pageName2]="'breadcrumbServicesAccountingPage2'|translate" [pageNameHeading]="'breadcrumbServicesAccountingPage2'|translate"></app-main-image>
 
 
 
@@ -55,10 +55,10 @@
 </div>
 </div>  -->
 <!-- .page-section -->
-<app-services-text-area  [heading]='"Redovisning"' [para]='"
-Our philosophy is to make better and easy your life for entrepreneurs and self-employed people. We can help 
+<app-services-text-area  [heading]="'homeAccountServiceHeadingOnSectionTwo'| translate" [para]="
+'homeAccountServiceParaOnSectionTwo'| translate 
 
-"' [imgSrc]='"../assets/img/Registration.jpg"'
+" [imgSrc]='"../assets/img/Registration.jpg"'
  [bool]="true" [icon]='"fas fa-file-invoice fa-3x"'></app-services-text-area>
 
 </main>

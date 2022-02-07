@@ -15,7 +15,7 @@
     </div>
   </div> -->
    <!-- .page-banner -->
-   <app-main-image [pageName]="'Services'" [pageName2]="'Umbrella Unemployment'" [pageNameHeading]="'Umbrella Unemployment'"></app-main-image>
+   <app-main-image [HomeName]="'breadcrumbContactUsPage1'|translate" [pageName]="'breadcrumbServicesPage1'|translate" [pageName2]="'breadcrumbServicesUmbrellaUnemploymentPage2'|translate" [pageNameHeading]="'breadcrumbServicesUmbrellaUnemploymentPage2'|translate"></app-main-image>
 
   <main>
     <!-- <div class="page-section">
@@ -46,10 +46,10 @@
       </div>
     </div>  -->
     <!-- .page-section -->
-    <app-services-text-area  [heading]='"Umbrella Unemployment"' [para]='"
-    The Umbrella employment Solutions offered to those organizations and individuals who don’t want to establish itself in Sweden as an employer or neither wants to involve in the matter to filling tax returns and maintaining books for the operations taking place in Sweden.
+    <app-services-text-area  [heading]="'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate" [para]="
+    'homeUmbrellaUnemploymentServiceParaOnSectionTwo'| translate
 
-"' [imgSrc]='"../assets/img/bg_image_1.jpg"'
+" [imgSrc]='"../assets/img/bg_image_1.jpg"'
  [bool]="false" [icon]='"fas fa-user-friends fa-3x"'></app-services-text-area>
     
  </main>

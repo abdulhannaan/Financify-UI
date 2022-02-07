@@ -10,7 +10,7 @@ export class AboutUsComponent implements OnInit {
 
   constructor(public translate: TranslateService) { 
     translate.addLangs(['English','Swedish']);
-    translate.setDefaultLang('en');
+    translate.setDefaultLang('English');
   }
 switchLanguage(lang:string){
   this.translate.use(lang);

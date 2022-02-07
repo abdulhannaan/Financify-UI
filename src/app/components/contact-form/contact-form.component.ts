@@ -15,6 +15,7 @@ export class ContactFormComponent implements OnInit {
   submitted = false;
   error: any;
   isHumman: Boolean = false;
+  bool:Boolean=false;
   constructor(
     private userService: UserService,
     private formBuilder: FormBuilder,
@@ -49,7 +50,7 @@ export class ContactFormComponent implements OnInit {
     return this.contactForm.controls;
   }
   save() {
-    debugger
+ 
     if(!this.isHumman){
       return;
     }
@@ -72,5 +73,8 @@ export class ContactFormComponent implements OnInit {
   captchaResult(response: Boolean) {
     debugger
       this.isHumman = response;
+  }
+  check(){
+   this.bool=true;
   }
 }

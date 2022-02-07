@@ -85,7 +85,7 @@
 
                     <p>{{'HomePageFirstSectionPara'| translate}}</p>
 
-                    <a href="about.html" class="btn btn-clr mt-4">{{'HomePageFirstSectionButtonText'| translate}}</a>
+                    <a [routerLink]="['./about-us']" class="btn btn-clr mt-4">{{'HomePageFirstSectionButtonText'| translate}}</a>
                 </div>
 
                 <div class="col-lg-6 py-3">
@@ -116,37 +116,35 @@
                     <div>
                         <div class="img-fluid mb-4">
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
-                            <i class="fas fa-file-invoice fa-3x" style="color: #02519c;"></i>
+                            <i class="fas fa-file-invoice fa-3x" style="color: #e66124"></i>
                             <!-- <span class="fas fa-landmark fa-3x" style="color: #02519c;"></span> -->
                         </div>
                         <h4 style="font-weight:600;">{{'homeAccountServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
-                            Our philosophy is to make better and easy your life for entrepreneurs and self-employed
-                            people. We can help
+                            {{'homeAccountServiceParaOnSectionTwo'| translate}}
                         </p>
                         <div style="line-height: 0.5;">
-                            <p>• Bookkeeping</p>
-                            <p>• Invoicing </p>
-                            <p>• Income declaration</p>
-                            <p>• Financial statement</p>
-                            <p>• Company Registration</p>
+                            <p>• {{'homeAccountServiceParaOnSectionTwoList1'| translate}}</p>
+                            <p>• {{'homeAccountServiceParaOnSectionTwoList2'| translate}} </p>
+                            <p>• {{'homeAccountServiceParaOnSectionTwoList3'| translate}}</p>
+                            <p>• {{'homeAccountServiceParaOnSectionTwoList4'| translate}}</p>
+                            <p>• {{'homeAccountServiceParaOnSectionTwoList5'| translate}}</p>
                         </div>
 
-                        <a [routerLink]="['./Redovisning']">Read More</a>
+                        <a [routerLink]="['./Redovisning']" style="color: #e66124;">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                     <div>
                         <div class="img-fluid mb-4">
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
-                            <i class="fas fa-user-shield fa-3x" style="color: #02519c;"></i>
+                            <i class="fas fa-user-shield fa-3x" style="color: #e66124"></i>
                         </div>
                         <h4 style="font-weight:600;">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
-                            Vi hjälper till med all typ av administration som kunder önskar få hjälp med, samt olika
-                            typer av orderhantering
+                            {{'homeAdministrationServiceParaOnSectionTwo'| translate}}
                         </p>
-                        <a [routerLink]="['./administration']">{{'HomePageFirstSectionButtonText'| translate}}</a>
+                        <a [routerLink]="['./administration']" style="color: #e66124;">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
 
@@ -154,17 +152,13 @@
                     <div>
                         <div class="img-fluid mb-4">
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
-                            <i class="fas fa-hand-holding-usd fa-3x" style="color: #02519c;"></i>
+                            <i class="fas fa-hand-holding-usd fa-3x" style="color: #e66124"></i>
                         </div>
                         <h4 style="font-weight:600;">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
-                            Vi har många års erfarenhet av lön och HR arbete. Löneadministration och eller rådgivning i
-                            HR arbetet
-                            Skatterådgivning och affärsrådgivning
-                            Vi är även ett bollplank i skattefrågor och annan ekonomisk rådgivning som ni behöver hjälp
-                            med.
+                            {{'homeSalary&HRServiceParaOnSectionTwo'| translate}}
                         </p>
-                        <a [routerLink]="['./lon-hr']">{{'HomePageFirstSectionButtonText'| translate}}</a>
+                        <a [routerLink]="['./lon-hr']" style="color: #e66124;">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
 
@@ -172,15 +166,13 @@
                     <div>
                         <div class="img-fluid mb-4">
                             <!-- <img src="../assets/img/icons/graphics_design.svg" alt=""> -->
-                            <i class="fas fa-user-friends fa-3x" style="color: #02519c;"></i>
+                            <i class="fas fa-user-friends fa-3x" style="color: #e66124"></i>
                         </div>
                         <h4 style="font-weight:600;">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</h4>
                         <p>
-                            The Umbrella employment Solutions offered to those organizations and individuals who don’t
-                            want to establish itself in Sweden as an employer or neither wants to involve in the matter
-                            to filling tax returns and maintaining books for the operations taking place in Sweden.
+                            {{'homeUmbrellaUnemploymentServiceParaOnSectionTwo'| translate}}
                         </p>
-                        <a [routerLink]="['./Umbrella-Unemployment']">{{'HomePageFirstSectionButtonText'| translate}}</a>
+                        <a [routerLink]="['./Umbrella-Unemployment']" style="color: #e66124;">{{'HomePageFirstSectionButtonText'| translate}}</a>
                     </div>
                 </div>
 
@@ -761,9 +753,9 @@
         </div> 
     </div> -->
      <!-- .page-section -->
-    <div class="text-center">
-        <app-pricing-table></app-pricing-table>
-        <a routerLink="/pricing" class="btn btn-primary mt-4 ">{{'HomePageFirstSectionButtonText'| translate}}</a>
+    <div class="text-center bg-light py-5">
+       <app-pricing></app-pricing>
+        <a routerLink="['./pricing]" class="btn btn-clr mt-4 ">{{'HomePageFirstSectionButtonText'| translate}}</a>
     </div>
 
     <div class="page-section">
@@ -773,7 +765,7 @@
                 <p>Contact us and find more about what Finansify can offer you! <a
                         href="mailto:example@mail.com">example@mail.com</a></p>
             </div>
-            <div class="row justify-content-center mt-5">
+            <!-- <div class="row justify-content-center mt-5">
                 <div class="col-lg-8">
                     <form action="#" class="form-contact">
                         <div class="row">
@@ -800,7 +792,8 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
+       <app-contact-form></app-contact-form>
         </div> <!-- .container -->
     </div> <!-- .page-section -->
 

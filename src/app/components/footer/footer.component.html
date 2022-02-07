@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-3 py-3 d-flex justify-content-start align-items-start" style="flex-direction: column;">
                 <!-- <img src="../assets/img/logo.png" style="height:200px; width: 200px;" alt=""> -->
-                <h3>Logo<span class="fg-primary">Area.</span></h3>
-                <p class="mt-4">KONSULTANT SOFTWARE (Private) Limited</p>
+                <h3>FINANCIFY</h3>
+                <p class="mt-4">FINANCIFY SOFTWARE (Private) Limited</p>
                 <p class="">+91 00 33 44 55 66 77</p>
                 <p class="">Contact@finansify.com</p>
                 <div class="sosmed-button mt-5">
@@ -18,22 +18,28 @@
                 <div class="">
                     <ul class="footer-menu ml-auto  pt-3 pt-lg-0">
                         <li class=" " [routerLinkActive]="['active']">
-                            <a [routerLink]="['./home']" class=" nav-style p-0">Home</a>
+                            <a [routerLink]="['./home']" class=" nav-style p-0">{{'navbarHome'|translate}}</a>
                         </li>
                         <li class=" " [routerLinkActive]="['active']">
-                            <a [routerLink]="['./about-us']" class=" nav-style p-0">About</a>
+                            <a [routerLink]="['./about-us']" class=" nav-style p-0">{{'navbarAbout'|translate}}</a>
                         </li>
-                        <li class=" " [routerLinkActive]="['active']">
-                            <a  class="nav-style p-0">Services</a>
+                        <li class="" [routerLinkActive]="['active']">
+                            <a [routerLink]="['./career']" class="nav-link nav-style p-0">{{'navbarCareers'|translate}}</a>
+                          </li>
+                          <li class=" " [routerLinkActive]="['active']">
+                            <a [routerLink]="['./pricing']" class="nav-link nav-style p-0">{{'navbarPricing'|translate}}</a>
+                          </li>
+                        <li hidden class=" " [routerLinkActive]="['active']">
+                            <a  class=" ">{{'navbarServices'|translate}}</a>
                         </li>
-                        <li class=" " [routerLinkActive]="['active']">
+                        <li hidden class=" " [routerLinkActive]="['active']">
                             <a [routerLink]="['./portfolio']" class=" nav-style p-0">Projects</a>
                         </li>
                         <!-- <li class="nav-item">
                 <a href="blog.html" class="nav-link">News</a>
               </li> -->
                         <li class="" [routerLinkActive]="['active']">
-                            <a [routerLink]="['./contact-us']" class="nav-link nav-style p-0">Kontakta oss</a>
+                            <a [routerLink]="['./contact-us']" class="nav-link nav-style p-0">{{'navbarContact'|translate}}</a>
                         </li>
                     </ul>
                 </div>

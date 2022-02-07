@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class AboutUsComponent implements OnInit {
 
   constructor(public translate: TranslateService) { 
-    translate.addLangs(['en','es']);
+    translate.addLangs(['English','Swedish']);
     translate.setDefaultLang('en');
   }
 switchLanguage(lang:string){

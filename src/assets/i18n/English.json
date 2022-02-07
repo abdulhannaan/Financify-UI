@@ -38,9 +38,45 @@
 "homeUmbrellaUnemploymentServiceHeadingOnSectionTwo": "Umbrella Unemployment",
 
 
+
+"homeAccountServiceParaOnSectionTwo": "Our philosophy is to make it better and easy your life for entrepreneurs and self-employed people. We can help",
+"homeAdministrationServiceParaOnSectionTwo": "We help with all types of administration that customers want help with, as well as different types of order management",
+"homeSalary&HRServiceParaOnSectionTwo": "We have many years of experience in payroll and HR work. Payroll administration and or advice in HR work Tax advice and business advice We are also a sounding board in tax issues and other financial advice that you need help with.",
+"homeUmbrellaUnemploymentServiceParaOnSectionTwo": "The Umbrella employment Solutions offered to those organizations and individuals who don’t want to establish themselves in Sweden as an employer or neither wants to involve in the matter of filing tax returns and maintaining books for the operations taking place in Sweden.",
+
+"homeAccountServiceParaOnSectionTwoList1":"Bookkeeping",
+"homeAccountServiceParaOnSectionTwoList2":"Invoicing",
+"homeAccountServiceParaOnSectionTwoList3":"Income declaration",
+"homeAccountServiceParaOnSectionTwoList4":"Financial statement",
+"homeAccountServiceParaOnSectionTwoList5":"Company Registration",
+
+"homePricingSectionHeading":"A Fixed price for your accounting",
+"homePricingSectionSubHeading":"Select the company's turnover",
+
+
 "HomePageSectionThreeHeading": "Our Vision",
 "HomePageSectionThreePara": "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'.",
 
+
+"HomePageSectionContactFormHeading":"Contact Us",
+"HomePageSectionContactFormPara":"Contact us and find more about what Finansify can offer you! example@mail.com",
+
+
+"ContactFormNameLabel":"Name",
+"ContactFormEmailLabel":"Email",
+"ContactFormPhoneLabel":"Phone",
+"ContactFormSubjectLabel":"Subject",
+"ContactFormMessageLabel":"Message",
+
+"ContactFormNamePlaceHolder":"Enter your Name...",
+"ContactFormEmailPlaceHolder":"Enter your Email...",
+"ContactFormPhonePlaceHolder":"Enter Phone Number...",
+"ContactFormSubjectPlaceHolder":"Subject...",
+"ContactFormMessagePlaceHolder":"Enter Message...",
+
+"ContactFormCheckbox":"I consent to the privacy Policy",
+
+"ContactFormSubmitButtonText":"Submit",
 
 
 

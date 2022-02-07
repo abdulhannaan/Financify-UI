@@ -3,8 +3,8 @@
       <form *ngIf="contactForm" [formGroup]="contactForm" (ngSubmit)="save()">
         <div class="row">
           <div class="col-sm-12 py-2">
-            <label for="name" class="fg-grey">Name</label>
-            <input type="text" class="form-control" placeholder="Enter your name.." formControlName="fullName"
+            <label for="name" class="fg-grey">{{'ContactFormNameLabel'| translate}}</label>
+            <input type="text" class="form-control" placeholder="{{'ContactFormNamePlaceHolder'| translate}}" formControlName="fullName"
                 [ngClass]="{ 'is-invalid': submitted && f.fullName.errors }">
               <div *ngIf="submitted && f.fullName.errors" class="invalid-feedback">
                 <div *ngIf="f.fullName.errors.required">Name is required</div>
@@ -13,8 +13,8 @@
             </div>
             
           <div class="col-12 py-2">
-            <label for="subject" class="fg-grey">Subject</label>
-            <input type="text" class="form-control" placeholder="Subject.."
+            <label for="subject" class="fg-grey">{{'ContactFormSubjectLabel'| translate}}</label>
+            <input type="text" class="form-control" placeholder="{{'ContactFormSubjectPlaceHolder'| translate}}"
                 formControlName="Subject" [ngClass]="{ 'is-invalid': submitted && f.Subject.errors }">
               <div *ngIf="submitted && f.Subject.errors" class="invalid-feedback">
                 <div *ngIf="f.Subject.errors.required">Subject is required</div>
@@ -22,8 +22,8 @@
               </div>
             </div>
             <div class="col-6 py-2">
-              <label for="email" class="fg-grey">Email</label>
-              <input type="text" class="form-control" id="email" placeholder="Email address.."
+              <label for="email" class="fg-grey">{{'ContactFormEmailLabel'| translate}}</label>
+              <input type="text" class="form-control" id="email" placeholder="{{'ContactFormEmailPlaceHolder'| translate}}"
                 formControlName="emailAddress" [ngClass]="{ 'is-invalid': submitted && f.emailAddress.errors }">
               <div *ngIf="submitted && f.emailAddress.errors" class="invalid-feedback">
                 <div *ngIf="f.emailAddress.errors.required">Email is required</div>
@@ -31,8 +31,8 @@
               </div>
             </div>
             <div class="col-6 py-2">
-              <label for="phone" class="fg-grey">Phone Number</label>
-              <input type="text" class="form-control" placeholder="Phone.."
+              <label for="phone" class="fg-grey">{{'ContactFormPhoneLabel'| translate}}</label>
+              <input type="text" class="form-control" placeholder="{{'ContactFormPhonePlaceHolder'| translate}}"
                 formControlName="mobileNo" [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }">
               <div *ngIf="submitted && f.mobileNo.errors" class="invalid-feedback">
                 <div *ngIf="f.mobileNo.errors.required">Phone is required</div>
@@ -40,9 +40,9 @@
               </div>
             </div>
           <div class="col-12 py-2">
-            <label for="message" class="fg-grey">Message</label>
+            <label for="message" class="fg-grey">{{'ContactFormMessageLabel'| translate}}</label>
             <textarea id="message" rows="8" class="form-control" formControlName="body"
-                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }"></textarea>
+                placeholder="{{'ContactFormMessagePlaceHolder'| translate}}" [ngClass]="{ 'is-invalid': submitted && f.body.errors }"></textarea>
               <div *ngIf="submitted && f.body.errors" class="invalid-feedback">
                 <div *ngIf="f.body.errors.required">Required</div>
                 <div *ngIf="f.body.errors.maxlength">Must be less then 500 characters</div>
@@ -50,10 +50,10 @@
             </div>
           <div class="col-12 py-2">
             <input type="checkbox">
-            <label for="message" >I consent to the privacy Policy</label>
+            <label for="message" >{{'ContactFormCheckbox'| translate}}</label>
           </div>
           <div class="col-12 mt-3">
-            <button type="submit" class="btn btn-primary px-5">Submit</button>
+            <button type="submit" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
           </div>
         </div>
       </form>

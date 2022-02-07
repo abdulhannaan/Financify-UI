@@ -32,7 +32,7 @@
           <!-- <li class="nav-item mr-1">
             <a href="services.html" class="nav-link nav-style">Tjänster</a>
           </li> -->
-          <li class="nav-item mr-1" [routerLinkActive]="['active']">
+          <li hidden class="nav-item mr-1" [routerLinkActive]="['active']">
             <a [routerLink]="['./portfolio']" class="nav-link nav-style">{{'navbarProjects'|translate}}</a>
           </li>
           <li class="nav-item mr-1" [routerLinkActive]="['active']">
@@ -47,19 +47,22 @@
           <li class="nav-item" [routerLinkActive]="['active']">
             <a [routerLink]="['./career']" class="nav-link nav-style">{{'navbarCareers'|translate}}</a>
           </li>
-          <li class="nav-item" [routerLinkActive]="['active']">
+          <li hidden class="nav-item" [routerLinkActive]="['active']">
             <a [routerLink]="['./login']" class="nav-link nav-style">{{'navbarPortal'|translate}}</a>
           </li>
           <li class="nav-item">
-              <select class="form-control fas fa-globe" #selectedLang
+          
+              <select class="form-control btn btn-clr" #selectedLang
               (change)="switchLanguage(selectedLang.value)"
-              >   
+              style="background-color: #e66124; color: white;" >   
                 <option *ngFor="let language of translate.getLangs()"
                 [value]="language"
         [selected]="language === translate.currentLang">
                   {{language}} 
                 </option>             
               </select>
+         
+             
           </li>
         </ul>
       </div>

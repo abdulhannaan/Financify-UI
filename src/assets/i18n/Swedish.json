@@ -41,6 +41,47 @@
 "homeUmbrellaUnemploymentServiceHeadingOnSectionTwo": "Paraply Arbetslöshet",
 
 
+
+"homeAccountServiceParaOnSectionTwo": "Vår filosofi är att göra det bättre och enkelt ditt liv för entreprenörer och egenföretagare. Vi kan hjälpa",
+"homeAdministrationServiceParaOnSectionTwo": "Vi hjälper till med all typ av administration som kunder önskar få hjälp med, samt olika typer av orderhantering",
+"homeSalary&HRServiceParaOnSectionTwo": "Vi har många års erfarenhet av lön och HR arbete. Löneadministration och eller rådgivning i HR arbetet Skatterådgivning och affärsrådgivning Vi är även ett bollplank i skattefrågor och annan ekonomisk rådgivning som ni behöver hjälp med.",
+"homeUmbrellaUnemploymentServiceParaOnSectionTwo": "Paraply sysselsättningslösningar som erbjuds de organisationer och individer som inte vill etablera sig i Sverige som arbetsgivare eller inte heller vill engagera sig i frågan om att lämna skattedeklarationer och föra bokföring för den verksamhet som bedrivs i Sverige.",
+
+
+"homeAccountServiceParaOnSectionTwoList1":"Bokföring",
+"homeAccountServiceParaOnSectionTwoList2":"Fakturering",
+"homeAccountServiceParaOnSectionTwoList3":"Inkomstdeklaration",
+"homeAccountServiceParaOnSectionTwoList4":"FINANSIERINGSÖVERSIKT",
+"homeAccountServiceParaOnSectionTwoList5":"Företagsregistrering",
+
+
+
+"homePricingSectionHeading":"Ett fast pris för din bokföring",
+"homePricingSectionSubHeading":"Välj företagets omsättning",
+
+
+
+
+"HomePageSectionContactFormHeading":"Kontakta oss",
+"HomePageSectionContactFormPara":"Kontakta oss och ta reda på mer om vad Finansify kan erbjuda dig! exempel@mail.com",
+
+"ContactFormNameLabel":"namn",
+"ContactFormEmailLabel":"E-post",
+"ContactFormSubjectLabel":"Ämne",
+"ContactFormPhoneLabel":"Telefon",
+"ContactFormMessageLabel":"Meddelande",
+
+"ContactFormNamePlaceHolder":"Ange ditt namn...",
+"ContactFormEmailPlaceHolder":"Ange din e-postadress...",
+"ContactFormPhonePlaceHolder":"Skriv in telefonnummer...",
+"ContactFormSubjectPlaceHolder":"Ämne...",
+"ContactFormMessagePlaceHolder":"Ange meddelande...",
+
+"ContactFormCheckbox":"Jag samtycker till integritetspolicyn",
+
+"ContactFormSubmitButtonText":"Skicka in",
+
+
 "HomePageSectionThreeHeading": "Vår Vision",
 "HomePageSectionThreePara": "Vår vision är att ge hållbar och innovative tjänster till svenska företag genom kvalitetsredovisnings tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’ Kvalitet ger trygghet’’.",
 

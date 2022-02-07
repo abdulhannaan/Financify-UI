@@ -28,6 +28,7 @@ import { PricingComponent } from './pages/pricing/pricing.component';
 import { EnvService } from './App-services/Common/envoirment.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { CaptchaComponent } from './captcha/captcha.component';
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     UploadComponent,
     PricingtableComponent,
     PricingComponent,
+    CaptchaComponent,
    
   ],
   imports: [

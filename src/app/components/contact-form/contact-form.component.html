@@ -59,9 +59,11 @@
             <label for="message" >{{'ContactFormCheckbox'| translate}}</label>
           </div>
           <div class="col-12 mt-3">
-            <button type="submit" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
+            <button [disabled]="!isHumman" type="submit" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
           </div>
         </div>
       </form>
     </div>
   </div>
+
+  <app-captcha *ngIf="!isHumman" (valueChange)='captchaResult($event)'></app-captcha>

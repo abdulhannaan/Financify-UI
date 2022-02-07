@@ -13,6 +13,7 @@ export class CareerComponent implements OnInit {
   joinForm: any;
   submitted = false;
   error: any;
+  isHumman: Boolean = false;
   constructor(private userService: UserService, private formBuilder: FormBuilder, private loaderService: LoaderService,
     private router: Router) { }
   ngOnInit(): void {
@@ -44,6 +45,9 @@ export class CareerComponent implements OnInit {
 
   get f() { return this.joinForm.controls; }
   save() {
+    if(!this.isHumman){
+      return;
+    }
     this.submitted = true;
     if (this.joinForm.invalid) {
       return;
@@ -61,5 +65,9 @@ export class CareerComponent implements OnInit {
         }
       },
     );
+  }
+  captchaResult(response: Boolean) {
+    debugger
+      this.isHumman = response;
   }
 }

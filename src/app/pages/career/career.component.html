@@ -138,3 +138,5 @@
     </div>
   </div> <!-- .container -->
 </div> <!-- .page-section -->
+
+<app-captcha *ngIf="!isHumman" (valueChange)='captchaResult($event)'></app-captcha>

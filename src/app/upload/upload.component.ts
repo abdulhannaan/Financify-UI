@@ -15,10 +15,12 @@ export class UploadComponent implements OnInit {
   @Output() public onUploadFinished = new EventEmitter();
   public response!: { dbPath: ''; };
   @Input() public moduleType: number | undefined;
+ 
 
   userId: any;
   filename: any;
   moduleName!: string;
+  
 
 
   constructor(private http: HttpClient, private userService: UserService, private authService: AuthService,
@@ -48,6 +50,7 @@ export class UploadComponent implements OnInit {
         if (event.type === HttpEventType.Response) {
           this.onUploadFinished.emit(event);
           this.message = 'Upload success.';
+        
         }
         else {
           this.message = 'Process...';

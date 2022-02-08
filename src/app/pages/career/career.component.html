@@ -116,7 +116,7 @@
             <div class="col-12 py-2">
               <label for="message" class="fg-grey">{{'CarrerPageDescriptionLabel'| translate}}</label>
               <textarea id="message" rows="8" class="form-control" formControlName="body"
-                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }"></textarea>
+                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }" (change)="boolcheck()"></textarea>
               <div *ngIf="submitted && f.body.errors" class="invalid-feedback">
                 <div *ngIf="f.body.errors.required">Required</div>
                 <div *ngIf="f.body.errors.maxlength">Must be less then 500 characters</div>
@@ -129,8 +129,10 @@
                 <div *ngIf="f.fileName.errors.required">File is required</div>
               </div>
             </div>
+            
+<app-captcha *ngIf="!isHumman && bool==true" (valueChange)='captchaResult($event)'></app-captcha>
             <div class="col-12 mt-3">
-              <button type="submit" (click)="save()" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
+              <button type="submit" [disabled]="!isHumman" (click)="save()" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
             </div>
           </div>
         </form>
@@ -138,5 +140,3 @@
     </div>
   </div> <!-- .container -->
 </div> <!-- .page-section -->
-
-<app-captcha *ngIf="!isHumman" (valueChange)='captchaResult($event)'></app-captcha>

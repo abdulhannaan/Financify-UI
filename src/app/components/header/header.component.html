@@ -51,19 +51,21 @@
             <a  href="http://portal-financify.workblix.com/" class="nav-link nav-style">{{'navbarPortal'|translate}}</a>
           </li>
           <li class="nav-item">
-          
-              <select class="form-control btn btn-clr" #selectedLang
-              (change)="switchLanguage(selectedLang.value)"
-              style="background-color: #e66124; color: white;" >   
-                <option *ngFor="let language of translate.getLangs()"
-                [value]="language"
-        [selected]="language === translate.currentLang">
-                  {{language}} 
+                   
+           <select class=" rounded-pill btn btn-clr"  #selectedLang
+              (change)="switchLanguage(selectedLang.value)" id="Select Language"
+              style="background-color: #e66124; color: white;">   
+                <option  *ngFor="let language of translate.getLangs()"
+                [value]="language" 
+        [selected]="language === translate.currentLang" style="background-color: white; color: #e66124;">
+            {{language}} 
                 </option>             
-              </select>
-         
-             
+              </select>    
+              
+              
+                         
           </li>
+         
         </ul>
       </div>
     </div> <!-- .container -->

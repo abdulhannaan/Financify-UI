@@ -14,6 +14,7 @@ export class CareerComponent implements OnInit {
   submitted = false;
   error: any;
   isHumman: Boolean = false;
+  bool: boolean = false;
   constructor(private userService: UserService, private formBuilder: FormBuilder, private loaderService: LoaderService,
     private router: Router) { }
   ngOnInit(): void {
@@ -67,7 +68,10 @@ export class CareerComponent implements OnInit {
     );
   }
   captchaResult(response: Boolean) {
-    debugger
+
       this.isHumman = response;
+  }
+  boolcheck(){
+    this.bool=true
   }
 }

@@ -1,47 +1,6 @@
-<!-- <div class="page-banner bg-img bg-img-parallax overlay-dark" style="background-image: url(../assets/img/bg_image_3.jpg);">
-    <div class="container h-100">
-      <div class="row justify-content-center align-items-center h-100">
-        <div class="col-lg-8">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Join Us</li>
-            </ol>
-          </nav>
-          <h1 class="fg-white text-center">Join Us</h1>
-        </div>
-      </div>
-    </div>
-  </div>  -->
-
-<!-- .page-banner -->
 
 <app-main-image [HomeName]="'breadcrumbContactUsPage1'|translate" [pageName]="'breadcrumbContactUsPage2'|translate" [pageNameHeading]="'breadcrumbContactUsPage2'|translate"></app-main-image>
 
-
-<!-- 
-<div class="page-section ">
-    <div class="container-fluid px-5">
-        <div class="row text-center">
-            <h2 class="title-section mb-3">Join Us</h2>
-        </div>
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
-                <p class=" text-center">Our team is rapidly growing and we are currently seeking for new candidates to
-                    help contribute to our success.
-                    If you are interested in being a part of Financify Team, please complete below form and we will
-                    reach out.</p>
-            </div>
-            <div class="col-3"></div>
-        </div>
-    </div>
-</div>
- -->
-
-
-
-<!-------------------------------------------Form-------------------------------------------------->
 <div class="page-section">
   <div class="container-fluid px-5">
     <div class="text-center">
@@ -116,7 +75,7 @@
             <div class="col-12 py-2">
               <label for="message" class="fg-grey">{{'CarrerPageDescriptionLabel'| translate}}</label>
               <textarea id="message" rows="8" class="form-control" formControlName="body"
-                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }"></textarea>
+                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }" (change)="boolcheck()"></textarea>
               <div *ngIf="submitted && f.body.errors" class="invalid-feedback">
                 <div *ngIf="f.body.errors.required">Required</div>
                 <div *ngIf="f.body.errors.maxlength">Must be less then 500 characters</div>
@@ -129,8 +88,10 @@
                 <div *ngIf="f.fileName.errors.required">File is required</div>
               </div>
             </div>
+            
+<app-captcha *ngIf="!isHumman && bool==true" (valueChange)='captchaResult($event)'></app-captcha>
             <div class="col-12 mt-3">
-              <button type="submit" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
+              <button type="submit" [disabled]="!isHumman"  class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
             </div>
           </div>
         </form>
@@ -138,5 +99,3 @@
     </div>
   </div> <!-- .container -->
 </div> <!-- .page-section -->
-
-<app-captcha *ngIf="!isHumman" (valueChange)='captchaResult($event)'></app-captcha>

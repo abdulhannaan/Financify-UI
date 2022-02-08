@@ -15,10 +15,12 @@ export class UploadComponent implements OnInit {
   @Output() public onUploadFinished = new EventEmitter();
   public response!: { dbPath: ''; };
   @Input() public moduleType: number | undefined;
+ 
 
   userId: any;
   filename: any;
   moduleName!: string;
+  
 
 
   constructor(private http: HttpClient, private userService: UserService, private authService: AuthService,

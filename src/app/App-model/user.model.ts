@@ -55,3 +55,9 @@ export interface ContactUs {
      emailAddress: string;
      mobileNo: string;
 }
+
+export interface Language {
+     name: string;
+     svg:string;
+     isDefault:boolean
+}

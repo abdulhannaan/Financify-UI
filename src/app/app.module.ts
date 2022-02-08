@@ -16,7 +16,6 @@ import { AdministrationComponent } from './pages/services/administration/adminis
 import { LonHRComponent } from './pages/services/lon-hr/lon-hr.component';
 import { UmbrellaUnemploymentComponent } from './pages/services/umbrella-unemployment/umbrella-unemployment.component';
 import { CareerComponent } from './pages/career/career.component';
-import { LoginComponent } from './login/login.component';
 import { MainImageComponent } from './components/main-image/main-image.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ServicesTextAreaComponent } from './components/services-text-area/services-text-area.component';
@@ -29,6 +28,7 @@ import { EnvService } from './App-services/Common/envoirment.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CaptchaComponent } from './captcha/captcha.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -46,7 +46,6 @@ import { CaptchaComponent } from './captcha/captcha.component';
     LonHRComponent,
     UmbrellaUnemploymentComponent,
     CareerComponent,
-    LoginComponent,
     MainImageComponent,
     ContactFormComponent,
     ServicesTextAreaComponent,
@@ -69,6 +68,7 @@ import { CaptchaComponent } from './captcha/captcha.component';
         deps: [HttpClient],
       },
     }),
+    BrowserAnimationsModule,
   ],
   providers: [EnvService],
   bootstrap: [AppComponent],

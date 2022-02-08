@@ -47,7 +47,7 @@ export class UploadComponent implements OnInit {
       event => {
         if (event.type === HttpEventType.Response) {
           this.onUploadFinished.emit(event);
-          this.message = 'Upload success.';
+          this.message = 'Success.';
         }
         else {
           this.message = 'Process...';

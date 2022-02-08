@@ -59,9 +59,6 @@ export class CareerComponent implements OnInit {
         if (success) {
           this.router.navigate(['./']);
           this.setForm();
-
-        }
-        else {
         }
       },
     );

@@ -123,14 +123,14 @@
               </div>
             </div>
             <div class="col-12 py-2">
-              <label class="fg-grey">{{'CarrerPageUploadButtonText'| translate}}</label>
+              <label class="fg-grey">{{'CarrerPageUploadCVLabel'| translate}}</label>
               <app-upload [moduleType]='1' (onUploadFinished)="SetResponseCV($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
               <div *ngIf="submitted && f.fileName.errors" class="invalid-feedback">
                 <div *ngIf="f.fileName.errors.required">File is required</div>
               </div>
             </div>
             <div class="col-12 mt-3">
-              <button type="submit" (click)="save()" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
+              <button type="submit" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
             </div>
           </div>
         </form>

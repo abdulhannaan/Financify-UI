@@ -34,6 +34,7 @@
               [routerLink]="['./Umbrella-Unemployment']">Umbrella Unemployment</a>
           </div>
         </li>
+
         <!-- <li class="nav-item mr-1">
             <a href="services.html" class="nav-link nav-style">Tjänster</a>
           </li> -->
@@ -52,47 +53,26 @@
         <li class="nav-item" [routerLinkActive]="['active']">
           <a [routerLink]="['./career']" class="nav-link nav-style">{{'navbarCareers'|translate}}</a>
         </li>
+        
         <li class="nav-item">
           <a href="http://portal-financify.workblix.com/" class="nav-link nav-style">{{'navbarPortal'|translate}}</a>
         </li>
-        <li class="nav-item">
+      
 
-          <select class=" rounded-pill btn btn-clr" #selectedLang (change)="switchLanguage(selectedLang.value)"
-            id="Select Language" style="background-color: #e66124; color: white;">
-            <option *ngFor="let language of translate.getLangs()" [value]="language"
-              [selected]="language === translate.currentLang" style="background-color: white; color: #e66124; font-size: large;text-align: center;">
-              {{language}}
-            </option>
-          </select>
+        <li class="nav-item dropdown">
 
-          <!-- <select class=" rounded-pill btn btn-clr" 
-           style="background-color: #e66124; color: white;" (change)="switchLanguage(selectedLang.value)">
-          <option *ngFor="let data of language"  style="background-color: white; color: #e66124; width:100px"
-          
-          >
-            
-            {{data.name}}
-              <img width="10px" height="10px" src="../assets/img/flags-svg/se.svg" alt="" />
-          </option>
-        </select>
-         -->
-        
-        
-        </li>
-
-        <!-- <li>
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" >
+            {{'navbarLanguage'|translate}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+            <a class="dropdown-item nav-link nav-style" *ngFor="let data of language"
+              (click)="switchLanguage(data.name)"> <img width="20px" height="20px"
+                src="../assets/img/flags-svg/{{data.svg}}" alt="" /> {{data.name}} </a>
           </div>
-        </li> -->
+          
+        </li>
+    
 
       </ul>
     </div>

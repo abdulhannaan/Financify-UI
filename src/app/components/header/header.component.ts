@@ -22,12 +22,12 @@ export class HeaderComponent implements OnInit {
     this.language = [
       {
         name: 'English',
-        svg: 'en',
+        svg: 'us.svg',
         isDefault: true,
       },
       {
-        name: 'Sweden',
-        svg: 'se',
+        name: 'Swedish',
+        svg: 'se.svg',
         isDefault: false,
       },
     ];

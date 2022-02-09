@@ -7,6 +7,7 @@
   "navbarContact": "Contact Us",
   "navbarCareers": "Careers",
   "navbarPortal": "Portal",
+  "navbarLanguage": "Language",
 
 
 
@@ -122,5 +123,7 @@
   "CarrerPageDescriptionLabel":"Description",
 
   "CarrerPageUploadButtonText":"Upload"
+
+
 
 }

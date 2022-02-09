@@ -20,18 +20,17 @@
         </li>
         <li class="nav-item dropdown" [routerLinkActive]="['active']">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
+            aria-expanded="false" style="cursor: pointer;">
             {{'navbarServices'|translate}}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']"
-              [routerLink]="['./Redovisning']">Redovisning</a>
+              [routerLink]="['./Redovisning']">{{'homeAccountServiceHeadingOnSectionTwo'| translate}}</a>
             <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']"
-              [routerLink]="['./administration']">Administration</a>
-            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./lon-hr']">Lön
-              & HR</a>
+              [routerLink]="['./administration']">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</a>
+            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./lon-hr']">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</a>
             <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']"
-              [routerLink]="['./Umbrella-Unemployment']">Umbrella Unemployment</a>
+              [routerLink]="['./Umbrella-Unemployment']">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</a>
           </div>
         </li>
 
@@ -53,26 +52,26 @@
         <li class="nav-item" [routerLinkActive]="['active']">
           <a [routerLink]="['./career']" class="nav-link nav-style">{{'navbarCareers'|translate}}</a>
         </li>
-        
+
         <li class="nav-item">
           <a href="http://portal-financify.workblix.com/" class="nav-link nav-style">{{'navbarPortal'|translate}}</a>
         </li>
-      
+
 
         <li class="nav-item dropdown">
 
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false" >
-            {{'navbarLanguage'|translate}}
+            aria-expanded="false" style="cursor: pointer;">
+            <img width="20px" height="20px" src="../assets/img/flags-svg/{{defaultFalg}}" alt="" /> {{languageSelect}}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
             <a class="dropdown-item nav-link nav-style" *ngFor="let data of language"
               (click)="switchLanguage(data.name)"> <img width="20px" height="20px"
                 src="../assets/img/flags-svg/{{data.svg}}" alt="" /> {{data.name}} </a>
           </div>
-          
+
         </li>
-    
+
 
       </ul>
     </div>

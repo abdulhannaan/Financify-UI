@@ -1203,10 +1203,12 @@
   
   .dropdown:hover .dropdown-menu {
     display: block;
+    cursor: pointer;
   }
   .dropdown-menu a:hover {
     background-color: #AFB7C1;
      color: white !important;
+     cursor: pointer;
     }
   .navbar {
     min-height: 70px;

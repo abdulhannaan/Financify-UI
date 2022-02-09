@@ -68,7 +68,5 @@ export class CareerComponent implements OnInit {
 
       this.isHumman = response;
   }
-  boolcheck(){
-    this.bool=true
-  }
+
 }

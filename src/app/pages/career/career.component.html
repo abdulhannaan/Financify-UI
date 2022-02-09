@@ -75,7 +75,7 @@
             <div class="col-12 py-2">
               <label for="message" class="fg-grey">{{'CarrerPageDescriptionLabel'| translate}}</label>
               <textarea id="message" rows="8" class="form-control" formControlName="body"
-                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }" (change)="boolcheck()"></textarea>
+                placeholder="Enter message.." [ngClass]="{ 'is-invalid': submitted && f.body.errors }" ></textarea>
               <div *ngIf="submitted && f.body.errors" class="invalid-feedback">
                 <div *ngIf="f.body.errors.required">Required</div>
                 <div *ngIf="f.body.errors.maxlength">Must be less then 500 characters</div>
@@ -89,7 +89,7 @@
               </div>
             </div>
             
-<app-captcha *ngIf="!isHumman && bool==true" (valueChange)='captchaResult($event)'></app-captcha>
+<app-captcha *ngIf="!isHumman " (valueChange)='captchaResult($event)'></app-captcha>
             <div class="col-12 mt-3">
               <button type="submit" [disabled]="!isHumman"  class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
             </div>

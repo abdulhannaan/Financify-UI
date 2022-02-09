@@ -14,10 +14,7 @@
         <li class="nav-item mr-1" [routerLinkActive]="['active']">
           <a [routerLink]="['./home']" class="nav-link nav-style">{{'navbarHome'|translate}}</a>
         </li>
-        <li class="nav-item mr-1" [routerLinkActive]="['active']">
-          <a [routerLink]="['./about-us']" class="nav-link nav-style">{{'navbarAbout'|translate}}
-          </a>
-        </li>
+      
         <li class="nav-item dropdown" [routerLinkActive]="['active']">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false" style="cursor: pointer;">
@@ -46,9 +43,14 @@
         <!-- <li class="nav-item">
             <a href="blog.html" class="nav-link">News</a>
           </li> -->
+          <li class="nav-item mr-1" [routerLinkActive]="['active']">
+            <a [routerLink]="['./about-us']" class="nav-link nav-style">{{'navbarAbout'|translate}}
+            </a>
+          </li>
         <li class="nav-item" [routerLinkActive]="['active']">
           <a [routerLink]="['./contact-us']" class="nav-link nav-style">{{'navbarContact'|translate}}</a>
         </li>
+
         <li class="nav-item" [routerLinkActive]="['active']">
           <a [routerLink]="['./career']" class="nav-link nav-style">{{'navbarCareers'|translate}}</a>
         </li>

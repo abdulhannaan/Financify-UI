@@ -55,10 +55,10 @@
               </div>
             </div>
           <div class="col-12 py-2">
-            <input type="checkbox" (change)="check()">
+            <input type="checkbox" >
             <label for="message">{{'ContactFormCheckbox'| translate}}</label>
           </div>
-          <app-captcha *ngIf="!isHumman && bool==true" (valueChange)='captchaResult($event)'></app-captcha>
+          <app-captcha *ngIf="!isHumman" (valueChange)='captchaResult($event)'></app-captcha>
           <div class="col-12 mt-3">
             <button [disabled]="!isHumman" type="submit" class="btn btn-clr px-5">{{'ContactFormSubmitButtonText'| translate}}</button>
           </div>

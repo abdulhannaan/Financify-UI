@@ -74,7 +74,5 @@ export class ContactFormComponent implements OnInit {
     debugger
       this.isHumman = response;
   }
-  check(){
-   this.bool=true;
-  }
+ 
 }

@@ -1205,13 +1205,14 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 
-.dropdown:hover .dropdown-menu {
+/* .dropdown:hover .dropdown-menu {
   display: block;
 }
 .dropdown-menu a:hover {
   background-color: #AFB7C1;
    color: white !important;
-  }
+  } */
+  
 .navbar {
   min-height: 70px;
   position: sticky;

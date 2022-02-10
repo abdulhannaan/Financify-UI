@@ -45,19 +45,7 @@
                 <div *ngIf="f.mobileNo.errors.required">Phone is required</div>
                 <div *ngIf="f.mobileNo.errors.maxlength">Must be less then 50 characters</div>
               </div>
-            </div>
-            <div class="col-6 py-2">
-              <label for="email" class="fg-grey">{{'CarrerPageCoverLetterLabel'| translate}}</label>
-              <input type="text" class="form-control " placeholder="Cover Letter"
-                formControlName="coverText" [ngClass]="{ 'is-invalid': submitted && f.coverText.errors }">
-              <div *ngIf="submitted && f.coverText.errors" class="invalid-feedback">
-                <div *ngIf="f.coverText.errors.maxlength">Must be less then 100 characters</div>
-              </div>
-            </div>
-            <div class="col-6 py-2">
-              <label for="phone" class="fg-grey ">{{'CarrerPageCoverLetterFileLabel'| translate}}</label>
-              <app-upload [moduleType]='1' (onUploadFinished)="SetResponseCover($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
-            </div>
+            </div>                    
             <div class="col-12 py-2">
               <label for="inputGroupSelect01" class="fg-grey">{{'CarrerPageJobLabel'| translate}}</label>
               <select class="custom-select form-control" formControlName="jobId"
@@ -82,11 +70,30 @@
               </div>
             </div>
             <div class="col-12 py-2">
-              <label class="fg-grey">{{'CarrerPageUploadCVLabel'| translate}}</label>
+              <label for="email" class="fg-grey">{{'CarrerPageCoverLetterLabel'| translate}}</label>
+              <textarea type="text" class="form-control " placeholder="Cover Letter"
+                formControlName="coverText" rows="8" [ngClass]="{ 'is-invalid': submitted && f.coverText.errors && validator()==false }"></textarea>
+              <div *ngIf="submitted && f.coverText.errors" class="invalid-feedback">
+                <div *ngIf="f.body.errors.required &&  validator()==false">Required</div>
+                <div *ngIf="f.coverText.errors.maxlength ">Must be less then 100 characters</div>
+                
+              </div>
+            </div> 
+            <div class="col-5 py-2  d-flex justify-content-start align-items-center" style="flex-direction: row; gap: 1rem;">
+              <label class="fg-grey align-self-center " >{{'CarrerPageUploadCVLabel'| translate}}</label>
               <app-upload [moduleType]='1' (onUploadFinished)="SetResponseCV($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors }"></app-upload>
+            
               <div *ngIf="submitted && f.fileName.errors" class="invalid-feedback">
                 <div *ngIf="f.fileName.errors.required">File is required</div>
               </div>
+            </div>
+            <div class="col-6 py-2 d-flex justify-content-start align-items-center" style="flex-direction: row; gap: 1rem;">
+              <label for="phone" class="fg-grey">{{'CarrerPageCoverLetterFileLabel'| translate}}</label>
+              <app-upload [moduleType]='1' (onUploadFinished)="SetResponseCover($event)" [ngClass]="{ 'is-invalid': submitted && f.fileName.errors  && validator()==false}"></app-upload>
+              <div  *ngIf="submitted && f.fileName.errors " class="invalid-feedback">
+              <div  *ngIf="f.fileName.errors.required &&  validator()==false">File is required</div>           
+              
+            </div>
             </div>
             
 <app-captcha *ngIf="!isHumman " (valueChange)='captchaResult($event)'></app-captcha>

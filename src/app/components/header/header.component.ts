@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   language: { name: string; svg: string; isDefault: boolean }[] | undefined;
   languageSelect: any = 'English';
   defaultFalg: any = 'us.svg';
+
   constructor(public translate: TranslateService) {
     translate.addLangs(['English', 'Swedish']);
     translate.setDefaultLang('English');
@@ -40,4 +41,5 @@ export class HeaderComponent implements OnInit {
       },
     ];
   }
+ 
 }

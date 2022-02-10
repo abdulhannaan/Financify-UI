@@ -129,9 +129,9 @@
   "CarrerPageEmailLabel":"E-post",
   "CarrerPagePhoneNumberLabel":"Telefonnummer",
   "CarrerPageCoverLetterLabel":"Personligt brev",
-  "CarrerPageCoverLetterFileLabel":"Följebrevsfil",
+  "CarrerPageCoverLetterFileLabel":"Ladda upp följebrev",
   "CarrerPageJobLabel":"Jobb",
-  "CarrerPageUploadCVLabel":"*Ladda upp CV",
+  "CarrerPageUploadCVLabel":"Ladda upp CV*",
   "CarrerPageDescriptionLabel":"Beskrivning",
 
   "CarrerPageUploadButtonText":"Ladda upp"

@@ -16,7 +16,9 @@
   </div> -->
    <!-- .page-banner -->
 
-   <app-main-image [HomeName]="'breadcrumbContactUsPage1'|translate" [pageName]="'breadcrumbServicesPage1'|translate" [pageName2]="'breadcrumbServicesSalary&HRPage2'|translate" [pageNameHeading]="'breadcrumbServicesSalary&HRPage2'|translate"></app-main-image>
+   <app-main-image [HomeName]="'breadcrumbContactUsPage1'|translate" [pageName]="'breadcrumbServicesPage1'|translate" [pageName2]="'breadcrumbServicesSalary&HRPage2'|translate" ></app-main-image>
+
+   
   <main>
      
 <!-- <div class="page-section">
@@ -51,9 +53,50 @@
 </div>
 </div> -->
  <!-- .page-section -->
- <app-services-text-area  [heading]="'homeSalary&HRServiceHeadingOnSectionTwo'| translate" [para]="
+ <!-- <app-services-text-area  [heading]="'homeSalary&HRServiceHeadingOnSectionTwo'| translate" [para]="
  'homeSalary&HRServiceParaOnSectionTwo'| translate
 " [imgSrc]='"../assets/img/bg_image_3.jpg"'
-[bool]="false" [icon]='"fas fa-hand-holding-usd fa-3x"'></app-services-text-area>
+[bool]="false" [icon]='"fas fa-hand-holding-usd fa-3x"'></app-services-text-area> -->
+
+<div class="page-section">
+  <div class="container-fluid px-5">
+    <div class="d-flex justify-content-start align-items-start" style="flex-direction: row; gap: 1rem;">
+      <i class="fas fa-hand-holding-usd fa-3x" style="color: #02519c;"></i>
+      <h1 class="mt-2" style="font-weight:600;">Umbrella Unemployment</h1>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 py-3 d-flex justify-content-start align-items-start"
+        style="flex-direction: column; align-self: flex-start;">
+        <!-- <div class="subhead">About Us</div> -->
+       
+        <div class="mt-3">
+          <div class="subhead1">
+           
+            <p>
+              The Umbrella employment Solutions offered to those organizations
+               and individuals who don’t want to establish themselves in Sweden
+                as an employer or neither wants to involve in the matter of filing
+                 tax returns and maintaining books for the operations taking place in Sweden.
+            </p>
+          </div>
+
+        
+
+        
+
+        </div>
+
+
+
+      </div>
+      <div class="col-lg-6 py-3">
+        <div class="about-img">
+          <img src="../assets/img/bg_image_3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- .page-section -->
+
 
  </main>

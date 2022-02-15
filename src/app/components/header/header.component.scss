@@ -1199,26 +1199,10 @@
   .breadcrumb-dark .breadcrumb-item.active {
     color: rgba(255, 255, 255, 0.8);
   }
-  .dropdown2{
-    position: relative;
-    bottom: 0;
-  }
   
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    cursor: pointer;
-  }
-  .dropdown-menu a:hover {
-    background-color: #AFB7C1;
-     color: white !important;
-     cursor: pointer;
-    }
   .navbar {
     min-height: 70px;
-    position: sticky;
-    top: 1px;
-    bottom: 0;
-    z-index: 5000;
+    
     background-color: white;
   }
   
@@ -1230,46 +1214,17 @@
     background-color: #fff;
     -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.15);
             box-shadow: 0 2px 6px rgba(51, 55, 75, 0.15);
-    z-index: 1070;
+    
   }
   
   .navbar.sticky {
-    z-index: 1080;
+    z-index: 14555580;
   }
   
   .navbar.sticky.fixed ~ * {
     margin-top: 70px;
   }
-  
-  .navbar.sticky.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    -webkit-animation: navTransition .5s ease;
-            animation: navTransition .5s ease;
-    -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.15);
-            box-shadow: 0 2px 6px rgba(51, 55, 75, 0.15);
-    z-index: 1080;
-  } 
-  
-  @-webkit-keyframes navTransition {
-    from {
-      top: -100%;
-    }
-    to {
-      top: 0;
-    }
-  }
-  
-  @keyframes navTransition {
-    from {
-      top: -100%;
-    }
-    to {
-      top: 0;
-    }
-  }
+ 
   
   .navbar-brand {
     font-weight: 600;

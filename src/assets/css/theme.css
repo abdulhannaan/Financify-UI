@@ -1241,36 +1241,6 @@ a.fg-light:hover, a.fg-light:focus {
   margin-top: 70px;
 }
 
-.navbar.sticky.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  -webkit-animation: navTransition .5s ease;
-          animation: navTransition .5s ease;
-  -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.15);
-          box-shadow: 0 2px 6px rgba(51, 55, 75, 0.15);
-  z-index: 1080;
-} 
-
-@-webkit-keyframes navTransition {
-  from {
-    top: -100%;
-  }
-  to {
-    top: 0;
-  }
-}
-
-@keyframes navTransition {
-  from {
-    top: -100%;
-  }
-  to {
-    top: 0;
-  }
-}
-
 .navbar-brand {
   font-weight: 600;
   padding-top: 10px;
@@ -1641,7 +1611,7 @@ a.fg-light:hover, a.fg-light:focus {
 
 .page-banner.home-banner {
   height: auto;
-  max-height: 500px;
+
 }
 
 .page-banner.overlay-dark::before {
@@ -2483,3 +2453,17 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 /*----------------------------------------*/
+.dropdown2{
+  position: relative;
+  bottom: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  cursor: pointer;
+}
+.dropdown-menu a:hover {
+  background-color: #AFB7C1;
+   color: white !important;
+   cursor: pointer;
+  }

@@ -88,6 +88,8 @@
   "AboutParagraph1": "Finansify Sweden has been started in 2021 by Shaher Yar Ali who previously have worked with accounting and payroll industry with leading Swedish companies in Payroll and accounting. We have gathered a knowledge and competence to help the customer with better way, we are small accounting firm but having higher ambitions to grow in this field. Our customer is both from different branches and having small medium industry to work with. We have a expert to deal with financial matter of your company. If it is sound interesting, then you are welcome to contact us för declaration and bookkeeping.",
   "Aboutheading2": "Our Vision",
   "AboutParagraph2": "Our vision is to provide sustainable and innovative services to Swedish companies through quality accounting services as well as digitization and atomization of the accounting process. Our slogan is 'Quality gives security'.",
+  "Aboutheading3": "About Us",
+  "AboutParagraph3": "Our business concept is to offer services in digital accounting and business service with high quality. By working with a digital cloud-based system, we can offer our services to customers all over Sweden, regardless of geographical location.",
 
   "breadcrumbPricingPage1": "Home",
   "breadcrumbPricingPage2": "Pricing",
@@ -122,7 +124,88 @@
   "CarrerPageUploadCVLabel":"Upload Resume*",
   "CarrerPageDescriptionLabel":"Description",
 
-  "CarrerPageUploadButtonText":"Upload"
+  "CarrerPageUploadButtonText":"Upload",
+
+
+  "AdministrationMainHeading":"Administration",
+  "AdministrationFirstSubHeading":"Tired of time consuming administration?",
+  "AdministrationFirstSubHeadingPara":"With the push of a button, you submit your material electronically and we will take care of the rest. This means that we will take care of everything related to your current accounting, supplier and customer invoices and reporting. ",
+
+  "AdministrationSecondSubHeading":"Fortnox",
+  "AdministrationSecondSubHeadingPara":"With the help of Finansify and Fortnox, all your Financial Management can be managed electronically. You as our valuable customer download The Fortnox app on your mobile and send us your documents via the app.",
+
+ "AdministrationThirdSubHeading":"100% Digital",
+ "AdministrationThirdSubHeadingPara":"We offer a completely paperless Accounting and tools for digitizing all accounting documents.As a customer, you always have access to your accounts and documentation regardless of your geographic location.",
+
+ "AdministrationFourthSubHeading":"Materials on Paper ",
+ "AdministrationFourthSubHeadingPara":"We also welcome customers who prefer to submit their documents, invoices and receipts on paper in hard copies. We request you to contact us so we can find the best solution for you and for your business.",
+
+
+ "AdministrationFifthSubHeading":"Are You In The Market For a Home Business? ",
+ "AdministrationFifthSubHeadingPara":"We guide you through the start-up – starting a new business. We offer you a free consultation where we together go through your business idea and answer your questions you have about company formation.",
+
+
+
+
+
+
+
+ 
+ "AccountingMainHeading":"Accounting",
+ "AccountingFirstSubHeading":"Ongoing Accounting ",
+ "AccountingFirstSubHeadingPara":"We handle your vouchers, supplier invoices and customer invoices. By agreement, we together determine the level of accounting that you need and we will be responsible for.",
+
+ "AccountingSecondSubHeading":"Tax return",
+ "AccountingSecondSubHeadingPara":"We will file  your tax returns and employer contributions as well as keeping you updated on the date and submission times.",
+
+"AccountingThirdSubHeading":"Financial statements",
+"AccountingThirdSubHeadingPara":"We can make monthly and or annual accounts, compile appendices for auditors and annual accounts",
+
+"AccountingFourthSubHeading":"Annual report ",
+"AccountingFourthSubHeadingPara":"In collaboration with you, we prepare an annual report and send it to the Swedish Companies Registration Office",
+
+
+"AccountingFifthSubHeading":"Interim assignment ",
+"AccountingFifthSubHeadingPara":"We can take up interim assignments for longer and shorter periods.",
+
+
+
+
+"AccountingServicesSecondHeading":"This is part of the accounting service! ",
+
+"AccountingServicesFirstSubHeading":"Current Accounting ",
+"AccountingServicesFirstSubHeadingPara":"The day-to-day work includes handling receipts, supplier invoices, customer invoices and other documents. ",
+
+
+"AccountingServicesSecondSubHeading":"Tax and VAT returns ",
+"AccountingServicesSecondSubHeadingPara":"Ongoing tax and fee management, as well as declaration of VAT and employer declarations. ",
+
+
+
+"AccountingServicesThirdSubHeading":"1 salary per month",
+"AccountingServicesThirdSubHeadingPara":"Salary administration for one (1) employee per month",
+
+"AccountingServicesFourthSubHeading":"Annual accounts for sole proprietorship",
+
+"AccountingServicesFifthSubHeading":"Annual accounts & annual report for limited companies",
+
+
+"UmbrellaUnemployementMainHeading":"Umbrella Unemployment",
+"UmbrellaUnemployementFirstSubHeadingPara":"The Umbrella employment Solutions offered to those organizations and individuals who don’t want to establish themselves in Sweden as an employer or neither wants to involve in the matter of filing tax returns and maintaining books for the operations taking place in Sweden.",
+
+"UmbrellaUnemployementSecondSubHeading":"Individuals",
+"UmbrellaUnemployementSecondSubHeadingPara":"If you are the consultant and thinking about taking an assignment in Sweden as an Expert and will be wondering how your payroll and tax will be handled and how much you can take home, what is the best pension plan, and so on? We as Finansify Sweden are specialized to address your concerns. We are going to Process your Payroll, declare your taxes related to local tax authorities, and going to deal with other government authorities related to employment, and manage pension and other HR issues related to your assignment. Contact us and find more about what Finansify can offer you!",
+
+
+
+
+"PricingSectionSmallDetail1":"0 to 25 ",
+
+"PricingSectionMediumDetail1":"26 to 50 ",
+
+
+"PricingSectionLargeDetail1":"51 to 75 ",
+"PricingSectionSmallDetail2":"vouchers / fixed price"
 
 
 

@@ -29,6 +29,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CaptchaComponent } from './captcha/captcha.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SliderComponent } from './components/slider/slider.component';
 
 
 @NgModule({
@@ -53,6 +54,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PricingtableComponent,
     PricingComponent,
     CaptchaComponent,
+    SliderComponent,
    
   ],
   imports: [

@@ -94,6 +94,8 @@
   "AboutParagraph1": "Finansify Sweden startades 2021 av Shaher Yar Ali som tidigare har arbetat med redovisnings- och lönebranschen med ledande svenska företag inom Lön och redovisning. Vi har samlat kunskap och kompetens för att hjälpa kunden på ett bättre sätt, vi är en liten redovisningsbyrå men har högre ambitioner att växa inom detta område. Vår kund är både från olika branscher och har små-medelindustri att arbeta med. Vi har en expert som tar hand om ditt företags ekonomiska fråga. Om det låter intressant så är du välkommen att kontakta oss för deklaration och bokföring.",
   "Aboutheading2": "Vår Vision",
   "AboutParagraph2": "Vår vision är att ge hållbar och innovative tjänster till svenska företag genom kvalitetsredovisnings tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’ Kvalitet ger trygghet’’.",
+  "Aboutheading3": "Om Oss",
+  "AboutParagraph3": "Affärsidé Vår affärsidé är att erbjuda tjänster inom digital redovisning och affärsservice med hög kvalité. Genom att arbeta med digitalt molnbaserat system kan vi erbjuda våra tjänster till kunder över hela Sverige, oavsett geografisk placering",
 
   "breadcrumbPricingPage1": "Hem",
   "breadcrumbPricingPage2": "Prissättning",
@@ -134,10 +136,90 @@
   "CarrerPageUploadCVLabel":"Ladda upp CV*",
   "CarrerPageDescriptionLabel":"Beskrivning",
 
-  "CarrerPageUploadButtonText":"Ladda upp"
+  "CarrerPageUploadButtonText":"Ladda upp",
 
+
+
+  "AdministrationMainHeading":"Administrering",
+  "AdministrationFirstSubHeading":"Trött på tidskrävande administration?",
+  "AdministrationFirstSubHeadingPara":"Med ett knaptryck lämnar du in ditt material digitalt Vi tar hand om resten. Det innebär att allt som har med din löpande bokföring leverantörsfakturor och rapportering tar vi hand om. ",
+
+  "AdministrationSecondSubHeading":"Fortnox",
+  "AdministrationSecondSubHeadingPara":"Med hjälp av Financify och Fortnox kan hela din ekonomistyrning skötas digitalt. Du som är kund hos oss laddar ner Fortnox-appen på din mobil och skickar verifikationer via appen till oss.",
+
+ "AdministrationThirdSubHeading":"100% Digital",
+ "AdministrationThirdSubHeadingPara":"Vi erbjuder en helt pappersfri Bokföring och verktyg för att digitalisera alla bokföringsunderlag Som kund har du alltid tillgång till redovisning och underlag var du än befinner dig. ",
+
+ "AdministrationFourthSubHeading":"Material på Papper ",
+ "AdministrationFourthSubHeadingPara":"Vi välkomnar även kunder som väljer att lämna in sina underlag, fakturor och kvitton på papper. Kontakta oss så vi kan hitta bästa lösningen för dig och din verksamhet.",
+
+
+ "AdministrationFifthSubHeading":"Funderar du att Starta företag?",
+ "AdministrationFifthSubHeadingPara":"Vi guidar dig genom uppstarten – starta företag. Vi erbjuder dig kostnadsfri konsultation där vi tillsammans går genom din affärsidé och svarar på dina frågor du har kring företagsbildandet.",
 
  
 
 
+
+ 
+ "AccountingMainHeading":"Redovisning",
+ "AccountingFirstSubHeading":"Löpande Redovisning ",
+ "AccountingFirstSubHeadingPara":"Vi hanterar dina verifikationer, leverantörsfakturor, och kundfakturor. Enligt överenskommelse bestämmer vi tillsammans nivån på den redovisning som vi står för",
+
+ "AccountingSecondSubHeading":"Skattedeklaration",
+ "AccountingSecondSubHeadingPara":"Vi redovisar dina deklarationer för moms och arbetsgivaravgifter Samt håller dig uppdaterade om datumet och inlämningstider",
+
+"AccountingThirdSubHeading":"Boksluts",
+"AccountingThirdSubHeadingPara":"Vi kan göra månads-och eller årsbokslut, sammanställer bilagor för revisorer och årsredovisning",
+
+"AccountingFourthSubHeading":"Årsredovisning ",
+"AccountingFourthSubHeadingPara":"I samarbete med dig upprättar vi årsredovisning och skickar in till bolagsverket",
+
+
+"AccountingFifthSubHeading":"Interimsuppdrag ",
+"AccountingFifthSubHeadingPara":"Vi kan under längre och kortare perioder ta på oss interimsuppdrag",
+
+
+
+
+
+"AccountingServicesSecondHeading":"Detta är en del av redovisningstjänsten! ",
+
+"AccountingServicesFirstSubHeading":"Aktuell redovisning ",
+"AccountingServicesFirstSubHeadingPara":"I det dagliga arbetet ingår att hantera kvitton, leverantörsfakturor, kundfakturor och andra dokument. ",
+
+
+"AccountingServicesSecondSubHeading":"Skatte- och momsdeklarationer ",
+"AccountingServicesSecondSubHeadingPara":"Löpande skatte- och avgiftshantering, samt deklaration av moms och arbetsgivardeklarationer. ",
+
+
+
+"AccountingServicesThirdSubHeading":"1 lön per månad",
+"AccountingServicesThirdSubHeadingPara":"Löneadministration för en (1) anställd per månad",
+
+"AccountingServicesFourthSubHeading":"Årsbokslut för enskild firma",
+
+"AccountingServicesFifthSubHeading":"Årsbokslut & årsredovisning för aktiebolag",
+
+
+
+
+
+
+
+"UmbrellaUnemployementMainHeading":"Paraply arbetslöshet",
+"UmbrellaUnemployementFirstSubHeadingPara":"Paraply sysselsättningslösningar som erbjuds de organisationer och individer som inte vill etablera sig i Sverige som arbetsgivare eller inte heller vill engagera sig i frågan om att lämna skattedeklarationer och föra bokföring för den verksamhet som bedrivs i Sverige.",
+
+"UmbrellaUnemployementSecondSubHeading":"Individer",
+"UmbrellaUnemployementSecondSubHeadingPara":"Om du är konsulten och funderar på att ta ett uppdrag i Sverige som Expert och undrar hur din lön och skatt kommer att hanteras och hur mycket du kan ta hem, vilken är den bästa pensionsplanen osv? Vi som Finansify Sweden är specialiserade för att hantera dina problem. Vi kommer att behandla din lönelista, deklarera dina skatter relaterade till lokala skattemyndigheter, och kommer att hantera andra statliga myndigheter relaterade till anställning, och hantera pensions- och andra HR-frågor relaterade till ditt uppdrag. Kontakta oss och ta reda på mer om vad Finansify kan erbjuda dig!",
+
+
+
+"PricingSectionSmallDetail1":"0 till 25 ",
+
+"PricingSectionMediumDetail1":"26 till 50  ",
+
+
+"PricingSectionLargeDetail1":"51 till 75 ",
+"PricingSectionSmallDetail2":"verifikationer/ fastpris"
 }

@@ -3,10 +3,11 @@
         <div class="row">
             <div class="col-lg-3 py-3 d-flex justify-content-start align-items-start" style="flex-direction: column;">
                 <!-- <img src="../assets/img/logo.png" style="height:200px; width: 200px;" alt=""> -->
-                <h3>FINANCIFY</h3>
-                <p class="mt-4">FINANCIFY SOFTWARE (Private) Limited</p>
+                <h3>FINANSIFY</h3>
+                <p class="mt-4">FINANSIFY SOFTWARE (Private) Limited</p>
                 <p class="">+91 00 33 44 55 66 77</p>
-                <p class="">Contact@finansify.com</p>
+                <p class="">Finlandsgatan 10 164 74 Kista Stockholm</p>
+                <p class="">info@finansifysweden.se</p>
                 <div class="sosmed-button mt-5">
                     <a href="#" class=""><span class="mai-logo-facebook-f"></span></a>
                     <a href="#" class="ml-3"><span class="mai-logo-twitter"></span></a>
@@ -14,9 +15,9 @@
                 </div>
             </div>
             <div class="col-lg-3 py-3 d-flex justify-content-start align-items-center" style="flex-direction: column; ">
-                <h3 class="" style="margin-right: 1.8rem;">Links</h3>
+                <h3 class="" style="margin-right: 0.8rem;">Links</h3>
                 <div class="">
-                    <ul class="footer-menu ml-auto  pt-3 pt-lg-0">
+                    <ul class="footer-menu ml-auto  pt-3 ">
                         <li class=" " [routerLinkActive]="['active']">
                             <a [routerLink]="['./home']" class=" nav-style p-0">{{'navbarHome'|translate}}</a>
                         </li>
@@ -24,42 +25,70 @@
                             <a [routerLink]="['./about-us']" class=" nav-style p-0">{{'navbarAbout'|translate}}</a>
                         </li>
                         <li class="" [routerLinkActive]="['active']">
-                            <a [routerLink]="['./career']" class="nav-link nav-style p-0">{{'navbarCareers'|translate}}</a>
+                            <a [routerLink]="['./career']" class=" nav-style p-0">{{'navbarCareers'|translate}}</a>
                           </li>
                           <li class=" " [routerLinkActive]="['active']">
-                            <a [routerLink]="['./pricing']" class="nav-link nav-style p-0">{{'navbarPricing'|translate}}</a>
+                            <a [routerLink]="['./pricing']" class=" nav-style p-0">{{'navbarPricing'|translate}}</a>
                           </li>
-                        <li hidden class=" " [routerLinkActive]="['active']">
-                            <a  class=" ">{{'navbarServices'|translate}}</a>
-                        </li>
-                        <li hidden class=" " [routerLinkActive]="['active']">
-                            <a [routerLink]="['./portfolio']" class=" nav-style p-0">Projects</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                <a href="blog.html" class="nav-link">News</a>
-              </li> -->
                         <li class="" [routerLinkActive]="['active']">
-                            <a [routerLink]="['./contact-us']" class="nav-link nav-style p-0">{{'navbarContact'|translate}}</a>
+                            <a [routerLink]="['./contact-us']" class=" nav-style p-0">{{'navbarContact'|translate}}</a>
                         </li>
                     </ul>
                 </div>
 
 
             </div>
+
             <div class="col-lg-3 py-3 d-flex justify-content-start align-items-center" style="flex-direction: column; ">
-                <h3 style="margin-left: 1.5rem;">Company</h3>
-                <ul class="footer-menu">
-                    <li><a href="#" class="nav-style">Career</a></li>
-                    <li><a href="#" class="nav-style">Resources</a></li>
-                    <li><a href="#" class="nav-style">News & Feed</a></li>
-                </ul>
+                <h3 class="" style="margin-right: 4.5rem;">{{'navbarServices'|translate}}</h3>
+                <div class="">
+                    <ul class="footer-menu ml-auto  pt-3 ">
+                        <li class=" " [routerLinkActive]="['active']">
+                            <a [routerLink]="['./Redovisning']" class=" nav-style p-0">{{'homeAccountServiceHeadingOnSectionTwo'| translate}}</a>
+                        </li>
+                        <li class=" " [routerLinkActive]="['active']">
+                            <a [routerLink]="['./administration']" class=" nav-style p-0">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</a>
+                        </li>
+                        <li class="" [routerLinkActive]="['active']">
+                            <a [routerLink]="['./lon-hr']" class=" nav-style p-0">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</a>
+                          </li>
+                          <li class=" " [routerLinkActive]="['active']">
+                            <a [routerLink]="['./Umbrella-Unemployment']" class=" nav-style p-0">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</a>
+                          </li>
+                        
+                    </ul>
+                </div>
+
+
             </div>
+            <!-- <div class="col-lg-3 py-3 d-flex justify-content-start align-items-center" style="flex-direction: column; ">
+                <h3 > {{'navbarServices'|translate}}</h3>
+                <ul class="footer-menu ml-auto  ">
+                    <li [routerLinkActive]="['active']">
+                        <a class="nav-style" 
+                        [routerLink]="['./Redovisning']">{{'homeAccountServiceHeadingOnSectionTwo'| translate}}</a>
+                    </li>
+                    <li [routerLinkActive]="['active']">
+                        <a class="nav-style" 
+                        [routerLink]="['./Redovisning']">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</a>
+                    </li>
+                    <li  [routerLinkActive]="['active']">
+                        <a class="nav-style"
+                        [routerLink]="['./Redovisning']">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</a>
+                    </li>
+                    <li [routerLinkActive]="['active']">
+                        <a class="nav-style" 
+                        [routerLink]="['./Redovisning']">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</a>
+                    </li>
+                    
+                </ul>
+            </div> -->
             <div class="col-lg-3 py-3">
-                <h3>Newsletter</h3>
+                <h3>{{'FooterFourthSectionHeading'| translate}}</h3>
                 <form action="#">
-                    <input type="text" class="form-control" placeholder="Enter your email"
+                    <input type="text" class="form-control" placeholder="{{'ContactFormEmailPlaceHolder'| translate}}"  
                         style="min-height: 35px; border-radius: 0%;">
-                    <button type="submit" class="btn btn-clr btn-sm mt-2">Submit</button>
+                    <button type="submit" class="btn btn-clr btn-sm mt-2">{{'SubmitButton'| translate}}</button>
                 </form>
             </div>
         </div>

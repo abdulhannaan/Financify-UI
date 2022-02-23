@@ -45,7 +45,7 @@
 
 "homeAccountServiceParaOnSectionTwo": "Vår filosofi är att göra det bättre och enkelt ditt liv för entreprenörer och egenföretagare. Vi kan hjälpa",
 "homeAdministrationServiceParaOnSectionTwo": "Vi hjälper till med all typ av administration som kunder önskar få hjälp med, samt olika typer av orderhantering",
-"homeSalary&HRServiceParaOnSectionTwo": "Vi har många års erfarenhet av lön och HR arbete. Löneadministration och eller rådgivning i HR arbetet Skatterådgivning och affärsrådgivning Vi är även ett bollplank i skattefrågor och annan ekonomisk rådgivning som ni behöver hjälp med.",
+"homeSalary&HRServiceParaOnSectionTwo": "Att hantera löner är tidskrävande och kostsamt. För att mindre företag det vara svårt att syslätta löneansvarig som kommer att uppdatera sig med nya regler för att bibehålla kvalitet i lönekörning. Vi Finansify erbjuder Payroll outsourcing tjänster till stora och medelstora företag Intresserad av att veta mer om Finansify Payroll? Kontakta oss!",
 "homeUmbrellaUnemploymentServiceParaOnSectionTwo": "Paraply sysselsättningslösningar som erbjuds de organisationer och individer som inte vill etablera sig i Sverige som arbetsgivare eller inte heller vill engagera sig i frågan om att lämna skattedeklarationer och föra bokföring för den verksamhet som bedrivs i Sverige.",
 
 
@@ -91,11 +91,11 @@
   "breadcrumbAboutusPage2": "Handla om",
   "MainHeadingAboutUs": "Handla om",
   "Aboutheading1": "Vår historia",
-  "AboutParagraph1": "Finansify Sweden startades 2021 av Shaher Yar Ali som tidigare har arbetat med redovisnings- och lönebranschen med ledande svenska företag inom Lön och redovisning. Vi har samlat kunskap och kompetens för att hjälpa kunden på ett bättre sätt, vi är en liten redovisningsbyrå men har högre ambitioner att växa inom detta område. Vår kund är både från olika branscher och har små-medelindustri att arbeta med. Vi har en expert som tar hand om ditt företags ekonomiska fråga. Om det låter intressant så är du välkommen att kontakta oss för deklaration och bokföring.",
+  "AboutParagraph1": "Finansify Sweden grundades 2021 av Shaher Yar Ali som har stor erfarenhet inom redovisnings och lön. Vi vänder oss till stora och medelstora företag som behöver hjälp med redovisnings, löneadministration och ekonomiska rådgivning. Vårt mål är att vara långsiktig affärspartner till våra kunder och vi laverar i tid med bästa kvalitet med rimligt pris.",
   "Aboutheading2": "Vår Vision",
   "AboutParagraph2": "Vår vision är att ge hållbar och innovative tjänster till svenska företag genom kvalitetsredovisnings tjänster samt digitalisering och atomisering av redovisnings processen. Våra sloganen är’’ Kvalitet ger trygghet’’.",
   "Aboutheading3": "Om Oss",
-  "AboutParagraph3": "Affärsidé Vår affärsidé är att erbjuda tjänster inom digital redovisning och affärsservice med hög kvalité. Genom att arbeta med digitalt molnbaserat system kan vi erbjuda våra tjänster till kunder över hela Sverige, oavsett geografisk placering",
+  "AboutParagraph3": "Vår affärsidé är att erbjuda tjänster inom digital redovisning och affärsrådgivning med hög kvalitet. Genom att arbeta med ett digitalt molnbaserat system kan vi erbjuda våra tjänster till kunder över hela Sverige, oavsett geografisk plats.",
 
   "breadcrumbPricingPage1": "Hem",
   "breadcrumbPricingPage2": "Prissättning",
@@ -221,5 +221,10 @@
 
 
 "PricingSectionLargeDetail1":"51 till 75 ",
-"PricingSectionSmallDetail2":"verifikationer/ fastpris"
+"PricingSectionSmallDetail2":"verifikationer/ fastpris",
+
+
+"FooterFourthSectionHeading":"Tage kontakt ",
+"SubmitButton":"Indsend "
+
 }

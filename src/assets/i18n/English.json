@@ -14,7 +14,7 @@
 "homeAccountServiceHeadingOnSlider": "Accounting",
 "homeAdministrationServiceHeadingOnSlider": "Administration",
 "homeSalary&HRServiceHeadingOnSlider": "Salary & HR",
-"homeUmbrellaUnemploymentServiceHeadingOnSlider": "Umbrella Unemployment",
+"homeUmbrellaUnemploymentServiceHeadingOnSlider": "Umbrella Employment",
 
 
 "homeAccountServiceParaOnSlider": "Helping you to register your company and its tax related issues",
@@ -36,7 +36,7 @@
 "homeAccountServiceHeadingOnSectionTwo": "Accounting",
 "homeAdministrationServiceHeadingOnSectionTwo": "Administration",
 "homeSalary&HRServiceHeadingOnSectionTwo": "Salary & HR",
-"homeUmbrellaUnemploymentServiceHeadingOnSectionTwo": "Umbrella Unemployment",
+"homeUmbrellaUnemploymentServiceHeadingOnSectionTwo": "Umbrella Employment",
 
 
 
@@ -108,8 +108,8 @@
   "MainHeadingAccounting": "Accounting",
   "breadcrumbServicesSalary&HRPage2": "Salary & HR",
   "MainHeadingSalary&HR": "Salary & HR",
-  "breadcrumbServicesUmbrellaUnemploymentPage2": "Umbrella Unemployment",
-  "MainHeadingUmbrellaUnemployment": "Umbrella Unemployment",
+  "breadcrumbServicesUmbrellaUnemploymentPage2": "Umbrella Employment",
+  "MainHeadingUmbrellaUnemployment": "Umbrella Employment",
 
 
 
@@ -190,7 +190,7 @@
 "AccountingServicesFifthSubHeading":"Annual accounts & annual report for limited companies",
 
 
-"UmbrellaUnemployementMainHeading":"Umbrella Unemployment",
+"UmbrellaUnemployementMainHeading":"Umbrella Employment",
 "UmbrellaUnemployementFirstSubHeadingPara":"The Umbrella employment Solutions offered to those organizations and individuals who don’t want to establish themselves in Sweden as an employer or neither wants to involve in the matter of filing tax returns and maintaining books for the operations taking place in Sweden.",
 
 "UmbrellaUnemployementSecondSubHeading":"Individuals",

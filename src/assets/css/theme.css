@@ -1,5 +1,5 @@
 :root{
-  --font:'Source Sans Pro', sans-serif;
+  --font:'Poppins';
 
 }
 
@@ -1259,8 +1259,8 @@ a.fg-light:hover, a.fg-light:focus {
   transition: all .2s ease;
   font-family:var(--font);
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   color: rgba(44,57,63,.9);
   list-style: none;
@@ -1325,8 +1325,8 @@ a.fg-light:hover, a.fg-light:focus {
     border-top: none;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 0.6rem;
+    padding-left: 1.2rem;
   }
   .navbar-expand-lg .navbar-nav {
     -webkit-box-align: center;
@@ -1341,8 +1341,8 @@ a.fg-light:hover, a.fg-light:focus {
     border-top: none;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
   }
   .navbar-expand-xl .navbar-nav {
     -webkit-box-align: center;
@@ -2438,7 +2438,7 @@ a.fg-light:hover, a.fg-light:focus {
 
 .nav-style{
   font-family: var(--font); 
-  font-weight: 600;
+  font-weight: 100;
   font-size: medium;
   line-height: 1.5;
   color: rgba(44,57,63,.9);

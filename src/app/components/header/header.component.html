@@ -6,7 +6,7 @@
 <nav class="navbar navbar-expand-lg " style="background-color: #F7F7F7;">
   <div class="container-fluid px-5" style="height: 90px;">
     <a [routerLink]="['./home']" class="navbar-brand pt-0">
-      <img src="../assets/img/logo1.png" style="height:50px; width: 150px;" alt="">
+      <img src="../assets/img/logo-01.png" style="height:50px; width: 150px;" alt="">
     </a>
 
    
@@ -19,21 +19,21 @@
     <div class="navbar-collapse collapse" id="navbarContent">
       <ul class="navbar-nav ml-auto pt-3">
         <li class="nav-item " [routerLinkActive]="['active']">
-          <a [routerLink]="['./home']" class="nav-link nav-style">{{'navbarHome'|translate}}</a>
+          <a [routerLink]="['./home']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarHome'|translate}}</a>
         </li>
       
         <li class="nav-item dropdown" [routerLinkActive]="['active']">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false" style="cursor: pointer;">
+            aria-expanded="false" style="cursor: pointer; font-weight: 500;" >
             {{'navbarServices'|translate}}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']"
+            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" style="font-weight: 500;"
               [routerLink]="['./Redovisning']">{{'homeAccountServiceHeadingOnSectionTwo'| translate}}</a>
-            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']"
+            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" style="font-weight: 500;"
               [routerLink]="['./administration']">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</a>
-            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./lon-hr']">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</a>
-            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']"
+            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./lon-hr']" style="font-weight: 500;">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</a>
+            <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" style="font-weight: 500;"
               [routerLink]="['./Umbrella-Unemployment']">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</a>
           </div>
         </li>
@@ -42,28 +42,28 @@
             <a href="services.html" class="nav-link nav-style">Tjänster</a>
           </li> -->
         <li hidden class="nav-item " [routerLinkActive]="['active']">
-          <a [routerLink]="['./portfolio']" class="nav-link nav-style">{{'navbarProjects'|translate}}</a>
+          <a [routerLink]="['./portfolio']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarProjects'|translate}}</a>
         </li>
         <li class="nav-item " [routerLinkActive]="['active']">
-          <a [routerLink]="['./pricing']" class="nav-link nav-style">{{'navbarPricing'|translate}}</a>
+          <a [routerLink]="['./pricing']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarPricing'|translate}}</a>
         </li>
         <!-- <li class="nav-item">
             <a href="blog.html" class="nav-link">News</a>
           </li> -->
           <li class="nav-item " [routerLinkActive]="['active']">
-            <a [routerLink]="['./about-us']" class="nav-link nav-style">{{'navbarAbout'|translate}}
+            <a [routerLink]="['./about-us']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarAbout'|translate}}
             </a>
           </li>
         <li class="nav-item" [routerLinkActive]="['active']">
-          <a [routerLink]="['./contact-us']" class="nav-link nav-style">{{'navbarContact'|translate}}</a>
+          <a [routerLink]="['./contact-us']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarContact'|translate}}</a>
         </li>
 
         <li class="nav-item" [routerLinkActive]="['active']">
-          <a [routerLink]="['./career']" class="nav-link nav-style">{{'navbarCareers'|translate}}</a>
+          <a [routerLink]="['./career']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarCareers'|translate}}</a>
         </li>
 
         <li class="nav-item">
-          <a href="http://portal-financify.workblix.com/" class="nav-link nav-style">{{'navbarPortal'|translate}}</a>
+          <a href="http://portal-financify.workblix.com/" class="nav-link nav-style" style="font-weight: 500;">{{'navbarPortal'|translate}}</a>
         </li>
 
 
@@ -74,7 +74,7 @@
             <img width="20px" height="20px" src="../assets/img/flags-svg/{{defaultFalg}}" alt="" /> {{languageSelect}}
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item nav-link nav-style" *ngFor="let data of language"
+            <a class="dropdown-item nav-link nav-style" style="font-weight: 500;" *ngFor="let data of language"
               (click)="switchLanguage(data.name)"> <img width="20px" height="20px"
                 src="../assets/img/flags-svg/{{data.svg}}" alt="" /> {{data.name}} </a>
           </div>

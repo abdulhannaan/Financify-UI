@@ -45,7 +45,7 @@
 
 "homeAccountServiceParaOnSectionTwo": "Vår filosofi är att göra det bättre och enkelt ditt liv för entreprenörer och egenföretagare. Vi kan hjälpa",
 "homeAdministrationServiceParaOnSectionTwo": "Vi hjälper till med all typ av administration som kunder önskar få hjälp med, samt olika typer av orderhantering",
-"homeSalary&HRServiceParaOnSectionTwo": "Att hantera löner är tidskrävande och kostsamt. För att mindre företag det vara svårt att syslätta löneansvarig som kommer att uppdatera sig med nya regler för att bibehålla kvalitet i lönekörning. Vi Finansify erbjuder Payroll outsourcing tjänster till stora och medelstora företag Intresserad av att veta mer om Finansify Payroll? Kontakta oss!",
+"homeSalary&HRServiceParaOnSectionTwo": "Att hantera löner är tidskrävande och kostsamt. För att mindre företag det vara svårt att syslätta löneansvarig som kommer att uppdatera sig med nya regler för att bibehålla kvalitet i lönekörning. Vi Finansify erbjuder Payroll outsourcing tjänster till stora och medelstora företag.",
 "homeUmbrellaUnemploymentServiceParaOnSectionTwo": "Paraply sysselsättningslösningar som erbjuds de organisationer och individer som inte vill etablera sig i Sverige som arbetsgivare eller inte heller vill engagera sig i frågan om att lämna skattedeklarationer och föra bokföring för den verksamhet som bedrivs i Sverige.",
 
 
@@ -88,8 +88,8 @@
 
 
   "breadcrumbAboutusPage1": "Hem",
-  "breadcrumbAboutusPage2": "Handla om",
-  "MainHeadingAboutUs": "Handla om",
+  "breadcrumbAboutusPage2": "Om Oss",
+  "MainHeadingAboutUs": "Om Oss",
   "Aboutheading1": "Vår historia",
   "AboutParagraph1": "Finansify Sweden grundades 2021 av Shaher Yar Ali som har stor erfarenhet inom redovisnings och lön. Vi vänder oss till stora och medelstora företag som behöver hjälp med redovisnings, löneadministration och ekonomiska rådgivning. Vårt mål är att vara långsiktig affärspartner till våra kunder och vi laverar i tid med bästa kvalitet med rimligt pris.",
   "Aboutheading2": "Vår Vision",
@@ -171,7 +171,7 @@
  "AccountingFirstSubHeadingPara":"Vi hanterar dina verifikationer, leverantörsfakturor, och kundfakturor. Enligt överenskommelse bestämmer vi tillsammans nivån på den redovisning som vi står för",
 
  "AccountingSecondSubHeading":"Skattedeklaration",
- "AccountingSecondSubHeadingPara":"Vi redovisar dina deklarationer för moms och arbetsgivaravgifter Samt håller dig uppdaterade om datumet och inlämningstider",
+ "AccountingSecondSubHeadingPara":"Vi redovisar dina deklarationer för moms och arbetsgivaravgifter Samt håller dig uppdaterade om datumet och inlämningstider.  ",
 
 "AccountingThirdSubHeading":"Boksluts",
 "AccountingThirdSubHeadingPara":"Vi kan göra månads-och eller årsbokslut, sammanställer bilagor för revisorer och årsredovisning",
@@ -189,12 +189,12 @@
 
 "AccountingServicesSecondHeading":"Detta är en del av redovisningstjänsten! ",
 
-"AccountingServicesFirstSubHeading":"Aktuell redovisning ",
-"AccountingServicesFirstSubHeadingPara":"I det dagliga arbetet ingår att hantera kvitton, leverantörsfakturor, kundfakturor och andra dokument. ",
+"AccountingServicesFirstSubHeading":"Löpande Redovisning ",
+"AccountingServicesFirstSubHeadingPara":"I det löpande arbetet inräknas hantering av kvitton, leverantörsfakturor, kundfakturor och övriga underlag",
 
 
-"AccountingServicesSecondSubHeading":"Skatte- och momsdeklarationer ",
-"AccountingServicesSecondSubHeadingPara":"Löpande skatte- och avgiftshantering, samt deklaration av moms och arbetsgivardeklarationer. ",
+"AccountingServicesSecondSubHeading":"Skattedeklaration  ",
+"AccountingServicesSecondSubHeadingPara":"Löpande skatt- och avgiftshantering, samt deklaration av moms och arbetsgivardeklarationer",
 
 
 
@@ -208,7 +208,39 @@
 
 
 
+"UmbrellaUnemployementMainHeading":"Paraply Arbetslöshet",
+"UmbrellaUnemployementFirstSubHeadingPara":"Paraply sysselsättningslösningar som erbjuds de organisationer och individer som inte vill etablera sig i Sverige som arbetsgivare eller inte heller vill engagera sig i frågan om att lämna skattedeklarationer och föra bokföring för den verksamhet som bedrivs i Sverige.",
 
+"UmbrellaUnemployementSecondSubHeading":"Individer",
+"UmbrellaUnemployementSecondSubHeadingPara":"Om du är konsulten och funderar på att ta ett uppdrag i Sverige som Expert och undrar hur din lön och skatt kommer att hanteras och hur mycket du kan ta hem, vilken är den bästa pensionsplanen osv? Vi som Finansify Sweden är specialiserade för att hantera dina problem. Vi kommer att behandla din lönelista, deklarera dina skatter relaterade till lokala skattemyndigheter, och kommer att hantera andra statliga myndigheter relaterade till anställning, och hantera pensions- och andra HR-frågor relaterade till ditt uppdrag. Kontakta oss och ta reda på mer om vad Finansify kan erbjuda dig!",
+
+
+"UmbrellaUnemployementThirdSubHeading":"Sysselsättning Slösningar",
+"UmbrellaUnemployementThirdSubHeadingPara":"Vi tillhandahåller våra konsulter lösningarna för att möta lokala anställningars regler och regler i samband med anställning i Sverige. Vi tar hand om konsultens arbetsgivarskattefyllning, löneutbetalningar och kommunikation till lokala skattemyndigheter angående anställning.",
+
+"UmbrellaUnemployementFourthSubHeading":"Vad täcker den lösningen",
+
+"UmbrellaUnemployementFourth01SubHeading":"Skatteregistrering ",
+"UmbrellaUnemployementFourth01Para":"Vi hjälper konsulter att bli registrerade på skattekontoret och andra ärenden som rör skattekontoret såsom att fylla i inkomstdeklarationer och skattelättnader.",
+
+
+"UmbrellaUnemployementFourth02SubHeading":"Arbetsförsäkringsskydd ",
+"UmbrellaUnemployementFourth02Para":"Våra anställda omfattas av en yrkesskadeförsäkring som täcker allt arbetsrelaterade ansvar tillsammans med Operationsskadeförsäkring (TFA) och Livförsäkring (TGL).",
+
+
+
+
+"Lon&HRListHeading":"Vad vi kan hjälpa dig med!",
+"Lon&HRList1":"Lönehantering",
+"Lon&HRList2":"Lönespecifikation",
+"Lon&HRList3":"Arbetsgivardeklaration",
+"Lon&HRList4":"Reseräkning",
+"Lon&HRList5":"Tidregistrering",
+"Lon&HRList6":"Utlägghantering",
+"Lon&HRList7":"Semesterhantering",
+"Lon&HRList8":"Expart lönehantering",
+"Lon&HRList9":"Rapportering till Skatteverket och FORA rapportering.",
+"Lon&HRListContactUsText":"Intresserad av att veta mer om Finansify Payroll?",
 
 
 

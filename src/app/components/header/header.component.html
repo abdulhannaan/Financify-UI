@@ -22,7 +22,7 @@
           <a [routerLink]="['./home']" class="nav-link nav-style" style="font-weight: 500;">{{'navbarHome'|translate}}</a>
         </li>
       
-        <li class="nav-item dropdown" [routerLinkActive]="['active']">
+        <li class="nav-item dropdown" >
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false" style="cursor: pointer; font-weight: 500;" >
             {{'navbarServices'|translate}}
@@ -34,7 +34,7 @@
               [routerLink]="['./administration']">{{'homeAdministrationServiceHeadingOnSectionTwo'| translate}}</a>
             <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" [routerLink]="['./lon-hr']" style="font-weight: 500;">{{'homeSalary&HRServiceHeadingOnSectionTwo'| translate}}</a>
             <a class="dropdown-item nav-link nav-style" [routerLinkActive]="['active']" style="font-weight: 500;"
-              [routerLink]="['./Umbrella-Unemployment']">{{'homeUmbrellaUnemploymentServiceHeadingOnSectionTwo'| translate}}</a>
+              [routerLink]="['./Umbrella-Unemployment']">{{'UmbrellaUnemployementMainHeading'| translate}}</a>
           </div>
         </li>
 

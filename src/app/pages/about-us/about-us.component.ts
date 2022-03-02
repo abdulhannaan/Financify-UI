@@ -8,13 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AboutUsComponent implements OnInit {
 
-  constructor(public translate: TranslateService) { 
-    translate.addLangs(['English','Swedish']);
-    translate.setDefaultLang('English');
+  constructor() { 
+    
   }
-switchLanguage(lang:string){
-  this.translate.use(lang);
-}
+
   ngOnInit(): void {
   }
 

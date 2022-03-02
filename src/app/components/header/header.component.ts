@@ -10,12 +10,12 @@ import { Language } from 'src/app/App-model/user.model';
 export class HeaderComponent implements OnInit {
   img: any;
   language: { name: string; svg: string; isDefault: boolean }[] | undefined;
-  languageSelect: any = 'English';
-  defaultFalg: any = 'us.svg';
+  languageSelect: any = 'Swedish';
+  defaultFalg: any = 'se.svg';
 
   constructor(public translate: TranslateService) {
     translate.addLangs(['English', 'Swedish']);
-    translate.setDefaultLang('English');
+    translate.setDefaultLang('Swedish');
   }
   switchLanguage(lang: string) {
     this.languageSelect = lang;
@@ -30,15 +30,16 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     this.language = [
       {
-        name: 'English',
-        svg: 'us.svg',
+        name: 'Swedish',
+        svg: 'se.svg',
         isDefault: true,
       },
       {
-        name: 'Swedish',
-        svg: 'se.svg',
+        name: 'English',
+        svg: 'us.svg',
         isDefault: false,
       },
+     
     ];
   }
  

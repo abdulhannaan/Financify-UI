@@ -97,6 +97,28 @@
 </div> <!-- .page-section -->
 
 
+<div class="page-section bg-light">
+  <div class="container-fluid px-5">
+    <div class="row text-center">
+      <h2>{{'UmbrellaUnemployementThirdSubHeading'|translate}}</h2>
+      <p class="text-justify">{{'UmbrellaUnemployementThirdSubHeadingPara'|translate}}
+        </p>
+    </div>
+    <div class="row text-start">
+      <h5>{{'UmbrellaUnemployementFourthSubHeading'|translate}}</h5>
+      <h6 (click)="toggleShow()" style="cursor: pointer;">
+        {{'UmbrellaUnemployementFourth01SubHeading'|translate}}  &nbsp;<i [ngClass]="{'clicked': isShown}" class="fas fa-angle-right" style="color: #02519c; cursor: pointer;"></i> 
+      </h6>
+      <p @fade *ngIf="isShown"> {{'UmbrellaUnemployementFourth01Para'|translate}}</p>
+      <h6 (click)="toggleShow2()" style="cursor: pointer;">
+        {{'UmbrellaUnemployementFourth02SubHeading'|translate}} &nbsp;<i [ngClass]="{'clicked': isShown2}" class="fas fa-angle-right" style="color: #02519c; cursor: pointer;"></i> 
+      </h6>
+      <p @fade *ngIf="isShown2"> {{'UmbrellaUnemployementFourth02Para'|translate}}</p>
+
+    </div>
+  </div>
+</div>
+
  </main>
 
 

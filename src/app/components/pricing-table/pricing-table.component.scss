@@ -1,5 +1,5 @@
 :root{
-  --buttonColor: var(#e66124);
+  --buttonColor: var(#02519c);
 }
 .head{
 font-size: 42px;
@@ -23,7 +23,7 @@ width: 100%;
   width: 15rem;
   border: 2px solid #f3824e;
   font-weight: 400;
-  color: #e66124;
+  color: #02519c;
 }
 .btn-size:hover{
   background-color: #f3824e;
@@ -31,23 +31,23 @@ width: 100%;
   transition: all .4s ease;
 }
 .btn-size.active{
-  background-color: #e66124;
+  background-color: #02519c;
   color: white;
   transition: all .4s ease;
 }
 .btn.active{
-  background-color: #e66124;
+  background-color: #02519c;
   color: white;
 
 }
 sub{
   font-size: 20px;
-  color: #e66124;
+  color: #02519c;
   font-weight: 600;
 }
 sup{
   font-size: 20px;
-  color: #e66124;
+  color: #02519c;
   position: relative;
   top: -2.5rem;
   font-weight: 600;
@@ -61,7 +61,13 @@ sup{
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 body{background-color:#eee;}
 
-
+.generic_content:hover{
+  transform: scale(1.05);
+  box-shadow: 4px 4px 19px 11px rgba(0,0,0,0.42);
+-webkit-box-shadow: 4px 4px 19px 11px rgba(0,0,0,0.42);
+-moz-box-shadow: 4px 4px 19px 11px rgba(0,0,0,0.42);
+transition: all .2s ease-in-out;
+}
 
 /*PRICE COLOR CODE START*/
 #generic_price_table .generic_content{
@@ -105,17 +111,17 @@ body{background-color:#eee;}
 }
 #generic_price_table .generic_content .generic_feature_list ul li:hover{
   background-color: #E4E4E4;
-  border-left: 5px solid #e66124;
+  border-left: 5px solid #02519c;
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-  border: 1px solid #e66124; 
-    color: #e66124;
+  border: 1px solid #02519c; 
+    color: #02519c;
 } 
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-  border-color: #e66124 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e66124;
+  border-color: #02519c rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #02519c;
   color: #fff;
 }
 
@@ -126,7 +132,7 @@ body{background-color:#eee;}
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-  background-color: #e66124;
+  background-color: #02519c;
   color: #fff;
 } 
 #generic_price_table{
@@ -155,12 +161,12 @@ body{background-color:#eee;}
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
     border-style: solid;
-    border-width: 90px 1411px 23px 399px;
+    border-width: 90px 1411px 0px 399px;
   position: absolute;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head{
-  padding-top: 20px;
+  padding-top: 10px;
   position: relative;
   z-index: 1;
 }
@@ -344,7 +350,7 @@ body{background-color:#eee;}
   transition: all 0.3s ease-in-out 0s;
 }
 #generic_price_table_home .emerald{
-  background: #e66124;
+  background: #02519c;
   transition: all 0.3s ease-in-out 0s;
 }
 #generic_price_table_home .grey{

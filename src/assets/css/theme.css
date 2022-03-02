@@ -1807,7 +1807,27 @@ a.fg-light:hover, a.fg-light:focus {
 
 .about-img-1 {
   position: relative;
-  
+  background-image: url('/assets/img/shehryar.jpg');
+  background-position:top;
+background-size: cover;
+background-repeat: no-repeat; 
+  margin: 15px auto;
+ 
+  width: 250px;
+ height: 250px;
+  border-radius:50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 8px 16px rgba(109, 114, 139, 0.3);
+          box-shadow: 0 8px 16px rgba(109, 114, 139, 0.3);
+       
+ 
+}
+.about-img-2 {
+  position: relative;
+  background-image: url('/assets/img/jamshed.jpeg');
+  background-position:top;
+background-size: cover;
+background-repeat: no-repeat; 
   margin: 15px auto;
  
   width: 250px;
@@ -1820,14 +1840,14 @@ a.fg-light:hover, a.fg-light:focus {
  
 }
 
-.about-img-1 img {
+/* .about-img-1 img {
   width: 100%;
   height: 250px;
 background-position:inherit;
 background-size: cover;
 background-repeat: no-repeat; 
   
-}
+} */
 .about1-img img {
   width: 100%;
 

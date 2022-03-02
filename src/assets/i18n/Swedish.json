@@ -14,14 +14,11 @@
   "homeAccountServiceHeadingOnSlider": "Redovisning",
   "homeAdministrationServiceHeadingOnSlider": "Administrering",
   "homeSalary&HRServiceHeadingOnSlider": "Lön & HR",
-  "homeUmbrellaUnemploymentServiceHeadingOnSlider": "Paraply Arbetslöshet",
 
   "homeAccountServiceParaOnSlider": "Hjälper dig att registrera ditt företag och dess skatterelaterade frågor",
   "homeAdministrationParaServiceOnSlider": "Vi hjälper till med all typ av administration som kunder önskar få hjälp med,samt olika typer av orderhantering",
   "homeSalary&HRServiceParaOnSlider": "Få löneadministration av klienter såsom tidsregistrering, arbetsgivarskattedeklaration m.m.",
-  "homeUmbrellaUnemploymentParaServiceOnSlider": "Anställningslösningar erbjuds till organisationer och privatpersoner.",
-
-
+ 
 
   "HomePageFirstSectionHeadingPartOne":"Vi är",
   "HomePageFirstSectionHeadingPartTwoBlue":"Professionella team",
@@ -120,8 +117,8 @@
   "MainHeadingAccounting": "Redovisning",
   "breadcrumbServicesSalary&HRPage2": "Lön & HR",
   "MainHeadingSalary&HR": "Lön & HR",
-  "breadcrumbServicesUmbrellaUnemploymentPage2": "Paraply Arbetslöshet",
-  "MainHeadingUmbrellaUnemployment": "Paraply Arbetslöshet",
+  "breadcrumbServicesUmbrellaUnemploymentPage2": "Umbrella Employment",
+  "MainHeadingUmbrellaUnemployment": "Umbrella Employment",
 
 
 
@@ -208,24 +205,23 @@
 
 
 
-"UmbrellaUnemployementMainHeading":"Paraply Arbetslöshet",
-"UmbrellaUnemployementFirstSubHeadingPara":"Paraply sysselsättningslösningar som erbjuds de organisationer och individer som inte vill etablera sig i Sverige som arbetsgivare eller inte heller vill engagera sig i frågan om att lämna skattedeklarationer och föra bokföring för den verksamhet som bedrivs i Sverige.",
+"UmbrellaUnemployementMainHeading":"Umbrella Employment",
+"UmbrellaUnemployementFirstSubHeadingPara":"The Umbrella employment Solutions offered to those organizations and individuals who don’t want to establish themselves in Sweden as an employer or neither wants to involve in the matter of filing tax returns and maintaining books for the operations taking place in Sweden.",
 
-"UmbrellaUnemployementSecondSubHeading":"Individer",
-"UmbrellaUnemployementSecondSubHeadingPara":"Om du är konsulten och funderar på att ta ett uppdrag i Sverige som Expert och undrar hur din lön och skatt kommer att hanteras och hur mycket du kan ta hem, vilken är den bästa pensionsplanen osv? Vi som Finansify Sweden är specialiserade för att hantera dina problem. Vi kommer att behandla din lönelista, deklarera dina skatter relaterade till lokala skattemyndigheter, och kommer att hantera andra statliga myndigheter relaterade till anställning, och hantera pensions- och andra HR-frågor relaterade till ditt uppdrag. Kontakta oss och ta reda på mer om vad Finansify kan erbjuda dig!",
+"UmbrellaUnemployementSecondSubHeading":"Individuals",
+"UmbrellaUnemployementSecondSubHeadingPara":"If you are the consultant and thinking about taking an assignment in Sweden as an Expert and will be wondering how your payroll and tax will be handled and how much you can take home, what is the best pension plan, and so on? We as Finansify Sweden are specialized to address your concerns. We are going to Process your Payroll, declare your taxes related to local tax authorities, and going to deal with other government authorities related to employment, and manage pension and other HR issues related to your assignment. Contact us and find more about what Finansify can offer you!",
+
+"UmbrellaUnemployementThirdSubHeading":"Employment Solutions",
+"UmbrellaUnemployementThirdSubHeadingPara":"We provide our consultant the solutions to meet local employment’s rules and regulation in connection with employment in Sweden. We take care of consultant’s employer tax filling, Salary payments, and communication to local tax authorities regarding employment.",
+
+"UmbrellaUnemployementFourthSubHeading":"What covers that solution",
+
+"UmbrellaUnemployementFourth01SubHeading":"Tax Registration ",
+"UmbrellaUnemployementFourth01Para":"We help consultants to get registered in tax office and other matters pertaining to tax office such as filling income tax returns and tax reliefs. ",
 
 
-"UmbrellaUnemployementThirdSubHeading":"Sysselsättning Slösningar",
-"UmbrellaUnemployementThirdSubHeadingPara":"Vi tillhandahåller våra konsulter lösningarna för att möta lokala anställningars regler och regler i samband med anställning i Sverige. Vi tar hand om konsultens arbetsgivarskattefyllning, löneutbetalningar och kommunikation till lokala skattemyndigheter angående anställning.",
-
-"UmbrellaUnemployementFourthSubHeading":"Vad täcker den lösningen",
-
-"UmbrellaUnemployementFourth01SubHeading":"Skatteregistrering ",
-"UmbrellaUnemployementFourth01Para":"Vi hjälper konsulter att bli registrerade på skattekontoret och andra ärenden som rör skattekontoret såsom att fylla i inkomstdeklarationer och skattelättnader.",
-
-
-"UmbrellaUnemployementFourth02SubHeading":"Arbetsförsäkringsskydd ",
-"UmbrellaUnemployementFourth02Para":"Våra anställda omfattas av en yrkesskadeförsäkring som täcker allt arbetsrelaterade ansvar tillsammans med Operationsskadeförsäkring (TFA) och Livförsäkring (TGL).",
+"UmbrellaUnemployementFourth02SubHeading":"Employment insurance coverage ",
+"UmbrellaUnemployementFourth02Para":"Our employees are covered by professional indemnity insurance which covers all work-related liabilities along with Operation injury insurance (TFA) and Life insurance (TGL).",
 
 
 
